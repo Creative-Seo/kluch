@@ -235,4 +235,47 @@ table{background-color:transparent;border-collapse:collapse;border-spacing:0;max
 }
 .price-list {font-size:18px; padding-left:5px;}
 .fa-print {cursor: pointer}
-.pogonazh img {width:350px;}
+.pogonazh img {width:350px; border-top: none;}
+
+
+.rates tr.greyline td, .rates tr.darkline td {
+    border-bottom: 3px solid #fff;
+    border-left: 5px solid #fff;
+}
+.rates tr.firstline td {
+    border-top: 16px solid #fff;
+}
+.rates tr.greyline td{
+    background: #f7f6f3 none repeat scroll 0 0;
+}
+.rates tr td:first-child {
+    padding-left: 17px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.rates tr.greyline td, .rates tr.darkline td {
+    border-bottom: 3px solid #fff;
+    border-left: 5px solid #fff;
+    vertical-align: middle;
+}
+.rates tr.darkline td {
+    background: #ced5da none repeat scroll 0 0;
+}
+.rates tr td:first-child {
+    padding-left: 17px;
+    text-align: left;
+    vertical-align: middle;
+}
+.dostavka h3 {
+	font-size: 18px;
+}
+.dostavka .greyline{
+    background: #f7f6f3 none repeat scroll 0 0;
+    padding:5px 15px;
+}
+.dostavka .darkline{
+    background: #ced5da none repeat scroll 0 0;
+    padding:5px 15px;
+    margin-top: 5px;
+}

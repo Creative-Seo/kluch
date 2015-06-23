@@ -53,7 +53,7 @@ $(document).ready(function() {
     <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" style="padding:0"> 
        </div>
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12"> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/besedki/garmoniya/garmoniya.jpg"><img src="http://www.kluch585.ru/besedki/garmoniya/garmoniya.jpg" class="img-responsive" alt="Беседка Гармония"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/besedki/garmoniya/besedka-garmoniya.jpg"><img src="http://www.kluch585.ru/besedki/garmoniya/garmoniya.jpg" class="img-responsive" alt="Беседка Гармония"/></a>
     <!--gallery-->  
 
    </div>
@@ -63,7 +63,7 @@ $(document).ready(function() {
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
       <div class="row">
        
-        <div class="cena-block"> <span class="price-proekt2">Стоимость строительства:</span> <span class="price-proekt3">32000 </span>руб.<br>
+        <div class="cena-block"> <span class="price-proekt2">Стоимость строительства:</span> <span class="price-proekt3">65000 </span>руб.<br>
           <button type="submit" class="button-style open-modal">Оставить заявку</button>
      <?php include("../../blocks/modal-zakaz.php"); ?>     
      
@@ -109,8 +109,7 @@ $(document).ready(function() {
    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">  
      <div class="opisanie table-responsive">
      <div><h2>Описание</h2></div>
-        <p>В стоимость входит:  Беседка с тремя стационарными лавками <p>
-        <p>Можно доп. заказать: монтаж беседки, устройство основания, окраска, стол, лавочки.</p>
+        <p>В стоимость 65000 руб. входит: беседка с тремя стационарными лавками (покрыта антисептиком), фундамент из бетонных блоков, подиум, кровля - оцинкованный профнастил, доставка в радиусе 30 км от г. Владимира, установка.<p>
         </div>
      </div>
      
@@ -136,7 +135,7 @@ $(document).ready(function() {
     <?php include("../../blocks/block-proekt.php"); ?>
     
      <!--col-md-6-->
-    <?php include("../../besedki/borovik/param.php"); ?>
+    <?php include("../../besedki/leto/param.php"); ?>
     <?php include("../../blocks/block-proekt.php"); ?>
      <!--col-md-6-->
     <?php include("../../besedki/srub/param.php"); ?>
@@ -144,7 +143,7 @@ $(document).ready(function() {
  
     <!--col-md-6--> 
     <!--col-md-6-->
-    <?php include("../../besedki/ramina/param.php"); ?>
+    <?php include("../../besedki/besedka-iz-brusa/param.php"); ?>
     <?php include("../../blocks/block-proekt.php"); ?>
     
   </div><!--row-->

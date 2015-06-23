@@ -67,7 +67,7 @@ $(document).ready(function() {
     <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220516.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220516.jpg" class="img-responsive" alt="Стол со скамьей"/></a>
     </div>
     </div>
-    <div class="h2">Туалеты</div>
+    <div class="h2"><a href="http://www.kluch585.ru/tualet/">Туалеты</a></div>
     <div class="row img2">
     <div class="col-md-3">
     <p>Туалет Шалаш 12500 р.</p><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220504.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220504.jpg" class="img-responsive" alt="Туалет Шалаш"/></a>

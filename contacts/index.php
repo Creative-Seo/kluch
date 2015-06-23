@@ -7,21 +7,25 @@
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>
 <div class="container">
-  <div class="row">
-	<h3>График работы в праздничные дни</h3>
-	<table width="500px">
-		<tr><td class="text-danger">1 Мая</td><td>выходной</td></tr>
-		<tr><td>2 Мая</td><td>9-15</td></tr>
-		<tr><td>3 Мая</td><td>9-15</td></tr>
-		<tr><td>4 Мая</td><td>9-15</td></tr>
-		<tr><td class="text-danger">9 Мая</td><td>выходной</td></tr>
-		<tr><td>10 Мая</td><td>9-15 работает только склад пиломатериалов</td></tr>
-		<tr><td>11 Мая</td><td>9-15</td></tr>
-	</table>
-  </div>
   <div class="row" style="position: relative">
-  	<a id="print-buttom" href="" style="position: absolute; right: 15px; margin-top: 20px">Распечатать</a>
+  	<a id="print-buttom" href="" style="position: absolute; right: 15px; margin-top: 20px">Версия для печати</a>
     <h1>Контакты</h1>
+    
+    
+    <div role="tabpanel">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Владимир</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Москва</a></li>
+
+  </ul>
+    
+    <div class="tab-content">
+  <div role="tabpanel" class="tab-pane fade in active" id="home">
+
+
+    
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cont">
       <div class="likeh2">Адрес торгово-выставочного комплекса</div>
       <div class="cont2"><i class="fa fa-home fa-2x"></i> 600014, г. Владимир, ул. Лакина, д.4 (пос.РТС)</div>
@@ -44,16 +48,6 @@
             <td><i class="fa fa-phone fa-2x"></i> Телефоны:</td>
             <td class="cont-tel">+7 (<?php echo $phoneCode; ?>) <?php echo $phoneNumber; ?></td>
           </tr>
-<!--          <tr>
-            <td rowspan="3"></td>
-            <td class="cont-tel">+7 (4922) 36-36-95</td>
-          </tr>
-          <tr>
-            <td class="cont-tel">+7 (4922) 36-58-55</td>
-          </tr>
-          <tr>
-            <td class="cont-tel">+7 (910) 771-90-21</td>
-          </tr>-->
           <tr>
             <td><i class="fa fa-envelope-o fa-2x"></i> E-mail:</td>
             <td class="cont-mail"><a href="mailto:agro-optim@mail.ru">agro-optim@mail.ru</a></td>
@@ -98,14 +92,69 @@
             <h3>Пешком</h3>
             <p>Остановка &#171;Новинка&#187;, вниз по ул. Белоконской 10 мин. Пешком, пересекаем &#171;Пекинку&#187;, в поселок РТС поворот налево &#8212; магазин пиломатериалов Ключ585.</p>
             <h3>На автомобиле</h3>
-            <p>185 км автодороги Москва-Нижний Новгород на пересечении дороги с ул. Белоконской при въезде в пос. РТС, поворот налево 200м-магазин пиломатериалов Ключ585.
+            <p>185 км автодороги Москва-Нижний Новгород на пересечении дороги с ул. Белоконской при въезде в пос. РТС, поворот налево 200м-магазин пиломатериалов Ключ585.</p>
           </div>
         </div>
       </div>
 
       <div id="map" style="width:auto;height:500px;"></div>
     </div>
+    </div>
+    
+    
+    <div role="tabpanel" class="tab-pane" id="profile">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cont">
+          <div class="cont2"><i class="fa fa-home fa-2x"></i>111524, Москва, ул. Электродная, д.2, стр. 28</div>
+      <div class="cont2"><i class="fa fa-clock-o fa-2x"></i> пн-пт: 8:00-18:00, сб.9:00-15:00, вс.-выходной</div>
+      <div class="cont2">
+        <table>
+            <?php
+            // 7411ca86eb4fbafe8cfda550e6865cfe //
+            require_once(dirname(__FILE__) . '/../refer/functions.php');
+            $phone = getPhone();
+            $phoneSystem = getPhoneSystem($phone);
+            $phoneCode = getPhoneCode($phone);
+            $phoneNumber = getPhoneNumber($phone);
+            //var_dump($phone);
+            //var_dump($phoneSystem);
+            //var_dump($phoneCode);
+            //var_dump($phoneNumber);
+            ?>
+          <tr>
+            <td><i class="fa fa-phone fa-2x"></i> Телефоны:</td>
+            <td class="cont-tel">+7 (499) 350-27-47</td>
+          </tr>
+          <tr>
+            <td><i class="fa fa-envelope-o fa-2x"></i> E-mail:</td>
+            <td class="cont-mail"><a href="mailto:agro-optim@mail.ru">agro-optim@mail.ru</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="cont-mail"><a href="mailto:info@kluch585.ru">info@kluch585.ru</a></td>
+          </tr>
+        </table>
+      </div>
+      
+
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+    
+
+      <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=5ZMx3jcpLt9HWtF-zagL7ItBTVA5ifal&width=auto&height=500"></script>
+    </div>
+        </div>
+    
+    </div>
+    
+    
+  
+  
+ 
   </div>
+  
+  
   <!--row-->
 </div>
 <!--container-->

@@ -8,44 +8,32 @@
 
 <?php include("../blocks/breadcrumbs.php"); ?>
 
-<div class="container" itemtype="http://schema.org/ItemList" itemscope>
+<div class="container clearfix" itemtype="http://schema.org/ItemList" itemscope>
   <h1>Беседки во Владимире</h1>
   <div class="row">
     
-     <!--col-md-6-->
-     <?php include("../besedki/pergola-polya/param.php"); ?>
-     <?php include("../blocks/block-proekt.php"); ?>
-     
-   
-    <!--col-md-6-->
-    <?php include("../besedki/ramina/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
- 
-    <!--col-md-6--> 
     <!--col-md-6-->
     <?php include("../besedki/garmoniya/param.php"); ?>
     <?php include("../blocks/block-proekt.php"); ?>
-  
+	<!--col-md-6-->
+    <?php include("../besedki/leto/param.php"); ?>
+    <?php include("../blocks/block-proekt.php"); ?>
+     <!--col-md-6-->
+    <?php include("../besedki/skazka/param.php"); ?>
+    <?php include("../blocks/block-proekt.php"); ?>
     <!--col-md-6-->
+    <?php include("../besedki/besedka-iz-brusa/param.php"); ?>
+    <?php include("../blocks/block-proekt.php"); ?>
     <!--col-md-6-->
     <?php include("../besedki/srub/param.php"); ?>
     <?php include("../blocks/block-proekt.php"); ?>
-   
-    <!--col-md-6-->
     
-    <!--col-md-6-->
-    <?php include("../besedki/skazka/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
-    
-     <!--col-md-6-->
-    <?php include("../besedki/borovik/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
-    
-
+    <div class="col-md-12 price-list"><a href="http://www.kluch585.ru/prays-list/PRAYS-NA-BESEDKI1.pdf" target="_blank"><img src="http://www.kluch585.ru/img/price.png" alt="Прайс-лист на беседки">Скачать прайс-лист</a></div>
     
    
     
   </div><!--row-->
 </div><!--container-->
+
 
 <?php include("../blocks/footer.php"); ?>

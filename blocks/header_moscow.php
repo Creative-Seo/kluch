@@ -27,28 +27,40 @@
         //var_dump($phoneCode);
         //var_dump($phoneNumber);
         ?>
-        <div class="tel pull-right"><i class="fa fa-phone"></i><a href="tel:+74993502747" title="Позвоните нам"><span>(499)</span><span class="nomer">350-27-47</span></a></div>
+        <div class="tel pull-right"><i class="fa fa-phone"></i><a href="tel:8499350274" title="Позвоните нам"><span>(499)</span><span class="nomer">350-27-47</span></a></div>
         <div class="callback pull-right open-modal"><a>Заказать обратный звонок</a> </div>
-        <?php include("http://www.kluch585.ru/blocks/callback.php"); ?>
+        
       </div>
     </div>
   </div>
 </header>
-<nav class="navbar yamm navbar-default" id="navbar">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="visible-xs" href="/"><img class="img-responsive" width="120" src="http://www.kluch585.ru/img/logo.png" alt="Ключ 585" /></a> </div>
-    <!--navbar-header-->
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="/"><i class="fa fa-home fa-lg"></i></a></li>
-        <li class="dropdown">
-			<a class="dropdown-toggle visible-xs visible-sm" data-toggle="dropdown" href="http://www.kluch585.ru/derevyannyie-doma/">Строительство домов <span class="caret"></span></a>   
-			<a class="dropdown-toggle hidden-xs hidden-sm" href="http://www.kluch585.ru/derevyannyie-doma/" style="padding-top: 5px; padding-bottom: 5px;">Строительство<br>домов <span class="caret"></span></a>   
-        <ul class="dropdown-menu text-dropdown-menu" role="menu" style="background-color:#fff">
-            <li><a href="http://www.kluch585.ru/derevyannyie-doma/">Деревянные дома</a></li>
+<div class="nav-color">    
+    <div class="container">
+      <div class="row">
+<div class="cd-main-header"> <a class="cd-logo hidden-lg hidden-md hidden-sm" href="#0">Ключ 585<!--<img src="http://www.kluch585.ru/img/logo.png" alt="Logo">--></a>
+      <ul class="cd-header-buttons">
+    <!--<li><a class="cd-search-trigger" href="#cd-search">Search<span></span></a></li>-->
+    <li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+  </ul>
+      <!-- cd-header-buttons --> 
+    </div>
+<main class="cd-main-content"> 
+      <!-- your content here --> 
+    </main>
+<div class="cd-overlay"></div>
+<nav class="cd-nav">
+
+      <ul id="cd-primary-nav" class="cd-primary-nav is-fixed" >
+      
+      <li><a href="/"><i class="fa fa-home fa-lg"></i></a></li>
+      
+      
+    <li class="has-children"> <a href="javascript:void(0);">Строительство</a>
+          <ul class="cd-secondary-nav is-hidden" style=" box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+        <li class="go-back"><a href="#0">Назад</a></li>
+        
+              <li><a href="http://www.kluch585.ru/derevyannyie-doma/">Деревянные дома</a></li>
             <li><a href="http://www.kluch585.ru/karkasnye-doma/">Каркасные дома</a></li>
             <li><a href="http://www.kluch585.ru/doma-iz-brevna/">Дома из бревна</a></li>
             <li><a href="http://www.kluch585.ru/doma-iz-kleenogo-brusa/">Дома из клееного бруса</a></li>
@@ -57,57 +69,35 @@
             <li><a href="http://www.kluch585.ru/fundament/">Фундамент</a></li>
             <li><a href="http://www.kluch585.ru/bytovki/">Бытовки</a></li>
 
-          </ul>
-          </li>
-        <li>
-			<a class="visible-xs visible-sm" href="http://www.kluch585.ru/dachnyie-domiki/">Дачные домики</a>
-			<a class="hidden-xs hidden-sm" href="http://www.kluch585.ru/dachnyie-domiki/" style="padding-top: 5px; padding-bottom: 5px;">Дачные<br>домики</a>
-		</li>
-        <li class="dropdown yamm-fw">
-			<a class="dropdown-toggle visible-xs visible-sm" data-toggle="dropdown" href="http://www.kluch585.ru/bani/">Бани <span class="caret"></span></a>
-			<a class="dropdown-toggle hidden-xs hidden-sm" href="http://www.kluch585.ru/bani/">Бани <span class="caret"></span></a>
-		<ul class="dropdown-menu" role="menu" style="background-color:#fff">
-            <li class="visible-xs"><a href="http://www.kluch585.ru/bani-iz-brusa/">Бани из бруса</a></li>
-            <li class="visible-xs"><a href="http://www.kluch585.ru/bani-iz-brevna/">Бани из бревна</a></li>
-            <li class="visible-xs"><a href="http://www.kluch585.ru/karkasnye-bani/">Каркасные бани</a></li>
-			<div class="row hidden-xs fon" style="padding:20px;">
-             <div class="col-md-4">
-              <div class="menu-block">
-               <a href="http://www.kluch585.ru/bani-iz-brusa/"><img src="http://www.kluch585.ru/img/banya-iz-brusa.jpg" alt="Бани из бруса" class="img-circle pull-left"></a>
-               <div class="podmenu pull-left">
-               <a href="http://www.kluch585.ru/bani-iz-brusa/">Бани из бруса</a>
-               </div>
-              </div>
-             </div>
-             <div class="col-md-4">
-              <div class="menu-block">
-               <a href="http://www.kluch585.ru/bani-iz-brevna/"><img src="http://www.kluch585.ru/img/banya-iz-brevna.jpg" alt="Бани из бревна" class="img-circle pull-left"></a>
-               <div class="podmenu pull-left">
-               <a href="http://www.kluch585.ru/bani-iz-brevna/">Бани из бревна</a>
-               </div>
-              </div>
-             </div>
-             <div class="col-md-4">
-              <div class="menu-block">
-               <a href="#"><img src="http://www.kluch585.ru/img/karkasnaya-banya.jpg" alt="Каркасные бани" class="img-circle pull-left"></a>
-               <div class="podmenu pull-left">
-               <a href="http://www.kluch585.ru/karkasnye-bani/">Каркасные бани</a>
-               </div>
-              </div>
-             </div>
-          </div>
-        </ul>
-        </li>
-        <li><a href="http://www.kluch585.ru/besedki/">Беседки</a></li>
-		<li>
-			<a class="visible-xs visible-sm" href="http://www.kluch585.ru/sadovyie-postroyki/">Садовые постройки</a>
-			<a class="hidden-xs hidden-sm" href="http://www.kluch585.ru/sadovyie-postroyki/" style="padding-top: 5px; padding-bottom: 5px;">Садовые<br>постройки</a>
-		</li>
-        <li class="dropdown">
-			<a class="dropdown-toggle visible-xs visible-sm" data-toggle="dropdown" href="http://www.kluch585.ru/pilomaterialyi/">Пиломатериалы <span class="caret"></span></a>
-			<a class="dropdown-toggle hidden-xs hidden-sm" href="http://www.kluch585.ru/pilomaterialyi/">Пиломатериалы <span class="caret"></span></a>
-          <ul class="dropdown-menu text-dropdown-menu" role="menu" style="background-color:#fff">
-            <li><a href="http://www.kluch585.ru/derevyannyy-pogonazh/">Погонаж оптом</a></li>
+            
+      </ul>
+     </li>
+        
+        
+        <li><a href="http://www.kluch585.ru/dachnyie-domiki/">Дачные домики</a></li>
+        
+        
+   <li class="has-children"> <a href="javascript:void(0);">Бани</a>
+          <ul class="cd-secondary-nav is-hidden" style=" box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+        <li class="go-back"><a href="#0">Назад</a></li>
+        
+              <li><a href="http://www.kluch585.ru/bani-iz-brusa/">Бани из бруса</a></li>
+            <li><a href="http://www.kluch585.ru/bani-iz-brevna/">Бани из бревна</a></li>
+            <li><a href="javascript:void(0);">Каркасные бани</a></li>
+            
+
+            
+      </ul>
+     </li>
+    
+    
+    <li><a href="http://www.kluch585.ru/besedki/">Беседки</a></li>
+    
+     <li class="has-children"> <a href="javascript:void(0);">Пиломатериалы</a>
+          <ul class="cd-secondary-nav is-hidden" style=" box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+        <li class="go-back"><a href="#0">Назад</a></li>
+        
+              <li><a href="http://www.kluch585.ru/derevyannyy-pogonazh/">Погонаж оптом</a></li>
             <li><a href="http://www.kluch585.ru/polovaya-doska/">Доска пола</a></li>
             <li><a href="http://www.kluch585.ru/brus/">Брус</a></li>
             <li><a href="http://www.kluch585.ru/blok-khaus/">Блок-хаус</a></li>
@@ -115,15 +105,25 @@
             <li><a href="http://www.kluch585.ru/plintus/">Плинтус</a></li>
             <li><a href="http://www.kluch585.ru/nalichniki/">Наличники</a></li>
             <li><a href="http://www.kluch585.ru/doska-obreznaya/">Доска обрезная</a></li>
-          </ul>
-        </li>
-        <li><a href="http://www.kluch585.ru/optovikam/">Оптовикам</a></li>
-        <li><a href="http://www.kluch585.ru/contacts/" class="lasta">Контакты</a></li>
+            
       </ul>
-    </div>
-    <!-- /.navbar-collapse -->
+     </li>
+    <li><a href="http://www.kluch585.ru/optovikam/">Оптовикам</a></li>
+    <li><a href="http://www.kluch585.ru/contacts/">Контакты</a></li>
+  </ul>
+      <!-- primary-nav --> 
+    </nav>
+<!-- cd-nav -->
 
-  </div>
-  <!--container-->
-</nav>
+   <!--<div id="cd-search" class="cd-search">
+      <form>
+    <input type="search" placeholder="Search...">
+  </form>
+    </div>-->
+    
+</div>  
+</div>  
+</div>
+
+
 <a href="#" class="scrollUpButton"><i class="fa fa-chevron-up fa-2x"></i></a>

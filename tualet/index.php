@@ -35,13 +35,13 @@ $(document).ready(function() {
   <div class="row">
 
  <div class="col-md-3">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/tualet/1_2.jpg"><img src="http://www.kluch585.ru/tualet/1_2.jpg" class="img-responsive" alt=""/></a>
+    <p>Туалет Шалаш 12500 р.</p><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/tualet/1_2.jpg"><img src="http://www.kluch585.ru/tualet/1_2.jpg" class="img-responsive" alt=""/></a>
     </div>
     <div class="col-md-3">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/tualet/2_2.jpg"><img src="http://www.kluch585.ru/tualet/2_2.jpg" class="img-responsive" alt=""/></a>
+    <p>Туалет Садовый 9500 р.</p><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/tualet/2_2.jpg"><img src="http://www.kluch585.ru/tualet/2_2.jpg" class="img-responsive" alt=""/></a>
     </div> 
     <div class="col-md-3">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/tualet/3_2.jpg"><img src="http://www.kluch585.ru/tualet/3_2.jpg" class="img-responsive" alt=""/></a>
+    <p>Туалет Мечта 11500 р.</p><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/tualet/3_2.jpg"><img src="http://www.kluch585.ru/tualet/3_2.jpg" class="img-responsive" alt=""/></a>
     </div>
     
    

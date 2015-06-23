@@ -53,7 +53,7 @@ $(document).ready(function() {
     <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" style="padding:0"> 
        </div>
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12"> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/besedki/srub/srub.jpg"><img src="http://www.kluch585.ru/besedki/srub/srub.jpg" class="img-responsive" alt="Беседка Сруб"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/besedki/srub/srub1.jpg"><img src="http://www.kluch585.ru/besedki/srub/srub1.jpg" class="img-responsive" alt="Беседка Сруб" width="600" /></a>
     <!--gallery-->  
 
    </div>
@@ -63,7 +63,7 @@ $(document).ready(function() {
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
       <div class="row">
        
-        <div class="cena-block"> <span class="price-proekt2">Стоимость строительства:</span> <span class="price-proekt3">32000 </span>руб.<br>
+        <div class="cena-block"> <span class="price-proekt2">Стоимость строительства:</span> <span class="price-proekt3">договорная </span><br>
           <button type="submit" class="button-style open-modal">Оставить заявку</button>
      <?php include("../../blocks/modal-zakaz.php"); ?>     
      
@@ -86,7 +86,7 @@ $(document).ready(function() {
               <tbody>
                 <tr>
                   <th scope="row">Размер беседки:</th>
-                  <td>2x2 м</td>
+                  <td></td>
                 </tr>
                 <tr>
                   <th scope="row">Срок постройки:</th>
@@ -131,10 +131,10 @@ $(document).ready(function() {
     <?php include("../../blocks/block-proekt.php"); ?>
     
      <!--col-md-6-->
-    <?php include("../../besedki/borovik/param.php"); ?>
+    <?php include("../../besedki/leto/param.php"); ?>
     <?php include("../../blocks/block-proekt.php"); ?>
      <!--col-md-6-->
-    <?php include("../../besedki/ramina/param.php"); ?>
+    <?php include("../../besedki/besedka-iz-brusa/param.php"); ?>
     <?php include("../../blocks/block-proekt.php"); ?>
  
     <!--col-md-6--> 

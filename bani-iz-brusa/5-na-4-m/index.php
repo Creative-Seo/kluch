@@ -44,6 +44,7 @@ $(document).ready(function() {
 <?php $breadcrumb2_url = 'http://www.kluch585.ru/bani-iz-brusa/'; ?>
 <?php $breadcrumb = 'Баня из бруса 5x4 м'; ?>
 <?php $canonical = 'http://www.kluch585.ru/bani-iz-brusa/5-na-4-m/'; ?>
+<?php $pricebd = array(285000,483000,398000,428000,585000); ?>
 <?php include("../../blocks/meta.php"); ?>
 <?php include("../../blocks/header.php"); ?>
 <?php include("../../blocks/breadcrumbs.php"); ?>
@@ -68,7 +69,19 @@ $(document).ready(function() {
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
       <div class="row">
        
-        <div class="cena-block"> <span class="price-proekt2">Стоимость строительства:</span> <span class="price-proekt3">398000 </span>руб.<br>
+        <div class="cena-block"> <span class="price-proekt2">Стоимость строительства:</span><br>
+		<div class="row">
+			<div class="col-xs-7 col-sm-12 price-proekt4">Cухой профиль 45х135мм</div>
+			<div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $pricebd[0]; ?> </span>руб.</nobr></div>
+			<div class="col-xs-7 col-sm-12 price-proekt4">Cухой профиль 90х135мм</div>
+			<div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $pricebd[1]; ?> </span>руб.</nobr></div>
+			<div class="col-xs-7 col-sm-12 price-proekt4">Брус 100х100мм</div>
+			<div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $pricebd[2]; ?> </span>руб.</nobr></div>
+			<div class="col-xs-7 col-sm-12 price-proekt4">Брус 150х150мм</div>
+			<div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $pricebd[3]; ?> </span>руб.</nobr></div>
+			<div class="col-xs-7 col-sm-12 price-proekt4">Клеёный брус 150х150мм</div>
+			<div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $pricebd[4]; ?> </span>руб.</nobr></div>
+		</div>
           <button type="submit" class="button-style open-modal">Оставить заявку</button>
      <?php include("../../blocks/modal-zakaz.php"); ?>     
      

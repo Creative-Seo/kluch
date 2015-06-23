@@ -129,8 +129,8 @@ $(document).ready(function() {
      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-xs">
         <h2>Планировка</h2>
         
-        <div class="gallery2">
-<!--    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/bani-iz-brusa/3-na-4-m/banya-iz-brusa-3-na-4-m-planirovka.jpg"><img src="http://www.kluch585.ru/bani-iz-brusa/3-na-4-m/banya-iz-brusa-3-na-4-m-planirovka.jpg" width="150" class="img-responsive" alt="Планировка Баня из бруса 3 на 4 метра"/></a>-->
+	<div class="gallery2">
+		<a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/bani-iz-brevna/5-na-4-m/b1-3.jpg"><img src="http://www.kluch585.ru/bani-iz-brevna/5-na-4-m/b1-3.jpg" width="150" class="img-responsive" alt="Планировка Баня из бревна 5 на 4 метра"/></a>
    </div>
         
      </div>   

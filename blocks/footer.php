@@ -89,6 +89,12 @@
 	
 	var ms=document.createElement("link");ms.rel="stylesheet";
 	ms.href="http://www.kluch585.ru/css/font-awesome.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
+
+	var ms=document.createElement("link");ms.rel="stylesheet";
+	ms.href="http://www.kluch585.ru/css/jquery.fancybox.css";document.getElementsByTagName("head")[0].appendChild(ms);
+	
+	var ms=document.createElement("link");ms.rel="stylesheet";
+	ms.href="http://www.kluch585.ru/css/jquery.fancybox-thumbs.css";document.getElementsByTagName("head")[0].appendChild(ms);
 	
 	var ms=document.createElement("link");ms.rel="stylesheet";
 	ms.href="http://www.kluch585.ru/css/style.css";document.getElementsByTagName("head")[0].appendChild(ms);
@@ -98,15 +104,18 @@
 	{"src" : "http://www.kluch585.ru/js/jquery-2.1.1.min.js", "async" : false},
 	{"src" : "http://www.kluch585.ru/js/jquery.mobile.custom.min.js", "async" : false},
 	{"src" : "http://www.kluch585.ru/js/jquery.fancybox.pack.js", "async" : false},
+	{"src" : "http://www.kluch585.ru/js/jquery.fancybox-thumbs.js", "async" : false},
 	{"src" : "http://www.kluch585.ru/js/blocksit.min.js", "async" : false},
 	{"src" : "http://www.kluch585.ru/js/main.js", "async" : false},
 	{"src" : "http://www.kluch585.ru/js/bootstrap.min.js", "async" : false},
 	{"src" : "http://www.kluch585.ru/js/callback.js", "async" : false},
 	{"src" : "http://www.kluch585.ru/js/jquery.maskedinput.min.js", "async" : false},
+  {"src" : "http://www.kluch585.ru/js/jquery.stickyheader.js", "async" : false},
+  {"src" : "http://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js", "async" : false},
 	{"src" : "http://www.kluch585.ru/js/common.js", "async" : false},
-	
-	{"src" : "http://www.kluch585.ru/js/blocksit.min.js", "async" : false}
+
 	]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);</script>
+ <?php echo $footer_block; ?>
  <script>   
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

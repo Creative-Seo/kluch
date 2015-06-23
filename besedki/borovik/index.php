@@ -53,7 +53,7 @@ $(document).ready(function() {
     <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" style="padding:0"> 
        </div>
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12"> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/besedki/borovik/borovik.jpg"><img src="http://www.kluch585.ru/besedki/borovik/borovik.jpg" class="img-responsive" alt="Беседка Боровик"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/besedki/borovik/besedka-borovik.jpg"><img src="http://www.kluch585.ru/besedki/borovik/borovik.jpg" class="img-responsive" alt="Беседка Боровик"/></a>
     <!--gallery-->  
 
    </div>

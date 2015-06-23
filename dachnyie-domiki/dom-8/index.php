@@ -159,7 +159,7 @@ $(document).ready(function() {
                 </tr>
                 <tr>
                   <th scope="row">Дверь:</th>
-                  <td>Филенчатая, массив-сосна (3шт.)</td>
+                  <td>Филенчатая, массив-сосна (1 шт.)</td>
                 </tr>
                 <tr>
                   <th scope="row">Теплоизоляция:</th>

@@ -53,7 +53,7 @@ $(document).ready(function() {
     <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" style="padding:0"> 
        </div>
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12"> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/besedki/pergola-polya/pergola-polya.jpg"><img src="http://www.kluch585.ru/besedki/pergola-polya/pergola-polya.jpg" class="img-responsive" alt="Пергола Поля"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/besedki/pergola-polya/pergola-polya-1.jpg"><img src="http://www.kluch585.ru/besedki/pergola-polya/pergola-polya.jpg" width="500" class="img-responsive" alt="Пергола Поля"/></a>
     <!--gallery-->  
 
    </div>

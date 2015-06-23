@@ -1,42 +1,4 @@
 <?php $meta_container = '<link rel="stylesheet" href="http://www.kluch585.ru/css/jquery.fancybox.css"><link rel="stylesheet" href="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="http://www.kluch585.ru/js/jquery.fancybox.js"></script><script src="http://www.kluch585.ru/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.js"></script> 
-<script type="text/javascript">
-$(document).ready(function() {
-	$(".fancybox-thumb").fancybox({
-		prevEffect	: \'none\',
-		nextEffect	: \'none\',
-		showNavArrows : \'true\',
-		helpers	: {
-			title	: {
-				type: \'outside\'
-			},
-			thumbs	: {
-				width	: 50,
-				height	: 50
-			}
-		}
-	});
-});
-</script>
-<script type="text/javascript">
-$(document).ready(function() {
-	$(".fancybox-thumb2").fancybox({
-		prevEffect	: \'none\',
-		nextEffect	: \'none\',
-		showNavArrows : \'true\',
-		helpers	: {
-			title	: {
-				type: \'outside\'
-			},
-			thumbs	: {
-				width	: 50,
-				height	: 50
-			}
-		}
-	});
-});
-</script>
-'; ?>
 <?php $title = 'Фотографии дачных домов построенных компанией Ключ 585'; ?>
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
@@ -67,7 +29,7 @@ if (false !== $images) {
 		<div class="imgholder image-thumb">
 			<a class="fancybox-thumb" rel="gallery1" href="<?php echo HTTP_URL,htmlspecialchars(urlencode($row));?>">
 			<figure class=" animated zoomIn">
-			<img src="<?php echo HTTP_URL,htmlspecialchars(urlencode($row));?>" class="img-responsive" alt="Дачный дом - Ключ 585"/></a>
+			<img src="<?php echo HTTP_URL,htmlspecialchars(urlencode($row));?>" class="img-responsive" alt="Дачный дом - Ключ 585"/>
 			</figure></a>
 		</div></div>
 <?php }} ?>

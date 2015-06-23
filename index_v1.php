@@ -1,3 +1,5 @@
+Проверка
+
 <?php $footer_block = '<script src="js/slippry.min.js"></script> 
 <script>
 			$(function() {

@@ -53,7 +53,7 @@ $(document).ready(function() {
     <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" style="padding:0"> 
        </div>
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12"> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/besedki/skazka/skazka.jpg"><img src="http://www.kluch585.ru/besedki/skazka/skazka.jpg" class="img-responsive" alt="Беседка Сказка"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/besedki/skazka/besedka-skazka.jpg"><img src="http://www.kluch585.ru/besedki/skazka/skazka.jpg" class="img-responsive" alt="Беседка Сказка"/></a>
     <!--gallery-->  
 
    </div>
@@ -130,10 +130,10 @@ $(document).ready(function() {
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title"><span>Похожие беседки</span></div>
               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>
  <!--col-md-6-->
-    <?php include("../../besedki/borovik/param.php"); ?>
+    <?php include("../../besedki/besedka-iz-brusa/param.php"); ?>
     <?php include("../../blocks/block-proekt.php"); ?>
      <!--col-md-6-->
-    <?php include("../../besedki/skazka/param.php"); ?>
+    <?php include("../../besedki/leto/param.php"); ?>
     <?php include("../../blocks/block-proekt.php"); ?>
  
     <!--col-md-6--> 
