@@ -120,9 +120,10 @@ $(document).ready(function() {
         
          <div class="gallery2">
     <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/skazka/besedka-skazka.jpg"><img src="http://www.kluch585.ru/besedki/skazka/besedka-skazka.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/skazka/besedka-skazka-1.jpg"><img src="http://www.kluch585.ru/besedki/skazka/besedka-skazka-1.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a> 
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/skazka/besedka-skazka-2.jpg"><img src="http://www.kluch585.ru/besedki/skazka/besedka-skazka-2.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/skazka/besedka-skazka-3.jpg"><img src="http://www.kluch585.ru/besedki/skazka/besedka-skazka-3.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
+<?php for($i=1;$i<=9;$i++) { ?>
+    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/skazka/besedka-skazka-<?php echo $i;?>.jpg">
+	<img src="http://www.kluch585.ru/besedki/skazka/besedka-skazka-<?php echo $i;?>.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a> 
+<?php } ?>
 </div> 
         
      </div>   
