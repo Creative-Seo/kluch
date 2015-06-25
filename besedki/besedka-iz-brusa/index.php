@@ -76,7 +76,7 @@
         <h2>Примеры беседок из бруса</h2>
         
          <div class="gallery2">
-<?php for ($i=0;i<17;$i++) {?>
+<?php for ($i=1;$i<=17;$i++) { ?>
     <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/besedka-iz-brusa/besedka-iz-brusa<?php echo $i;?>.jpg" title="Беседка из бруса <?php echo $i;?>">
 	<img src="http://www.kluch585.ru/besedki/besedka-iz-brusa/besedka-iz-brusa<?php echo $i;?>.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
 <?php } ?>
