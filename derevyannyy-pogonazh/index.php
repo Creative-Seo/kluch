@@ -1,42 +1,3 @@
-<?php $meta_container = '<link rel="stylesheet" href="http://www.kluch585.ru/css/jquery.fancybox.css"><link rel="stylesheet" href="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="http://www.kluch585.ru/js/jquery.fancybox.js"></script><script src="http://www.kluch585.ru/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.js"></script> 
-<script type="text/javascript">
-$(document).ready(function() {
-    $(".fancybox-thumb").fancybox({
-        prevEffect  : \'none\',
-        nextEffect  : \'none\',
-        showNavArrows : \'true\',
-        helpers : {
-            title   : {
-                type: \'outside\'
-            },
-            thumbs  : {
-                width   : 50,
-                height  : 50
-            }
-        }
-    });
-});
-</script>
-<script type="text/javascript">
-$(document).ready(function() {
-    $(".fancybox-thumb2").fancybox({
-        prevEffect  : \'none\',
-        nextEffect  : \'none\',
-        showNavArrows : \'true\',
-        helpers : {
-            title   : {
-                type: \'outside\'
-            },
-            thumbs  : {
-                width   : 50,
-                height  : 50
-            }
-        }
-    });
-});
-</script>
-'; ?>
 <?php $title = 'Деревянный погонаж оптом от производителя с доставкой в Москве и по всей России'; ?>
 <?php $description = ''; ?>
 <?php $keywords = 'деревянный погонаж'; ?>
@@ -176,6 +137,24 @@ $(document).ready(function() {
   </div>
 </div>     
   </div>
+  
+	<div class="row">
+  		<div class="gallery2">
+<?php 
+$host = $_SERVER['HTTP_HOST'];
+$self = explode("/", $_SERVER['PHP_SELF']);
+define('HTTP_URL', 'http://'.$host.'/'.$self[1].'/img/');
+$images = scandir('./img');
+if (false !== $images) {
+    $imgarray = preg_grep('/\\.(?:jpe?g)$/', $images);
+	foreach($imgarray as $row) { 
+?>  
+			<a class="fancybox-thumb2" rel="gallery1" href="<?php echo HTTP_URL,htmlspecialchars(urlencode($row));?>">
+			<img src="<?php echo HTTP_URL,htmlspecialchars(urlencode($row));?>" width="150" class="img-responsive" alt=""/></a>
+<?php }} ?>
+		</div>
+	</div>	
+		
 </div>    
 
 <?php include("../blocks/footer.php"); ?>
