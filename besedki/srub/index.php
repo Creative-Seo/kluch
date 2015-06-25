@@ -108,9 +108,9 @@ $(document).ready(function() {
     
    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">  
      <div class="opisanie table-responsive">
-		<h2>Описание</h2>
-		<p>Беседка из бревна получается очень уютной и красивой. Мы строим беседки из бревна любого диаметра от фундамента до кровли.</p>
-		<p>Для обозначения стоимости присылайте нам желаемый размер беседки и диаметр бревна. Срок изготовления -1 месяц.</p>
+     <div><h2>Описание</h2></div>
+        <p>В стоимость входит:  Беседка. Кровля (обрешетка  –  четв. доска, тип кровли –  мягкая черепица).<p>
+        <p>Можно доп. заказать: монтаж беседки, устройство основания, окраска, стол, лавочки.</p>
         </div>
      </div>
      
@@ -119,10 +119,7 @@ $(document).ready(function() {
         
         <div class="gallery2">
     
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/srub/besedka-s-pechkoy.jpg"><img src="http://www.kluch585.ru/besedki/srub/besedka-s-pechkoy.jpg" width="150" class="img-responsive" alt="беседка с печкой"/></a> 
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/srub/besedka-s-pechkoy2.jpg"><img src="http://www.kluch585.ru/besedki/srub/besedka-s-pechkoy2.jpg" width="150" class="img-responsive" alt="беседка с печкой"/></a> 
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/srub/besedka-srub-iz-brevna.jpg"><img src="http://www.kluch585.ru/besedki/srub/besedka-srub-iz-brevna.jpg" width="150" class="img-responsive" alt="Беседка сруб из оцилиндрованного бревна"/></a> 
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/srub/besedka-srub.jpg"><img src="http://www.kluch585.ru/besedki/srub/besedka-srub.jpg" width="150" class="img-responsive" alt="Беседка сруб"/></a> 
+    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/srub/besedka-srub.jpg"><img src="http://www.kluch585.ru/besedki/srub/besedka-srub.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a> 
     </div>
         
      </div>   
