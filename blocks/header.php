@@ -52,9 +52,8 @@
 
       <ul id="cd-primary-nav" class="cd-primary-nav is-fixed" >
       
-      <li><a href="/"><i class="fa fa-home fa-lg"></i></a></li>
-      
-      
+	<li><a href="/"><i class="fa fa-home fa-lg"></i></a></li>
+
     <li class="has-children"> <a href="javascript:void(0);">Строительство</a>
           <ul class="cd-secondary-nav is-hidden" style=" box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
         <li class="go-back"><a href="#0">Назад</a></li>
@@ -68,30 +67,25 @@
             <li><a href="http://www.kluch585.ru/fundament/">Фундамент</a></li>
             <li><a href="http://www.kluch585.ru/bytovki/">Бытовки</a></li>
 
-            
       </ul>
      </li>
-        
-        
-        <li><a href="http://www.kluch585.ru/dachnyie-domiki/">Дачные домики</a></li>
-        
-        
-   <li class="has-children"> <a href="javascript:void(0);">Бани</a>
+
+	<li><a href="http://www.kluch585.ru/dachnyie-domiki/">Дачные домики</a></li>
+
+	<li class="has-children"> <a href="javascript:void(0);">Бани</a>
           <ul class="cd-secondary-nav is-hidden" style=" box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
         <li class="go-back"><a href="#0">Назад</a></li>
         
               <li><a href="http://www.kluch585.ru/bani-iz-brusa/">Бани из бруса</a></li>
             <li><a href="http://www.kluch585.ru/bani-iz-brevna/">Бани из бревна</a></li>
             <li><a href="javascript:void(0);">Каркасные бани</a></li>
-            
 
-            
       </ul>
      </li>
-    
-    
+        
     <li><a href="http://www.kluch585.ru/besedki/">Беседки</a></li>
-    
+    <li><a href="http://www.kluch585.ru/sadovyie-postroyki/">Садовые постройки</a></li>
+	
      <li class="has-children"> <a href="javascript:void(0);">Пиломатериалы</a>
           <ul class="cd-secondary-nav is-hidden" style=" box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
         <li class="go-back"><a href="#0">Назад</a></li>
