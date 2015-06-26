@@ -35,7 +35,7 @@
 </header>
 
 <div class="nav-color">    
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
 <div class="cd-main-header"> <a class="cd-logo hidden-lg hidden-md hidden-sm" href="#0">Ключ 585<!--<img src="http://www.kluch585.ru/img/logo.png" alt="Logo">--></a>
       <ul class="cd-header-buttons">
