@@ -73,21 +73,7 @@ $(document).ready(function() {
         <span class="price-proekt3">759000 </span>руб.<br>
         <span>Бревно диаметром 20 см</span><br>
           <button type="submit" class="button-style open-modal">Оставить заявку</button>
-     <?php include("../../blocks/modal-zakaz.php"); ?>     
-     
-            
-            
-          </div>
-		  
-          <div class="modal-footer modal-otpr">
-            
-            <a class="" href="#">Отправить</a>
-          </div>
-		  
-        </div>
-      </div>
-    </div>
-       <!-- Modal Contents --> 
+<?php include("../../blocks/modal-zakaz.php"); ?>     
         <div class="opisanie table-responsive">
            <table class="table">
               <caption>Основные характеристики</caption>

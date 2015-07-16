@@ -83,21 +83,7 @@ $(document).ready(function() {
 			<div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $pricebd[4]; ?> </span>руб.</nobr></div>
 		</div>
           <button type="submit" class="button-style open-modal">Оставить заявку</button>
-     <?php include("../../blocks/modal-zakaz.php"); ?>     
-     
-            
-            
-          </div>
-		  
-          <div class="modal-footer modal-otpr">
-            
-            <a class="" href="#">Отправить</a>
-          </div>
-		  
-        </div>
-      </div>
-    </div>
-       <!-- Modal Contents --> 
+<?php include("../../blocks/modal-zakaz.php"); ?>     
         <div class="opisanie table-responsive">
            <table class="table">
               <caption>Основные характеристики</caption>

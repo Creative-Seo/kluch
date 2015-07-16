@@ -75,21 +75,7 @@ $(document).ready(function() {
        
         <div class="cena-block"> <span class="price-proekt2">Стоимость строительства:</span> <span class="price-proekt3">1616000 </span>руб.<br>
           <button type="submit" class="button-style open-modal">Оставить заявку</button>
-     <?php include("../../blocks/modal-zakaz.php"); ?>     
-     
-            
-            
-          </div>
-		  
-          <div class="modal-footer modal-otpr">
-            
-            <a class="" href="#">Отправить</a>
-          </div>
-		  
-        </div>
-      </div>
-    </div>
-       <!-- Modal Contents --> 
+<?php include("../../blocks/modal-zakaz.php"); ?>     
         <div class="opisanie table-responsive">
  
         </div>
