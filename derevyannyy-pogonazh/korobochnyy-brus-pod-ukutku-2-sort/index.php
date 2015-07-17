@@ -1,10 +1,10 @@
-<?php $name= 'Коробочный брус под укутку, 2 сорт';?>
-<?php $title = $name.' оптом от производителя с доставкой в Москве и по всей России'; ?>
+<?php $name= 'Коробочный брус под укутку, 2 сорт оптом';?>
+<?php $title = $name.' от производителя с доставкой в Москве и по всей России'; ?>
 <?php $description = ''; ?>
 <?php $keywords = 'деревянный погонаж'; ?>
 <?php $breadcrumb2 = 'Погонаж'; ?>
 <?php $breadcrumb2_url = 'http://www.kluch585.ru/derevyannyy-pogonazh/'; ?>
-<?php $breadcrumb = $name; ?>
+<?php $breadcrumb = 'Коробочный брус 2 сорт'; ?>
 <?php $canonical = 'http://www.kluch585.ru/derevyannyy-pogonazh/korobochnyy-brus-pod-ukutku-2-sort/'; ?>
 <?php include("../../blocks/meta.php"); ?>
 <?php include("../../blocks/header_moscow.php"); ?>
@@ -14,15 +14,15 @@
   <div class="row">
     <h1><?php echo $name; ?></h1>
     <div class="col-md-7 col-sm-6 col-xs-12">
-		<a class="fancybox-thumb" rel="gallery1" title="Коробочный брус, срощенный ЭКСТРА" href="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg">
-			<img src="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg" alt="Коробочный брус, срощенный ЭКСТРА" class="img-responsive"></a>
+		<a class="fancybox-thumb" rel="gallery1" title="Коробочный брус 2 сорт ЭКСТРА" href="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg">
+			<img src="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg" alt="Коробочный брус 2 сорт ЭКСТРА" class="img-responsive"></a>
 	</div>
     <div class="col-md-5 col-sm-6 col-xs-12">
 		<div class="cena-block"> <span class="price-proekt2">Стоимость:</span>
 		<table class="table" style="text-align:center; vertical-align: central;">
 			<tr>
 				<td><div>Размер,мм</div></td>
-				<td><div>Закупочная цена,<br>руб./м.п.</div></td>
+				<td><div>Оптовая цена,<br>руб./м.п.</div></td>
 			</tr>
 			<tr>
 				<td>35*70*2100</td>

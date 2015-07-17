@@ -1,10 +1,10 @@
-<?php $name= 'Рейка подрамника (для картин, фото) срощенная ЭКСТРА';?>
-<?php $title = $name.' оптом от производителя с доставкой в Москве и по всей России'; ?>
+<?php $name= 'Рейка подрамника (для картин, фото) срощенная ЭКСТРА оптом';?>
+<?php $title = $name.' от производителя с доставкой в Москве и по всей России'; ?>
 <?php $description = ''; ?>
 <?php $keywords = 'деревянный погонаж'; ?>
 <?php $breadcrumb2 = 'Погонаж'; ?>
 <?php $breadcrumb2_url = 'http://www.kluch585.ru/derevyannyy-pogonazh/'; ?>
-<?php $breadcrumb = $name; ?>
+<?php $breadcrumb = 'Рейка подрамника'; ?>
 <?php $canonical = 'http://www.kluch585.ru/derevyannyy-pogonazh/reyka-podramnika-sroshchennaya-ekstra/'; ?>
 <?php include("../../blocks/meta.php"); ?>
 <?php include("../../blocks/header_moscow.php"); ?>
@@ -22,7 +22,7 @@
 		<table class="table" style="text-align:center; vertical-align: central;">
 			<tr>
 				<td><div>Размер,мм</div></td>
-				<td><div>Закупочная цена,<br>руб./м.п.</div></td>
+				<td><div>Оптовая цена,<br>руб./м.п.</div></td>
 			</tr>
 			<tr>
 				<td>8*40*2500</td>

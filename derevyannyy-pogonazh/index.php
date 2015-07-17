@@ -18,7 +18,7 @@
         <td><div>Фото</div></td>
         <td><div>Наименование</div></td>
         <td><div>Размер,мм</div></td>
-        <td><div>Закупочная цена,<br>руб./м.п.</div></td>
+        <td><div>Оптовая цена,<br>руб./м.п.</div></td>
     </tr>
     <tr class="greyline firstline">
         <td rowspan="4"><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/img/pogonazh/ugolok-derevyannyy-sroshchennyy-ekstra.jpg" title="Уголок срощенный ЭКСТРА"><img src="http://www.kluch585.ru/img/pogonazh/ugolok-derevyannyy-sroshchennyy-ekstra.jpg" alt="Уголок срощенный ЭКСТРА" class="img-responsive"></a></td>
