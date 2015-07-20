@@ -36,6 +36,32 @@
 		<button type="submit" class="button-style open-modal">Оставить заявку</button>
 		</div>
 	</div>
+	<div class="col-xs-12">
+		<p>Этот элемент незаменим для декорирования внутренних углов помещений, производства садовой мебели. Позволяет скрыть дефекты поверхностей, стыки облицовочных материалов, придавая элементам законченность. Изготавливается 
+		из безсучковой древесины хвойных пород высушенной в специальном режиме. Имеет идеальную поверхность и не требует дополнительной обработки при подготовке к  тонированию или окраске.</p>
+	</div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title"><span>Похожие товары</span></div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/plintus-sroshchennyy-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/plintus-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Плинтус срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Плинтус срощенный ЭКСТРА</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/plintus-potolochnyy-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/plintus-potolochnyy-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Плинтус потолочный, срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Плинтус потолочный, срощенный ЭКСТРА</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/korobochnyy-brus-sroshchennyy-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg" class="img-responsive" alt="Коробочный брус, срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Коробочный брус, срощенный ЭКСТРА</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/korobochnyy-brus-pod-ukutku-2-sort/">
+			<img src="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg" class="img-responsive" alt="Коробочный брус под укутку, 2 сорт"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Коробочный брус под укутку, 2 сорт</span></div>
+	</div>
   </div>
 </div>
 <?php include("../../blocks/modal-zakaz.php"); ?>

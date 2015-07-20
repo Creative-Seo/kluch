@@ -32,6 +32,31 @@
 		<button type="submit" class="button-style open-modal">Оставить заявку</button>
 		</div>
 	</div>
+	<div class="col-xs-12">
+		<p>Традиционно и широко применяется при монтаже внутренних и наружных дверей. Изготавливается из срощенной сухой хвойной древесины и обладает особой прочностью из-за отсутствия сучков и пороков. Как правило применяется с последующей обработкой защитными материалами.</p>
+	</div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title"><span>Похожие товары</span></div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/plintus-potolochnyy-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/plintus-potolochnyy-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Плинтус потолочный, срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Плинтус потолочный, срощенный ЭКСТРА</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/uglovaya-raskladka-figurnaya-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/uglovaya-raskladka.jpg" class="img-responsive" alt="Угловая раскладка,фигурная, срощенная ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Угловая раскладка,фигурная, срощенная ЭКСТРА</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/korobochnyy-brus-pod-ukutku-2-sort/">
+			<img src="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg" class="img-responsive" alt="Коробочный брус под укутку, 2 сорт"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Коробочный брус под укутку, 2 сорт</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/nashchelnik-sroshchennyy-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Нащельник срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Нащельник срощенный ЭКСТРА</span></div>
+	</div>
   </div>
 </div>
 <?php include("../../blocks/modal-zakaz.php"); ?>

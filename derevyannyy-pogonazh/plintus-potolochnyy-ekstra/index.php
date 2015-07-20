@@ -32,6 +32,32 @@
 		<button type="submit" class="button-style open-modal">Оставить заявку</button>
 		</div>
 	</div>
+	<div class="col-xs-12">
+		<p>Потолочный плинтус, так же называемый иногда галтель, применяется для прикрытия зазора между стенами и потолком. Это изделие имеет не только функциональное значение но и декорирует пространство. С его помощью просто 
+		скрыть дефекты стен, придать помещению элегантный вид. Производится из сухой хвойной древесины, экологичен, долговечен.</p>
+	</div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title"><span>Похожие товары</span></div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/ugolok-sroshchennyy-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/ugolok-derevyannyy-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Уголок срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Уголок срощенный ЭКСТРА</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/plintus-sroshchennyy-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/plintus-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Плинтус срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Плинтус срощенный ЭКСТРА</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/uglovaya-raskladka-figurnaya-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/uglovaya-raskladka.jpg" class="img-responsive" alt="Угловая раскладка,фигурная, срощенная ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Угловая раскладка,фигурная, срощенная ЭКСТРА</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/korobochnyy-brus-sroshchennyy-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg" class="img-responsive" alt="Коробочный брус, срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Коробочный брус, срощенный ЭКСТРА</span></div>
+	</div>
   </div>
 </div>
 <?php include("../../blocks/modal-zakaz.php"); ?>

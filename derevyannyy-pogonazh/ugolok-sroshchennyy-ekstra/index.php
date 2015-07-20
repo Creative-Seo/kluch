@@ -44,6 +44,32 @@
 		<button type="submit" class="button-style open-modal">Оставить заявку</button>
 		</div>
 	</div>
+	<div class="col-xs-12">
+		<p>Уголок незаменим для декоративной отделки наружных углов стен,оконных обрамлений , косяков, различных настилов и свесов. Изготавливается различных размеров и с его помощью есть возможность закрыть самые нестандартные углы. 
+		Хорошо сочетается с различными видами поверхностей, придавая им законченность. Может крепиться как традиционными методами- гвоздями и скобами, так и на клей.</p>
+	</div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title"><span>Похожие товары</span></div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/zagotovka-reyki-podramnika/">
+			<img src="http://www.kluch585.ru/img/pogonazh/reyka-dlya-podramnika.jpg" class="img-responsive" alt="Заготовка рейки подрамника"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Заготовка рейки подрамника</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/reyka-podramnika-sroshchennaya-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/reyka-dlya-podramnika.jpg" class="img-responsive" alt="Рейка подрамника (для картин, фото) срощенная ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Рейка подрамника (для картин, фото) срощенная ЭКСТРА</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/plintus-sroshchennyy-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/plintus-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Плинтус срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Плинтус срощенный ЭКСТРА</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/plintus-potolochnyy-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/plintus-potolochnyy-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Плинтус потолочный, срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Плинтус потолочный, срощенный ЭКСТРА</span></div>
+	</div>
   </div>
 </div>
 <?php include("../../blocks/modal-zakaz.php"); ?>

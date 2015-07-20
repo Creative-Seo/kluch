@@ -36,6 +36,28 @@
 		<button type="submit" class="button-style open-modal">Оставить заявку</button>
 		</div>
 	</div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title"><span>Похожие товары</span></div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/korobochnyy-brus-pod-ukutku-2-sort/">
+			<img src="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg" class="img-responsive" alt="Коробочный брус под укутку, 2 сорт"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Коробочный брус под укутку, 2 сорт</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/nashchelnik-sroshchennyy-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Нащельник срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Нащельник срощенный ЭКСТРА</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/reyka-podramnika-sroshchennaya-ekstra/">
+			<img src="http://www.kluch585.ru/img/pogonazh/reyka-dlya-podramnika.jpg" class="img-responsive" alt="Рейка подрамника (для картин, фото) срощенная ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Рейка подрамника (для картин, фото) срощенная ЭКСТРА</span></div>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
+		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/zagotovka-reyki-podramnika/">
+			<img src="http://www.kluch585.ru/img/pogonazh/reyka-dlya-podramnika.jpg" class="img-responsive" alt="Заготовка рейки подрамника"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name">Заготовка рейки подрамника</span></div>
+	</div>
   </div>
 </div>
 <?php include("../../blocks/modal-zakaz.php"); ?>
