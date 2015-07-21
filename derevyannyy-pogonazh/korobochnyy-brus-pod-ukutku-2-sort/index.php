@@ -32,27 +32,29 @@
 		<button type="submit" class="button-style open-modal">Оставить заявку</button>
 		</div>
 	</div>
+  </div>
+  <div class="row" itemtype="http://schema.org/ItemList" itemscope>
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title"><span>Похожие товары</span></div>
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>
-	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
-		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/uglovaya-raskladka-figurnaya-ekstra/">
-			<img src="http://www.kluch585.ru/img/pogonazh/uglovaya-raskladka.jpg" class="img-responsive" alt="Угловая раскладка,фигурная, срощенная ЭКСТРА"></a>
-		<div class="arrow_box6 asf"> <span class="proekt-name">Угловая раскладка,фигурная, срощенная ЭКСТРА</span></div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+		<a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/uglovaya-raskladka-figurnaya-ekstra/">
+			<img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/uglovaya-raskladka.jpg" class="img-responsive" alt="Угловая раскладка,фигурная, срощенная ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name" itemprop="name">Угловая раскладка,фигурная, срощенная ЭКСТРА</span></div>
 	</div>
-	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
-		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/korobochnyy-brus-sroshchennyy-ekstra/">
-			<img src="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg" class="img-responsive" alt="Коробочный брус, срощенный ЭКСТРА"></a>
-		<div class="arrow_box6 asf"> <span class="proekt-name">Коробочный брус, срощенный ЭКСТРА</span></div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+		<a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/korobochnyy-brus-sroshchennyy-ekstra/">
+			<img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg" class="img-responsive" alt="Коробочный брус, срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name" itemprop="name">Коробочный брус, срощенный ЭКСТРА</span></div>
 	</div>
-	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
-		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/nashchelnik-sroshchennyy-ekstra/">
-			<img src="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Нащельник срощенный ЭКСТРА"></a>
-		<div class="arrow_box6 asf"> <span class="proekt-name">Нащельник срощенный ЭКСТРА</span></div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+		<a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/nashchelnik-sroshchennyy-ekstra/">
+			<img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Нащельник срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name" itemprop="name">Нащельник срощенный ЭКСТРА</span></div>
 	</div>
-	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
-		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy/">
-			<img src="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy.jpg" class="img-responsive" alt="Нащельник срощенный ЭКСТРА, фигурный"></a>
-		<div class="arrow_box6 asf"> <span class="proekt-name">Нащельник срощенный ЭКСТРА, фигурный</span></div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+		<a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy/">
+			<img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy.jpg" class="img-responsive" alt="Нащельник срощенный ЭКСТРА, фигурный"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name" itemprop="name">Нащельник срощенный ЭКСТРА, фигурный</span></div>
 	</div>
   </div>
 </div>

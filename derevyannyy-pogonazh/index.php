@@ -8,7 +8,7 @@
 <?php include("../blocks/breadcrumbs.php"); ?>
 
 <div class="container">
-  <div class="row">
+  <div class="row" itemtype="http://schema.org/ItemList" itemscope>
      <h1>Деревянный погонаж оптом</h1>
      <p>Наше предприятие ЗАО «Агро-оптим», торговая марка «Ключ585» работает с 1998 года в н.п. Неверково, Владимирской области. Мы специализируемся на переработке дерева от круглого леса до сращивания древесины и выпуске из неё различного погонажа. Погонаж производится на хорошем оборудовании (Opticut, Dimter, строгальный Weinig и др.), что в совокупности с многолетним опытом позволяет получать высококачественные изделия по приемлимым ценам.</p>
     
@@ -20,15 +20,17 @@
         <td><div>Размер,мм</div></td>
         <td><div>Оптовая цена,<br>руб./м.п.</div></td>
     </tr>
-    <tr class="greyline firstline">
-        <td rowspan="4"><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/img/pogonazh/ugolok-derevyannyy-sroshchennyy-ekstra.jpg" title="Уголок срощенный ЭКСТРА"><img src="http://www.kluch585.ru/img/pogonazh/ugolok-derevyannyy-sroshchennyy-ekstra.jpg" alt="Уголок срощенный ЭКСТРА" class="img-responsive"></a></td>
-        <td rowspan="4"><a href="http://www.kluch585.ru/derevyannyy-pogonazh/ugolok-sroshchennyy-ekstra/">Уголок срощенный ЭКСТРА</a></td>
+    <tr class="greyline firstline" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+        <td rowspan="4"><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/img/pogonazh/ugolok-derevyannyy-sroshchennyy-ekstra.jpg" title="Уголок срощенный ЭКСТРА">
+          <img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/ugolok-derevyannyy-sroshchennyy-ekstra.jpg" alt="Уголок срощенный ЭКСТРА" class="img-responsive"></a></td>
+        <td rowspan="4"><a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/ugolok-sroshchennyy-ekstra/"><span itemprop="name">Уголок срощенный ЭКСТРА</span></a></td>
         <td>20*20*2500</td>
-        <td>16</td>
+        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">16</span><meta itemprop="priceCurrency" content="RUB"></td>
     </tr>
     <tr class="darkline">
         <td>25*25*2500</td>
         <td>17</td>
+      
     </tr>
     <tr class="greyline">
         <td>30*30*2500</td>
@@ -38,45 +40,50 @@
         <td>40*40*2500</td>
         <td>23</td>
     </tr>
-    <tr class="greyline">
-        <td><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/img/pogonazh/plintus-sroshchennyy-ekstra.jpg" title="Плинтус срощенный ЭКСТРА"><img src="http://www.kluch585.ru/img/pogonazh/plintus-sroshchennyy-ekstra.jpg" alt="Плинтус срощенный ЭКСТРА" class="img-responsive"></a></td>
-        <td><a href="http://www.kluch585.ru/derevyannyy-pogonazh/plintus-sroshchennyy-ekstra/">Плинтус срощенный ЭКСТРА</a></td>
+    <tr class="greyline" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+        <td><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/img/pogonazh/plintus-sroshchennyy-ekstra.jpg" title="Плинтус срощенный ЭКСТРА">
+          <img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/plintus-sroshchennyy-ekstra.jpg" alt="Плинтус срощенный ЭКСТРА" class="img-responsive"></a></td>
+        <td><a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/plintus-sroshchennyy-ekstra/"><span itemprop="name">Плинтус срощенный ЭКСТРА</span></a></td>
         <td>12*45*2500</td>
-        <td>15</td>
+        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">15</span><meta itemprop="priceCurrency" content="RUB"></td>
     </tr>
-    <tr class="darkline">
-        <td><a class="fancybox-thumb" rel="gallery1" title="Плинтус срощенный ЭКСТРА" href="http://www.kluch585.ru/img/pogonazh/plintus-potolochnyy-sroshchennyy-ekstra.jpg"><img src="http://www.kluch585.ru/img/pogonazh/plintus-potolochnyy-sroshchennyy-ekstra.jpg" alt="Плинтус срощенный ЭКСТРА" class="img-responsive"></a></td>
-        <td><a href="http://www.kluch585.ru/derevyannyy-pogonazh/plintus-potolochnyy-ekstra/">Плинтус потолочный, срощенный ЭКСТРА</a></td>
+    <tr class="darkline" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+        <td><a class="fancybox-thumb" rel="gallery1" title="Плинтус срощенный ЭКСТРА" href="http://www.kluch585.ru/img/pogonazh/plintus-potolochnyy-sroshchennyy-ekstra.jpg">
+          <img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/plintus-potolochnyy-sroshchennyy-ekstra.jpg" alt="Плинтус срощенный ЭКСТРА" class="img-responsive"></a></td>
+        <td><a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/plintus-potolochnyy-ekstra/"><span itemprop="name">Плинтус потолочный, срощенный ЭКСТРА</span></a></td>
         <td>12*25*2500</td>
-        <td>9,7</td>
+        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">9,7</span><meta itemprop="priceCurrency" content="RUB"></td>
     </tr>
-    <tr class="greyline">
-        <td rowspan="2"><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/img/pogonazh/uglovaya-raskladka.jpg" title="Угловая раскладка,фигурная, срощенная ЭКСТРА"><img src="http://www.kluch585.ru/img/pogonazh/uglovaya-raskladka.jpg" alt="Угловая раскладка,фигурная, срощенная ЭКСТРА" class="img-responsive"></a></td>
-        <td rowspan="2"><a href="http://www.kluch585.ru/derevyannyy-pogonazh/uglovaya-raskladka-figurnaya-ekstra/">Угловая раскладка,фигурная, срощенная ЭКСТРА</a></td>
+    <tr class="greyline" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+        <td rowspan="2"><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/img/pogonazh/uglovaya-raskladka.jpg" title="Угловая раскладка,фигурная, срощенная ЭКСТРА">
+          <img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/uglovaya-raskladka.jpg" alt="Угловая раскладка,фигурная, срощенная ЭКСТРА" class="img-responsive"></a></td>
+        <td rowspan="2"><a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/uglovaya-raskladka-figurnaya-ekstra/"><span itemprop="name">Угловая раскладка,фигурная, срощенная ЭКСТРА</span></a></td>
         <td>14*14*2500</td>
-        <td>9</td>
+        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">9</span><meta itemprop="priceCurrency" content="RUB"></td>
     </tr>
     <tr class="greyline">
         
         <td>19*19*2500</td>
         <td>11</td>
     </tr>
-    <tr class="darkline">
-        <td rowspan="2"><a class="fancybox-thumb" rel="gallery1" title="Коробочный брус, срощенный ЭКСТРА" href="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg"><img src="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg" alt="Коробочный брус, срощенный ЭКСТРА" class="img-responsive"></a></td>
-        <td><a href="http://www.kluch585.ru/derevyannyy-pogonazh/korobochnyy-brus-sroshchennyy-ekstra/">Коробочный брус, срощенный ЭКСТРА</a></td>
+    <tr class="darkline" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+        <td rowspan="2"><a class="fancybox-thumb" rel="gallery1" title="Коробочный брус, срощенный ЭКСТРА" href="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg">
+          <img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/korobochnyy-brus.jpg" alt="Коробочный брус, срощенный ЭКСТРА" class="img-responsive"></a></td>
+        <td><a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/korobochnyy-brus-sroshchennyy-ekstra/"><span itemprop="name">Коробочный брус, срощенный ЭКСТРА</span></a></td>
         <td>35*70*2100</td>
-        <td>52</td>
+        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">52</span><meta itemprop="priceCurrency" content="RUB"></td>
     </tr>
-    <tr class="darkline">
-        <td><a href="http://www.kluch585.ru/derevyannyy-pogonazh/korobochnyy-brus-pod-ukutku-2-sort/">Коробочный брус под укутку, 2 сорт</a></td>
+    <tr class="darkline" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+        <td><a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/korobochnyy-brus-pod-ukutku-2-sort/"><span itemprop="name">Коробочный брус под укутку, 2 сорт</span></a></td>
         <td>35*70*2100</td>
-        <td>35</td>
+        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">35</span><meta itemprop="priceCurrency" content="RUB"></td>
     </tr>
-    <tr class="greyline">
-        <td rowspan="3"><a class="fancybox-thumb" rel="gallery1" title="Нащельник срощенный ЭКСТРА" href="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra.jpg"><img src="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra.jpg" alt="Нащельник срощенный ЭКСТРА" class="img-responsive"></a></td>
-        <td rowspan="3"><a href="http://www.kluch585.ru/derevyannyy-pogonazh/nashchelnik-sroshchennyy-ekstra/">Нащельник срощенный ЭКСТРА</a></td>
+    <tr class="greyline" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+        <td rowspan="3"><a class="fancybox-thumb" rel="gallery1" title="Нащельник срощенный ЭКСТРА" href="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra.jpg">
+          <img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra.jpg" alt="Нащельник срощенный ЭКСТРА" class="img-responsive"></a></td>
+        <td rowspan="3"><a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/nashchelnik-sroshchennyy-ekstra/"><span itemprop="name">Нащельник срощенный ЭКСТРА</span></a></td>
         <td>6*34*2100</td>
-        <td>6</td>
+        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">6</span><meta itemprop="priceCurrency" content="RUB"></td>
     </tr>
     <tr class="greyline">
         <td>6*40*2100</td>
@@ -86,31 +93,33 @@
         <td>8*40*2500</td>
         <td>8,8</td>
     </tr>
-    <tr class="darkline">
-        <td rowspan="2"><a class="fancybox-thumb" rel="gallery1" title="Нащельник срощенный ЭКСТРА, фигурный" href="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy.jpg"><img src="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy.jpg" alt="Нащельник срощенный ЭКСТРА, фигурный" class="img-responsive"></a></td>
-        <td rowspan="2"><a href="http://www.kluch585.ru/derevyannyy-pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy/">Нащельник срощенный ЭКСТРА, фигурный</a></td>
+    <tr class="darkline" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+        <td rowspan="2"><a class="fancybox-thumb" rel="gallery1" title="Нащельник срощенный ЭКСТРА, фигурный" href="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy.jpg">
+          <img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy.jpg" alt="Нащельник срощенный ЭКСТРА, фигурный" class="img-responsive"></a></td>
+        <td rowspan="2"><a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy/"><span itemprop="name">Нащельник срощенный ЭКСТРА, фигурный</span></a></td>
         <td>8*20*2500</td>
-        <td>7,5</td>
+        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">7,5</span><meta itemprop="priceCurrency" content="RUB"></td>
     </tr>
     <tr class="darkline">
         <td>8*40*2500</td>
         <td>8,8</td>
     </tr>
-    <tr class="greyline">
-        <td rowspan="3"><a class="fancybox-thumb" rel="gallery1" title="рейка для подрамника ЭКСТРА" href="http://www.kluch585.ru/img/pogonazh/reyka-dlya-podramnika.jpg"><img src="http://www.kluch585.ru/img/pogonazh/reyka-dlya-podramnika.jpg" alt="рейка для подрамника ЭКСТРА" class="img-responsive"></a></td>
-        <td rowspan="2"><a href="http://www.kluch585.ru/derevyannyy-pogonazh/reyka-podramnika-sroshchennaya-ekstra/">Рейка подрамника (для картин, фото) срощенная ЭКСТРА</a></td>
+    <tr class="greyline" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+        <td rowspan="3"><a class="fancybox-thumb" rel="gallery1" title="рейка для подрамника ЭКСТРА" href="http://www.kluch585.ru/img/pogonazh/reyka-dlya-podramnika.jpg">
+          <img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/reyka-dlya-podramnika.jpg" alt="рейка для подрамника ЭКСТРА" class="img-responsive"></a></td>
+        <td rowspan="2"><a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/reyka-podramnika-sroshchennaya-ekstra/"><span itemprop="name">Рейка подрамника (для картин, фото) срощенная ЭКСТРА</span></a></td>
         <td>8*40*2500</td>
-        <td>27</td>
+        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">27</span><meta itemprop="priceCurrency" content="RUB"></td>
     </tr>
     <tr class="greyline">
 
         <td>8*50*2500</td>
         <td>33</td>
     </tr>
-    <tr class="greyline">
-        <td><a href="http://www.kluch585.ru/derevyannyy-pogonazh/zagotovka-reyki-podramnika/">Заготовка рейки подрамника</a></td>
+    <tr class="greyline" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+        <td><a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/zagotovka-reyki-podramnika/"><span itemprop="name">Заготовка рейки подрамника</span></a></td>
         <td>20*40*2500</td>
-        <td>23</td>
+        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">23</span><meta itemprop="priceCurrency" content="RUB"></td>
     </tr>
 </table>
 </div>

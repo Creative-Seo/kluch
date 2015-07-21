@@ -11,7 +11,7 @@
 <?php include("../../blocks/breadcrumbs.php"); ?>
 
 <div class="container">
-  <div class="row">
+  <div class="row" itemtype="http://schema.org/ItemList" itemscope>
     <h1><?php echo $name; ?></h1>
     <div class="col-md-7 col-sm-6 col-xs-12">
 		<a class="fancybox-thumb" rel="gallery1" title="рейка для подрамника ЭКСТРА" href="http://www.kluch585.ru/img/pogonazh/reyka-dlya-podramnika.jpg">
@@ -34,25 +34,25 @@
 	</div>
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title"><span>Похожие товары</span></div>
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>
-	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
-		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy/">
-			<img src="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy.jpg" class="img-responsive" alt="Нащельник срощенный ЭКСТРА, фигурный"></a>
-		<div class="arrow_box6 asf"> <span class="proekt-name">Нащельник срощенный ЭКСТРА, фигурный</span></div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+		<a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy/">
+			<img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy.jpg" class="img-responsive" alt="Нащельник срощенный ЭКСТРА, фигурный"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name" itemprop="name">Нащельник срощенный ЭКСТРА, фигурный</span></div>
 	</div>
-	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
-		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/reyka-podramnika-sroshchennaya-ekstra/">
-			<img src="http://www.kluch585.ru/img/pogonazh/reyka-dlya-podramnika.jpg" class="img-responsive" alt="Рейка подрамника (для картин, фото) срощенная ЭКСТРА"></a>
-		<div class="arrow_box6 asf"> <span class="proekt-name">Рейка подрамника (для картин, фото) срощенная ЭКСТРА</span></div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+		<a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/reyka-podramnika-sroshchennaya-ekstra/">
+			<img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/reyka-dlya-podramnika.jpg" class="img-responsive" alt="Рейка подрамника (для картин, фото) срощенная ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name" itemprop="name">Рейка подрамника (для картин, фото) срощенная ЭКСТРА</span></div>
 	</div>
-	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
-		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/ugolok-sroshchennyy-ekstra/">
-			<img src="http://www.kluch585.ru/img/pogonazh/ugolok-derevyannyy-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Уголок срощенный ЭКСТРА"></a>
-		<div class="arrow_box6 asf"> <span class="proekt-name">Уголок срощенный ЭКСТРА</span></div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+		<a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/ugolok-sroshchennyy-ekstra/">
+			<img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/ugolok-derevyannyy-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Уголок срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name" itemprop="name">Уголок срощенный ЭКСТРА</span></div>
 	</div>
-	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt">
-		<a href="http://www.kluch585.ru/derevyannyy-pogonazh/plintus-sroshchennyy-ekstra/">
-			<img src="http://www.kluch585.ru/img/pogonazh/plintus-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Плинтус срощенный ЭКСТРА"></a>
-		<div class="arrow_box6 asf"> <span class="proekt-name">Плинтус срощенный ЭКСТРА</span></div>
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+		<a itemprop="url" href="http://www.kluch585.ru/derevyannyy-pogonazh/plintus-sroshchennyy-ekstra/">
+			<img itemprop="image" src="http://www.kluch585.ru/img/pogonazh/plintus-sroshchennyy-ekstra.jpg" class="img-responsive" alt="Плинтус срощенный ЭКСТРА"></a>
+		<div class="arrow_box6 asf"> <span class="proekt-name" itemprop="name">Плинтус срощенный ЭКСТРА</span></div>
 	</div>
   </div>
 </div>
