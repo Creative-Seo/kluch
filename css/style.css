@@ -248,6 +248,12 @@ table{background-color:transparent;border-collapse:collapse;border-spacing:0;max
 .rates tr.greyline td{
     background: #f7f6f3 none repeat scroll 0 0;
 }
+.rates tr td:first-child {
+    padding-left: 17px;
+    text-align: left;
+    vertical-align: middle;
+}
+
 .rates tr.greyline td, .rates tr.darkline td {
     border-bottom: 3px solid #fff;
     border-left: 5px solid #fff;
@@ -255,6 +261,11 @@ table{background-color:transparent;border-collapse:collapse;border-spacing:0;max
 }
 .rates tr.darkline td {
     background: #ced5da none repeat scroll 0 0;
+}
+.rates tr td:first-child {
+    padding-left: 17px;
+    text-align: left;
+    vertical-align: middle;
 }
 .dostavka h3 {
 	font-size: 18px;
@@ -268,3 +279,4 @@ table{background-color:transparent;border-collapse:collapse;border-spacing:0;max
     padding:5px 15px;
     margin-top: 5px;
 }
+.col-xs-12>p{padding-top:1em;}
