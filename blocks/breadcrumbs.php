@@ -1,3 +1,9 @@
+<?php if (!(in_array($_SERVER['REQUEST_URI'], ['/derevyannyy-pogonazh/','/optovikam/']))) {?>
+<a class="pull-right col-sm-6" href="http://www.kluch585.ru/dachnyie-domiki/dom-8/" style="text-decoration:none; background-color: #fff; margin: 10px; padding:5px; border: 1px solid #dd4041;">
+	<img class="col-xs-4 img-responsive" src="http://www.kluch585.ru/dachnyie-domiki/dom-8/1.jpg">
+	<p class="col-xs-8"><span style="color: #dd4041;">Выгодное СПЕЦПРЕДЛОЖЕНИЕ</span> - Дачный дом №8  6х4м с мансардой и верандой с полной отделкой 1 этажа всего <nobr>за 258 000 руб.</nobr></p>
+</a>
+<?php } ?>
 <!--Breadcrumbs-->
 <div class="container">
   <div class="row">
