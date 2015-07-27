@@ -82,16 +82,15 @@
 
 <?php if (!(in_array($_SERVER['REQUEST_URI'], ['/derevyannyy-pogonazh/','/optovikam/']))) {?>
 <noindex>
-<style>#akcija{position:absolute;right:0px;top:300px;width:35%;z-index:1000;}
+<style>#akcija{position:absolute;right:0px;top:300px;width:30%;}
 #akcija>div{width:0px;float:right;background-color:#fff;overflow:hidden;}
 #akcija>div>a{text-decoration:none;margin:10px;padding:5px;border:1px solid #dd4041;}
 #akcija>p{display:inline-block;padding:10px;color:white;float:right;font-size:20px;background-color:red;border-radius:10px 0 0 10px;}
-#akcija img {display: block;max-width: 40%;height:auto;float:left;margin:10px;}
 </style>
 <div id="akcija" class="hidden-xs">
 	<div><a class="pull-right" href="http://www.kluch585.ru/dachnyie-domiki/dom-8/">
-		<p><img src="http://www.kluch585.ru/dachnyie-domiki/dom-8/1.jpg">
-		<span style="color: #dd4041;"><nobr>Выгодное СПЕЦПРЕДЛОЖЕНИЕ</nobr></span> - Дачный дом №8  6х4м с мансардой и верандой с полной отделкой 1 этажа всего <nobr>за 258 000 руб.</nobr></p>
+		<img class="col-xs-4 img-responsive" src="http://www.kluch585.ru/dachnyie-domiki/dom-8/1.jpg">
+		<p class="col-xs-8"><span style="color: #dd4041;">Выгодное СПЕЦПРЕДЛОЖЕНИЕ</span> - Дачный дом №8  6х4м с мансардой и верандой с полной отделкой 1 этажа всего <nobr>за 258 000 руб.</nobr></p>
 	</a></div>
 	<p>А<br>К<br>Ц<br>И<br>Я</p>
 </div>

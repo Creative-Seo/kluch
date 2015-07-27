@@ -1,6 +1,6 @@
 var akc=true;
 $(document).ready(function(){
-	$('#akcija>p').click(function() {if (akc) {$("#akcija>div").animate({"width": "80%",opacity: "show"}, "slow");akc=false;}
+	$('#akcija>p').click(function() {if (akc) {$("#akcija>div").animate({"width": "80%"}, "slow");akc=false;}
 		else {$("#akcija>div").animate({"width": "0",opacity: "hide"}, "slow");akc=true;}});
 	$(function($){
 	   $("#tel").mask("+7 (999) 999-9999");
