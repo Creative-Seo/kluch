@@ -38,7 +38,7 @@ EOF;
 
 $headers  = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=UTF-8\r\n";
-$headers .= "From: SITE <info@sk-goldenhome.ru>\r\n";
+$headers .= "From: SITE <agro-optim@mail.ru>\r\n";
 
 if(mail($to, $subject, $body, $headers))
 	echo "Ваше заказ отправлен!\nВ ближайшее время мы с вами свяжемся.";
