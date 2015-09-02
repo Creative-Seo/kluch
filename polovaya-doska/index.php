@@ -3,8 +3,8 @@
 <?php $keywords = 'половая доска, доска пола'; ?>
 <?php $breadcrumb = 'Доска пола'; ?>
 <?php $breadcrumb2 = 'Пиломатериалы'; ?>
-<?php $breadcrumb2_url = 'http://www.kluch585.ru/pilomaterialyi/'; ?>
-<?php $canonical = 'http://www.kluch585.ru/polovaya-doska/'; ?>
+<?php $breadcrumb2_url = '/pilomaterialyi/'; ?>
+<?php $canonical = '/polovaya-doska/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

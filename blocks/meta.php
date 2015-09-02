@@ -7,7 +7,7 @@ $phone = getPhone();
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<link href="http://www.kluch585.ru/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link href="/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
@@ -33,7 +33,7 @@ header .tel .nomer{font-size:36px;color:#223c7f;}
 .adrvr{font-size:16px;text-align:left;padding:40px 0 0 10px;}
 .adrvr i{padding-right:5px;color:#223c7f}
 .adrvr .vrem span{color:#dd4041;padding-left:20px}
-#main{background:url("http://www.kluch585.ru/img/top-bg.jpg") repeat-x scroll center top rgba(0, 0, 0, 0);}
+#main{background:url("/img/top-bg.jpg") repeat-x scroll center top rgba(0, 0, 0, 0);}
 .headlinks{padding-top:40px;padding-bottom:10px;}
 .headlinks a{padding:8px;color:#808080;text-decoration:underline;font-size:12px}
 .breadcrumb{background-color:#fff;margin-top:30px}
@@ -46,7 +46,6 @@ header .tel .nomer{font-size:36px;color:#223c7f;}
 .cd-primary-nav  li { list-style-type:none;}.cd-primary-nav  li a:hover,.cd-primary-nav  li a:focus,.cd-primary-nav  li a:active { text-decoration:none;}.cd-secondary-nav { padding-left:0;} #cd-primary-nav {margin-bottom:0;}
 </style>
 
-<?php echo $meta_container; ?>
-	<script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
+<script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
 
 </head>

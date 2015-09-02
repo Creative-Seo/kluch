@@ -2,7 +2,7 @@
 <?php $description = ''; ?>
 <?php $keywords = 'строительство,каркасные дома,каркасно щитовые дома,проекты,цены,фото'; ?>
 <?php $breadcrumb = 'Каркасные дома'; ?>
-<?php $canonical = 'http://www.kluch585.ru/karkasnye-doma/'; ?>
+<?php $canonical = '/karkasnye-doma/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

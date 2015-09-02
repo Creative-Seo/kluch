@@ -2,7 +2,7 @@
 <?php $description = 'Блок-хаус от производителя по доступной цене со склада во Владимире. Только качественное дерево.'; ?>
 <?php $keywords = 'блокхаус, блок-хаус, имитация бревна, блокхауз сорт экстра'; ?>
 <?php $breadcrumb = 'Блок-хаус'; ?>
-<?php $canonical = 'http://www.kluch585.ru/blok-khaus/'; ?>
+<?php $canonical = '/blok-khaus/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

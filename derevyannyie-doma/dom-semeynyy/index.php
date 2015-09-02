@@ -1,5 +1,5 @@
-<?php $meta_container = '<link rel="stylesheet" href="http://www.kluch585.ru/css/jquery.fancybox.css"><link rel="stylesheet" href="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="http://www.kluch585.ru/js/jquery.fancybox.js"></script><script src="http://www.kluch585.ru/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.js"></script> 
+<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
+<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
 <script type="text/javascript">
 $(document).ready(function() {
 	$(".fancybox-thumb").fancybox({
@@ -41,9 +41,9 @@ $(document).ready(function() {
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb2 = 'Дома из бревна'; ?>
-<?php $breadcrumb2_url = 'http://www.kluch585.ru/derevyannyie-doma/'; ?>
+<?php $breadcrumb2_url = '/derevyannyie-doma/'; ?>
 <?php $breadcrumb = 'Дом Семейный 7,5х7,5м'; ?>
-<?php $canonical = 'http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/'; ?>
+<?php $canonical = '/derevyannyie-doma/dom-semeynyy/'; ?>
 <?php include("../../blocks/meta.php"); ?>
 <?php include("../../blocks/header.php"); ?>
 <?php include("../../blocks/breadcrumbs.php"); ?>
@@ -52,20 +52,20 @@ $(document).ready(function() {
     <h1>Дом Семейный 7,5х7,5м</h1>
     <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" style="padding:0"> 
     <div class="gallery">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/2.jpg"><img src="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/2.jpg" width="150" class="img-responsive" alt=""/></a>
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/3.jpg"><img src="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/3.jpg" width="150" class="img-responsive" alt=""/></a> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/4.jpg"><img src="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/4.jpg" width="150" class="img-responsive" alt=""/></a>
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/5.jpg"><img src="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/5.jpg" width="150" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/derevyannyie-doma/dom-semeynyy/2.jpg"><img src="/derevyannyie-doma/dom-semeynyy/2.jpg" width="150" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/derevyannyie-doma/dom-semeynyy/3.jpg"><img src="/derevyannyie-doma/dom-semeynyy/3.jpg" width="150" class="img-responsive" alt=""/></a> 
+    <a class="fancybox-thumb" rel="gallery1" href="/derevyannyie-doma/dom-semeynyy/4.jpg"><img src="/derevyannyie-doma/dom-semeynyy/4.jpg" width="150" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/derevyannyie-doma/dom-semeynyy/5.jpg"><img src="/derevyannyie-doma/dom-semeynyy/5.jpg" width="150" class="img-responsive" alt=""/></a>
    </div>
     </div>
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12"> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/1.jpg"><img src="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/1.jpg" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/derevyannyie-doma/dom-semeynyy/1.jpg"><img src="/derevyannyie-doma/dom-semeynyy/1.jpg" class="img-responsive" alt=""/></a>
     <!--gallery-->  
     <div class="gallery2 visible-sm visible-xs">
-   <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/2.jpg"><img src="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/2.jpg" width="150" class="img-responsive" alt=""/></a>
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/3.jpg"><img src="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/3.jpg" width="150" class="img-responsive" alt=""/></a> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/4.jpg"><img src="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/4.jpg" width="150" class="img-responsive" alt=""/></a>
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/5.jpg"><img src="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/5.jpg" width="150" class="img-responsive" alt=""/></a>
+   <a class="fancybox-thumb" rel="gallery1" href="/derevyannyie-doma/dom-semeynyy/2.jpg"><img src="/derevyannyie-doma/dom-semeynyy/2.jpg" width="150" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/derevyannyie-doma/dom-semeynyy/3.jpg"><img src="/derevyannyie-doma/dom-semeynyy/3.jpg" width="150" class="img-responsive" alt=""/></a> 
+    <a class="fancybox-thumb" rel="gallery1" href="/derevyannyie-doma/dom-semeynyy/4.jpg"><img src="/derevyannyie-doma/dom-semeynyy/4.jpg" width="150" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/derevyannyie-doma/dom-semeynyy/5.jpg"><img src="/derevyannyie-doma/dom-semeynyy/5.jpg" width="150" class="img-responsive" alt=""/></a>
    </div>
     
     
@@ -119,7 +119,7 @@ $(document).ready(function() {
      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-xs">
      <h2>Планировка:</h2>
        <div class="gallery2">
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/6.jpg"><img src="http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/6.jpg" width="150" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb2" rel="gallery1" href="/derevyannyie-doma/dom-semeynyy/6.jpg"><img src="/derevyannyie-doma/dom-semeynyy/6.jpg" width="150" class="img-responsive" alt=""/></a>
  
    </div>
         

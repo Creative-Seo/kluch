@@ -2,7 +2,7 @@
 <?php $description = 'Предлагаем Вам большой выбор резных наличников на окна, которые Вы можете купить во Владимире по доступной цене в компании Ключ 585'; ?>
 <?php $keywords = 'резные наличники, резные наличники на окна, резные наличники на окна купить'; ?>
 <?php $breadcrumb = 'Наличники'; ?>
-<?php $canonical = 'http://www.kluch585.ru/nalichniki/'; ?>
+<?php $canonical = '/nalichniki/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

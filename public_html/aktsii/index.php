@@ -1,5 +1,5 @@
-<?php $meta_container = '<link rel="stylesheet" href="http://www.kluch585.ru/css/jquery.fancybox.css"><link rel="stylesheet" href="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="http://www.kluch585.ru/js/jquery.fancybox.js"></script><script src="http://www.kluch585.ru/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.js"></script> 
+<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
+<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
 <script type="text/javascript">
 $(document).ready(function() {
 	$(".fancybox-thumb").fancybox({
@@ -24,7 +24,7 @@ $(document).ready(function() {
 <?php $description = 'Скидки и акции на пиломатериалы и строительство деревянных домов от компании Ключ 585 во Владимире'; ?>
 <?php $keywords = 'акции,скидки,спецпредложения'; ?>
 <?php $breadcrumb = 'Акции'; ?>
-<?php $canonical = 'http://www.kluch585.ru/aktsii/'; ?>
+<?php $canonical = '/aktsii/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>
@@ -45,10 +45,10 @@ $(document).ready(function() {
     </ul>
   <div class="row">
     <div class="col-md-4">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/aktsii/besedka.jpg"><img src="http://www.kluch585.ru/aktsii/besedka.jpg" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/aktsii/besedka.jpg"><img src="/aktsii/besedka.jpg" class="img-responsive" alt=""/></a>
     </div>
     <div class="col-md-4">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/aktsii/krovat1.jpg"><img src="http://www.kluch585.ru/aktsii/krovat1.jpg" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/aktsii/krovat1.jpg"><img src="/aktsii/krovat1.jpg" class="img-responsive" alt=""/></a>
     </div> 
   </div>
 </div>    

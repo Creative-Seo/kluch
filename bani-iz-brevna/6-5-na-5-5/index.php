@@ -1,5 +1,5 @@
-<?php $meta_container = '<link rel="stylesheet" href="http://www.kluch585.ru/css/jquery.fancybox.css"><link rel="stylesheet" href="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="http://www.kluch585.ru/js/jquery.fancybox.js"></script><script src="http://www.kluch585.ru/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.js"></script> 
+<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
+<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
 <script type="text/javascript">
 $(document).ready(function() {
 	$(".fancybox-thumb").fancybox({
@@ -41,9 +41,9 @@ $(document).ready(function() {
 <?php $description = 'Готовый проект бани из оцилиндрованного бревна 6,5 на 5,5 метра под ключ во Владимире по доступной цене, фото, планировка'; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb2 = 'Бани из бревна'; ?>
-<?php $breadcrumb2_url = 'http://www.kluch585.ru/bani-iz-brevna/'; ?>
+<?php $breadcrumb2_url = '/bani-iz-brevna/'; ?>
 <?php $breadcrumb = 'Баня из бревна 6,5x5,5 м'; ?>
-<?php $canonical = 'http://www.kluch585.ru/bani-iz-brevna/6-5-na-5-5/'; ?>
+<?php $canonical = '/bani-iz-brevna/6-5-na-5-5/'; ?>
 <?php include("../../blocks/meta.php"); ?>
 <?php include("../../blocks/header.php"); ?>
 <?php include("../../blocks/breadcrumbs.php"); ?>
@@ -52,14 +52,14 @@ $(document).ready(function() {
     <h1>Баня из бревна с террасой 6,5 на 5,5 метра</h1>
     <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" style="padding:0"> 
     <div class="gallery">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/bani-iz-brevna/6-5-na-5-5/banya-iz-brevna-6-5-na-5-5-1.jpg"><img src="http://www.kluch585.ru/bani-iz-brevna/6-5-na-5-5/banya-iz-brevna-6-5-na-5-5-1.jpg" width="150" class="img-responsive" alt="Баня из бревна 6,5 на 5,5 метра"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/bani-iz-brevna/6-5-na-5-5/banya-iz-brevna-6-5-na-5-5-1.jpg"><img src="/bani-iz-brevna/6-5-na-5-5/banya-iz-brevna-6-5-na-5-5-1.jpg" width="150" class="img-responsive" alt="Баня из бревна 6,5 на 5,5 метра"/></a>
    </div>
     </div>
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12"> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/bani-iz-brevna/6-5-na-5-5/banya-iz-brevna-6-5-na-5-5.jpg"><img src="http://www.kluch585.ru/bani-iz-brevna/6-5-na-5-5/banya-iz-brevna-6-5-na-5-5.jpg" class="img-responsive" alt="Баня из бревна 6,5 на 5,5 метра"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/bani-iz-brevna/6-5-na-5-5/banya-iz-brevna-6-5-na-5-5.jpg"><img src="/bani-iz-brevna/6-5-na-5-5/banya-iz-brevna-6-5-na-5-5.jpg" class="img-responsive" alt="Баня из бревна 6,5 на 5,5 метра"/></a>
     <!--gallery-->  
     <div class="gallery2 visible-sm visible-xs">
- <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/bani-iz-brevna/6-5-na-5-5/banya-iz-brevna-6-5-na-5-5-1.jpg"><img src="http://www.kluch585.ru/bani-iz-brevna/6-5-na-5-5/banya-iz-brevna-6-5-na-5-5-1.jpg" width="150" class="img-responsive" alt="Баня из бревна 6,5 на 5,5 метра"/></a>
+ <a class="fancybox-thumb" rel="gallery1" href="/bani-iz-brevna/6-5-na-5-5/banya-iz-brevna-6-5-na-5-5-1.jpg"><img src="/bani-iz-brevna/6-5-na-5-5/banya-iz-brevna-6-5-na-5-5-1.jpg" width="150" class="img-responsive" alt="Баня из бревна 6,5 на 5,5 метра"/></a>
    </div>
    </div>
     
@@ -112,7 +112,7 @@ $(document).ready(function() {
         <h2>Планировка</h2>
         
 	<div class="gallery2">
-		<a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/bani-iz-brevna/6-5-na-5-5/b1-8.jpg"><img src="http://www.kluch585.ru/bani-iz-brevna/6-5-na-5-5/b1-8.jpg" width="150" class="img-responsive" alt="Планировка Баня из бревна 6,5 на 5,5 метра"/></a>
+		<a class="fancybox-thumb2" rel="gallery1" href="/bani-iz-brevna/6-5-na-5-5/b1-8.jpg"><img src="/bani-iz-brevna/6-5-na-5-5/b1-8.jpg" width="150" class="img-responsive" alt="Планировка Баня из бревна 6,5 на 5,5 метра"/></a>
    </div>
         
      </div>   

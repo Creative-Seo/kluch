@@ -3,8 +3,8 @@
 <?php $keywords = 'фундамент на сваях, фундамент на сваях, винтовые фундаменты, фундамент на винтовых сваях, свайно винтовой фундамент'; ?>
 <?php $breadcrumb = 'Свайно-винтовой'; ?>
 <?php $breadcrumb2 = 'Фундамент'; ?>
-<?php $breadcrumb2_url = 'http://www.kluch585.ru/fundament/'; ?>
-<?php $canonical = 'http://www.kluch585.ru/fundament/svayno-vintovoy/'; ?>
+<?php $breadcrumb2_url = '/fundament/'; ?>
+<?php $canonical = '/fundament/svayno-vintovoy/'; ?>
 <?php include("../../blocks/meta.php"); ?>
 <?php include("../../blocks/header.php"); ?>
 <?php include("../../blocks/breadcrumbs.php"); ?>

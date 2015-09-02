@@ -1,5 +1,5 @@
-<?php $meta_container = '<link rel="stylesheet" href="http://www.kluch585.ru/css/jquery.fancybox.css"><link rel="stylesheet" href="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="http://www.kluch585.ru/js/jquery.fancybox.js"></script><script src="http://www.kluch585.ru/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.js"></script> 
+<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
+<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
 <script type="text/javascript">
 $(document).ready(function() {
 	$(".fancybox-thumb").fancybox({
@@ -41,7 +41,7 @@ $(document).ready(function() {
 <?php $description = 'Компания Ключ 585 предоставляет реальную возможность для клиентов заказать строительство деревянной бани под ключ на их земельных участках. Наши специалисты возводят бани, которые строятся только из натуральной древесины. Мы используем профилированный брус, который самостоятельно производим из высококачественного сырья'; ?>
 <?php $keywords = 'Строительство бани,бани под ключ,баня под ключ,баня из бруса,строительство бани,бани из бруса под ключ,бани под ключ недорого,бани из бруса недорого'; ?>
 <?php $breadcrumb = 'Бани'; ?>
-<?php $canonical = 'http://www.kluch585.ru/bani/'; ?>
+<?php $canonical = '/bani/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>
@@ -51,12 +51,12 @@ $(document).ready(function() {
     <h1>Бани под ключ во Владимире</h1>
 
   <div class="col-md-6 bani">
-    <a href="http://www.kluch585.ru/bani-iz-brusa/"><img src="http://www.kluch585.ru/bani-iz-brusa/6-5-na-5-5-m/banya-iz-brusa-6-5-na-5-5-m.jpg" title="Бани из бруса" alt="Бани из бруса" class="img-responsive"></a>
-    <a href="http://www.kluch585.ru/bani-iz-brusa/">Бани из бруса</a>
+    <a href="/bani-iz-brusa/"><img src="/bani-iz-brusa/6-5-na-5-5-m/banya-iz-brusa-6-5-na-5-5-m.jpg" title="Бани из бруса" alt="Бани из бруса" class="img-responsive"></a>
+    <a href="/bani-iz-brusa/">Бани из бруса</a>
   </div>
   <div class="col-md-6 bani">
-    <a href="http://www.kluch585.ru/bani-iz-brevna/"><img src="http://www.kluch585.ru/bani-iz-brevna/6-5-na-5-5/banya-iz-brevna-6-5-na-5-5.jpg" title="Бани из бревна" alt="Бани из бревна" class="img-responsive"></a>
-    <a href="http://www.kluch585.ru/bani-iz-brevna/">Бани из бревна</a>
+    <a href="/bani-iz-brevna/"><img src="/bani-iz-brevna/6-5-na-5-5/banya-iz-brevna-6-5-na-5-5.jpg" title="Бани из бревна" alt="Бани из бревна" class="img-responsive"></a>
+    <a href="/bani-iz-brevna/">Бани из бревна</a>
   </div>
 
 <p>Никакие современные душевые кабины и джакузи не заменят баню на загородном участке. Она нужна каждому человеку для восстановления сил, поднятия настроения и отдыха в компании друзей. Сейчас, чтобы построить баню, вам необязательно тратить свои силы и время - просто доверьте всю работу нашей команде мастеров. А пока ознакомьтесь с принципами строительства бань, чтобы при обсуждении деталей проекта с инженером понимать, о чем идет речь.</p>
@@ -85,68 +85,68 @@ $(document).ready(function() {
       
     <div class="grid">
 <div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/bani/foto/banya-1.jpg">
+    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-1.jpg">
 	<figure class=" animated zoomIn">	
-	<img src="http://www.kluch585.ru/bani/foto/banya-1.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
+	<img src="/bani/foto/banya-1.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
 	</figure></a></div></div>
     
     <div class="grid">
 <div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/bani/foto/banya-2.jpg">
+    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-2.jpg">
 	<figure class=" animated zoomIn">	
-	<img src="http://www.kluch585.ru/bani/foto/banya-2.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
+	<img src="/bani/foto/banya-2.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
 	</figure></a></div></div>
     
     <div class="grid">
 <div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/bani/foto/banya-3.jpg">
+    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-3.jpg">
 	<figure class=" animated zoomIn">	
-	<img src="http://www.kluch585.ru/bani/foto/banya-3.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
+	<img src="/bani/foto/banya-3.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
 	</figure></a></div></div>
     
     <div class="grid">
 <div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/bani/foto/banya-4.jpg">
+    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-4.jpg">
 	<figure class=" animated zoomIn">	
-	<img src="http://www.kluch585.ru/bani/foto/banya-4.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
+	<img src="/bani/foto/banya-4.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
 	</figure></a></div></div>
     
     <div class="grid">
 <div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/bani/foto/banya-5.jpg">
+    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-5.jpg">
 	<figure class=" animated zoomIn">	
-	<img src="http://www.kluch585.ru/bani/foto/banya-5.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
+	<img src="/bani/foto/banya-5.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
 	</figure></a></div></div>
     
     <div class="grid">
 <div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/bani/foto/banya-6.jpg">
+    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-6.jpg">
 	<figure class=" animated zoomIn">	
-	<img src="http://www.kluch585.ru/bani/foto/banya-6.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
+	<img src="/bani/foto/banya-6.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
 	</figure></a></div></div>
     
     <div class="grid">
 <div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/bani/foto/banya-7.jpg">
+    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-7.jpg">
 	<figure class=" animated zoomIn">	
-	<img src="http://www.kluch585.ru/bani/foto/banya-7.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
+	<img src="/bani/foto/banya-7.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
 	</figure></a></div></div>
     
     <div class="grid">
 <div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/bani/foto/banya-8.jpg">
+    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-8.jpg">
 	<figure class=" animated zoomIn">	
-	<img src="http://www.kluch585.ru/bani/foto/banya-8.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
+	<img src="/bani/foto/banya-8.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
 	</figure></a></div></div>
     
     <div class="grid">
 <div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/bani/foto/banya-9.jpg">
+    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-9.jpg">
 	<figure class=" animated zoomIn">	
-	<img src="http://www.kluch585.ru/bani/foto/banya-9.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
+	<img src="/bani/foto/banya-9.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
 	</figure></a></div></div>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-<a style="font-size: 22px" href="http://www.kluch585.ru/bani/foto/">Посмотреть все фотографии</a>  
+<a style="font-size: 22px" href="/bani/foto/">Посмотреть все фотографии</a>  
 </div>
 </div>
 

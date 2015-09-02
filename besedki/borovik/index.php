@@ -1,5 +1,5 @@
-<?php $meta_container = '<link rel="stylesheet" href="http://www.kluch585.ru/css/jquery.fancybox.css"><link rel="stylesheet" href="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="http://www.kluch585.ru/js/jquery.fancybox.js"></script><script src="http://www.kluch585.ru/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.js"></script> 
+<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
+<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
 <script type="text/javascript">
 $(document).ready(function() {
 	$(".fancybox-thumb").fancybox({
@@ -41,9 +41,9 @@ $(document).ready(function() {
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb2 = 'Беседки'; ?>
-<?php $breadcrumb2_url = 'http://www.kluch585.ru/besedki/'; ?>
+<?php $breadcrumb2_url = '/besedki/'; ?>
 <?php $breadcrumb = 'Беседка Боровик'; ?>
-<?php $canonical = 'http://www.kluch585.ru/besedki/borovik/'; ?>
+<?php $canonical = '/besedki/borovik/'; ?>
 <?php include("../../blocks/meta.php"); ?>
 <?php include("../../blocks/header.php"); ?>
 <?php include("../../blocks/breadcrumbs.php"); ?>
@@ -53,7 +53,7 @@ $(document).ready(function() {
     <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" style="padding:0"> 
        </div>
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12"> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/besedki/borovik/besedka-borovik.jpg"><img src="http://www.kluch585.ru/besedki/borovik/borovik.jpg" class="img-responsive" alt="Беседка Боровик"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/besedki/borovik/besedka-borovik.jpg"><img src="/besedki/borovik/borovik.jpg" class="img-responsive" alt="Беседка Боровик"/></a>
     <!--gallery-->  
 
    </div>
@@ -105,10 +105,10 @@ $(document).ready(function() {
         <h2>Беседки построенные по проекту</h2>
         
         <div class="gallery2">
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/borovik/besedka-borovik.jpg"><img src="http://www.kluch585.ru/besedki/borovik/besedka-borovik.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/borovik/besedka-borovik-1.jpg"><img src="http://www.kluch585.ru/besedki/borovik/besedka-borovik-1.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a> 
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/borovik/besedka-borovik-2.jpg"><img src="http://www.kluch585.ru/besedki/borovik/besedka-borovik-2.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/borovik/besedka-borovik-3.jpg"><img src="http://www.kluch585.ru/besedki/borovik/besedka-borovik-3.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
+    <a class="fancybox-thumb2" rel="gallery1" href="/besedki/borovik/besedka-borovik.jpg"><img src="/besedki/borovik/besedka-borovik.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
+    <a class="fancybox-thumb2" rel="gallery1" href="/besedki/borovik/besedka-borovik-1.jpg"><img src="/besedki/borovik/besedka-borovik-1.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a> 
+    <a class="fancybox-thumb2" rel="gallery1" href="/besedki/borovik/besedka-borovik-2.jpg"><img src="/besedki/borovik/besedka-borovik-2.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
+    <a class="fancybox-thumb2" rel="gallery1" href="/besedki/borovik/besedka-borovik-3.jpg"><img src="/besedki/borovik/besedka-borovik-3.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
        </div>
         
      </div>   

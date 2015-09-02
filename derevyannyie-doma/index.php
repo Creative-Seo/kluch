@@ -2,7 +2,7 @@
 <?php $description = 'Деревянные дома. Строительство деревянных домов под ключ по готовым и индивидуальным проектам. Проекты деревянных домов и бань из бревна и бруса'; ?>
 <?php $keywords = 'деревянные дома,строительство деревянных домов,проекты деревянных домов,загородные деревянные дома,деревянные дома под ключ'; ?>
 <?php $breadcrumb = 'Деревянные дома'; ?>
-<?php $canonical = 'http://www.kluch585.ru/derevyannyie-doma/'; ?>
+<?php $canonical = '/derevyannyie-doma/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

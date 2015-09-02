@@ -3,8 +3,8 @@
 <?php $keywords = 'ленточный фундамент, ленточный фундамент стоимость, ленточный фундамент цена, строительство ленточного фундамента, армирование ленточного фундамента'; ?>
 <?php $breadcrumb = 'Ленточный'; ?>
 <?php $breadcrumb2 = 'Фундамент'; ?>
-<?php $breadcrumb2_url = 'http://www.kluch585.ru/fundament/'; ?>
-<?php $canonical = 'http://www.kluch585.ru/fundament/lentochnyy/'; ?>
+<?php $breadcrumb2_url = '/fundament/'; ?>
+<?php $canonical = '/fundament/lentochnyy/'; ?>
 <?php include("../../blocks/meta.php"); ?>
 <?php include("../../blocks/header.php"); ?>
 <?php include("../../blocks/breadcrumbs.php"); ?>

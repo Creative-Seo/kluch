@@ -2,7 +2,7 @@
 <?php $description = 'Компания Ключ 585 предлагает услуги по заготовке и распилке леса, сушке древесины, пристройке террас и веранд. Доступные цены, высокое качество'; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Услуги'; ?>
-<?php $canonical = 'http://www.kluch585.ru/uslugi/'; ?>
+<?php $canonical = '/uslugi/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>
@@ -18,13 +18,13 @@
       <li><b>Пристройка террас и веранд.</b> Ваш дом станет больше и функциональнее.</li>
       <li>Производим следующую продукцию:
 		<ul>
-			<li><a href="http://www.kluch585.ru/derevyannyie-doma/">Деревянные дома</a></li>
-			<li><a href="http://www.kluch585.ru/dachnyie-domiki/">Дачные домики</a></li>
-			<li><a href="http://www.kluch585.ru/bani/">Бани</a></li>
-			<li><a href="http://www.kluch585.ru/sadovyie-postroyki">Беседки</a></li>
-			<li><a href="http://www.kluch585.ru/pilomaterialyi">Пиломатериал</a></li>
-			<li><a href="http://www.kluch585.ru/derevyannyy-pogonazh/">Сращенный погонаж</a></li>
-			<li><a href="http://www.kluch585.ru/sadovyie-postroyki">Садовую мебель</a></li>
+			<li><a href="/derevyannyie-doma/">Деревянные дома</a></li>
+			<li><a href="/dachnyie-domiki/">Дачные домики</a></li>
+			<li><a href="/bani/">Бани</a></li>
+			<li><a href="/sadovyie-postroyki">Беседки</a></li>
+			<li><a href="/pilomaterialyi">Пиломатериал</a></li>
+			<li><a href="/derevyannyy-pogonazh/">Сращенный погонаж</a></li>
+			<li><a href="/sadovyie-postroyki">Садовую мебель</a></li>
 		</ul>
 	  </li>
     </ol>

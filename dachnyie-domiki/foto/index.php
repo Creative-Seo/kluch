@@ -1,11 +1,11 @@
-<?php $meta_container = '<link rel="stylesheet" href="http://www.kluch585.ru/css/jquery.fancybox.css"><link rel="stylesheet" href="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.css">'; ?>
+<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
 <?php $title = 'Фотографии дачных домов построенных компанией Ключ 585'; ?>
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Фото дачных домов'; ?>
 <?php $breadcrumb2 = 'Дачные дома'; ?>
-<?php $breadcrumb2_url = 'http://www.kluch585.ru/dachnyie-domiki/'; ?>
-<?php $canonical = 'http://www.kluch585.ru/dachnyie-domiki/foto/'; ?>
+<?php $breadcrumb2_url = '/dachnyie-domiki/'; ?>
+<?php $canonical = '/dachnyie-domiki/foto/'; ?>
 <?php include("../../blocks/meta.php"); ?>
 <?php include("../../blocks/header.php"); ?>
 <?php include("../../blocks/breadcrumbs.php"); ?>

@@ -2,7 +2,7 @@
 <?php $description = ''; ?>
 <?php $keywords = 'строительство,дома,проекты,бревно,цены'; ?>
 <?php $breadcrumb = 'Дома из бревна'; ?>
-<?php $canonical = 'http://www.kluch585.ru/doma-iz-brevna/'; ?>
+<?php $canonical = '/doma-iz-brevna/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

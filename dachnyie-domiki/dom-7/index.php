@@ -1,5 +1,5 @@
-<?php $meta_container = '<link rel="stylesheet" href="http://www.kluch585.ru/css/jquery.fancybox.css"><link rel="stylesheet" href="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="http://www.kluch585.ru/js/jquery.fancybox.js"></script><script src="http://www.kluch585.ru/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.js"></script> 
+<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
+<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
 <script type="text/javascript">
 $(document).ready(function() {
 	$(".fancybox-thumb").fancybox({
@@ -41,9 +41,9 @@ $(document).ready(function() {
 <?php $description = 'Готовый проект дачного дома №7. Стены - профилированный сухой строганый брус. Фундамент - опорные столбы из бетонных блоков'; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb2 = 'Дачные дома'; ?>
-<?php $breadcrumb2_url = 'http://www.kluch585.ru/dachnyie-domiki/'; ?>
+<?php $breadcrumb2_url = '/dachnyie-domiki/'; ?>
 <?php $breadcrumb = 'Дачный дом №7'; ?>
-<?php $canonical = 'http://www.kluch585.ru/dachnyie-domiki/dom-7'; ?>
+<?php $canonical = '/dachnyie-domiki/dom-7'; ?>
 <?php include("../../blocks/meta.php"); ?>
 <?php include("../../blocks/header.php"); ?>
 <?php include("../../blocks/breadcrumbs.php"); ?>
@@ -52,20 +52,20 @@ $(document).ready(function() {
     <h1>Дачный дом №7</h1>
     <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" style="padding:0"> 
     <div class="gallery">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/dachnyie-domiki/dom-7/2.jpg"><img src="http://www.kluch585.ru/dachnyie-domiki/dom-7/2.jpg" width="150" class="img-responsive" alt=""/></a>
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/dachnyie-domiki/dom-7/3.jpg"><img src="http://www.kluch585.ru/dachnyie-domiki/dom-7/3.jpg" width="150" class="img-responsive" alt=""/></a> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/dachnyie-domiki/dom-7/4.jpg"><img src="http://www.kluch585.ru/dachnyie-domiki/dom-7/4.jpg" width="150" class="img-responsive" alt=""/></a>
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/dachnyie-domiki/dom-7/5.jpg"><img src="http://www.kluch585.ru/dachnyie-domiki/dom-7/5.jpg" width="150" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/dachnyie-domiki/dom-7/2.jpg"><img src="/dachnyie-domiki/dom-7/2.jpg" width="150" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/dachnyie-domiki/dom-7/3.jpg"><img src="/dachnyie-domiki/dom-7/3.jpg" width="150" class="img-responsive" alt=""/></a> 
+    <a class="fancybox-thumb" rel="gallery1" href="/dachnyie-domiki/dom-7/4.jpg"><img src="/dachnyie-domiki/dom-7/4.jpg" width="150" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/dachnyie-domiki/dom-7/5.jpg"><img src="/dachnyie-domiki/dom-7/5.jpg" width="150" class="img-responsive" alt=""/></a>
    </div>
     </div>
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12"> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/dachnyie-domiki/dom-7/1.jpg"><img src="http://www.kluch585.ru/dachnyie-domiki/dom-7/1.jpg" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/dachnyie-domiki/dom-7/1.jpg"><img src="/dachnyie-domiki/dom-7/1.jpg" class="img-responsive" alt=""/></a>
     <!--gallery-->  
     <div class="gallery2 visible-sm visible-xs">
-   <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/dachnyie-domiki/dom-7/2.jpg"><img src="http://www.kluch585.ru/dachnyie-domiki/dom-7/2.jpg" width="150" class="img-responsive" alt=""/></a>
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/dachnyie-domiki/dom-7/3.jpg"><img src="http://www.kluch585.ru/dachnyie-domiki/dom-7/3.jpg" width="150" class="img-responsive" alt=""/></a> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/dachnyie-domiki/dom-7/4.jpg"><img src="http://www.kluch585.ru/dachnyie-domiki/dom-7/4.jpg" width="150" class="img-responsive" alt=""/></a>
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/dachnyie-domiki/dom-7/5.jpg"><img src="http://www.kluch585.ru/dachnyie-domiki/dom-7/5.jpg" width="150" class="img-responsive" alt=""/></a>
+   <a class="fancybox-thumb" rel="gallery1" href="/dachnyie-domiki/dom-7/2.jpg"><img src="/dachnyie-domiki/dom-7/2.jpg" width="150" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/dachnyie-domiki/dom-7/3.jpg"><img src="/dachnyie-domiki/dom-7/3.jpg" width="150" class="img-responsive" alt=""/></a> 
+    <a class="fancybox-thumb" rel="gallery1" href="/dachnyie-domiki/dom-7/4.jpg"><img src="/dachnyie-domiki/dom-7/4.jpg" width="150" class="img-responsive" alt=""/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/dachnyie-domiki/dom-7/5.jpg"><img src="/dachnyie-domiki/dom-7/5.jpg" width="150" class="img-responsive" alt=""/></a>
    </div>
 
     </div>

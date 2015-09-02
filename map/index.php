@@ -2,8 +2,8 @@
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Карта'; ?>
-<?php $canonical = 'http://www.kluch585.ru/map/'; ?>
-<?php $footer_block = ' <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script><script src="http://www.kluch585.ru/js/map.js"></script>'; ?>
+<?php $canonical = '/map/'; ?>
+<?php $footer_block = ' <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script><script src="/js/map.js"></script>'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

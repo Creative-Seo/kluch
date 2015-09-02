@@ -1,5 +1,5 @@
-<?php $meta_container = '<link rel="stylesheet" href="http://www.kluch585.ru/css/jquery.fancybox.css"><link rel="stylesheet" href="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="http://www.kluch585.ru/js/jquery.fancybox.js"></script><script src="http://www.kluch585.ru/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.js"></script> 
+<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
+<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
 <script type="text/javascript">
 $(document).ready(function() {
 	$(".fancybox-thumb").fancybox({
@@ -24,7 +24,7 @@ $(document).ready(function() {
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Садовые постройки'; ?>
-<?php $canonical = 'http://www.kluch585.ru/sadovyie-postroyki/'; ?>
+<?php $canonical = '/sadovyie-postroyki/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <style> .img1 img {height: 160px;} .img2 img {height: 230px;}.container .col-md-3 {padding-bottom: 10px;}</style>
 <?php include("../blocks/header.php"); ?>
@@ -40,67 +40,67 @@ $(document).ready(function() {
     <h2>Садовая мебель</h2>
     <div class="row">
     <div class="col-md-3">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/1_1.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/1_1.jpg" class="img-responsive" alt="Скамья"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/1_1.jpg"><img src="/sadovyie-postroyki/1_1.jpg" class="img-responsive" alt="Скамья"/></a>
     </div>
     <div class="col-md-3">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2_1.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2_1.jpg" class="img-responsive" alt="Скамейка"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2_1.jpg"><img src="/sadovyie-postroyki/2_1.jpg" class="img-responsive" alt="Скамейка"/></a>
     </div> 
     <div class="col-md-3">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/3_1.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/3_1.jpg" class="img-responsive" alt="Стол"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/3_1.jpg"><img src="/sadovyie-postroyki/3_1.jpg" class="img-responsive" alt="Стол"/></a>
     </div>
 	</div>
 	<br><p>Стол 70х150см 7500руб., cкамья 150см 2200 р.</p>
     <div class="row">
 	<div class="col-md-3">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220512.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220512.jpg" class="img-responsive" alt="Стол 70х150см"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220512.jpg"><img src="/sadovyie-postroyki/2015220512.jpg" class="img-responsive" alt="Стол 70х150см"/></a>
     </div>
 	<div class="col-md-3">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220513.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220513.jpg" class="img-responsive" alt="Стол 70х150см"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220513.jpg"><img src="/sadovyie-postroyki/2015220513.jpg" class="img-responsive" alt="Стол 70х150см"/></a>
     </div>
 	<div class="col-md-3">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220514.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220514.jpg" class="img-responsive" alt="Скамья 150см"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220514.jpg"><img src="/sadovyie-postroyki/2015220514.jpg" class="img-responsive" alt="Скамья 150см"/></a>
     </div>
 	<div class="col-md-3">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220515.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220515.jpg" class="img-responsive" alt="Скамья 150см"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220515.jpg"><img src="/sadovyie-postroyki/2015220515.jpg" class="img-responsive" alt="Скамья 150см"/></a>
     </div>
 	<div class="col-md-3">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220516.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220516.jpg" class="img-responsive" alt="Стол со скамьей"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220516.jpg"><img src="/sadovyie-postroyki/2015220516.jpg" class="img-responsive" alt="Стол со скамьей"/></a>
     </div>
     </div>
-    <div class="h2"><a href="http://www.kluch585.ru/tualet/">Туалеты</a></div>
+    <div class="h2"><a href="/tualet/">Туалеты</a></div>
     <div class="row img2">
     <div class="col-md-3">
-    <p>Туалет Шалаш 12500 р.</p><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220504.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220504.jpg" class="img-responsive" alt="Туалет Шалаш"/></a>
+    <p>Туалет Шалаш 12500 р.</p><a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220504.jpg"><img src="/sadovyie-postroyki/2015220504.jpg" class="img-responsive" alt="Туалет Шалаш"/></a>
     </div>
     <div class="col-md-3">
-    <p>Туалет Садовый 9500 р.</p><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220503.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220503.jpg" class="img-responsive" alt="Туалет Садовый"/></a>
+    <p>Туалет Садовый 9500 р.</p><a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220503.jpg"><img src="/sadovyie-postroyki/2015220503.jpg" class="img-responsive" alt="Туалет Садовый"/></a>
     </div> 
     <div class="col-md-3">
-    <p>Туалет Мечта 11500 р.</p><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220502.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220502.jpg" class="img-responsive" alt="Туалет Мечта"/></a>
+    <p>Туалет Мечта 11500 р.</p><a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220502.jpg"><img src="/sadovyie-postroyki/2015220502.jpg" class="img-responsive" alt="Туалет Мечта"/></a>
     </div>
     </div>
 	<div class="h2">Хозблок</div>
     <div class="row">
     <div class="col-md-3">
-    <p>Хозблок-туалет 2х1м 19500 р.</p><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220505.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220505.jpg" class="img-responsive" alt="Хозблок"/></a>
+    <p>Хозблок-туалет 2х1м 19500 р.</p><a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220505.jpg"><img src="/sadovyie-postroyki/2015220505.jpg" class="img-responsive" alt="Хозблок"/></a>
     </div>
     <div class="col-md-3">
-    <p>Хозблок 3х1м 27000 р.</p><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220508.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220508.jpg" class="img-responsive" alt="Хозблок"/></a>
+    <p>Хозблок 3х1м 27000 р.</p><a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220508.jpg"><img src="/sadovyie-postroyki/2015220508.jpg" class="img-responsive" alt="Хозблок"/></a>
     </div>
     <div class="col-md-3">
-    <p>Хозблок 3х2м от 35000 р.</p><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220509.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220509.jpg" class="img-responsive" alt="Хозблок"/></a>
+    <p>Хозблок 3х2м от 35000 р.</p><a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220509.jpg"><img src="/sadovyie-postroyki/2015220509.jpg" class="img-responsive" alt="Хозблок"/></a>
     </div>
 	<div class="col-md-3">
-    <p>.</p><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220510.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220510.jpg" class="img-responsive" alt="Хозблок"/></a>
+    <p>.</p><a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220510.jpg"><img src="/sadovyie-postroyki/2015220510.jpg" class="img-responsive" alt="Хозблок"/></a>
     </div>
     <div class="col-md-3">
-    <p>Хозблок 2х2м от 30000 р.</p><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220506.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220506.jpg" class="img-responsive" alt="Хозблок"/></a>
+    <p>Хозблок 2х2м от 30000 р.</p><a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220506.jpg"><img src="/sadovyie-postroyki/2015220506.jpg" class="img-responsive" alt="Хозблок"/></a>
     </div>
 	<div class="col-md-3">
-    <p>.</p><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220507.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220507.jpg" class="img-responsive" alt="Хозблок"/></a>
+    <p>.</p><a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220507.jpg"><img src="/sadovyie-postroyki/2015220507.jpg" class="img-responsive" alt="Хозблок"/></a>
     </div>
     <div class="col-md-3">
-    <p>Хозблок 3х4м из обрезной доски от 60000 р.</p><a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/2015220511.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/2015220511.jpg" class="img-responsive" alt="Хозблок"/></a>
+    <p>Хозблок 3х4м из обрезной доски от 60000 р.</p><a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/2015220511.jpg"><img src="/sadovyie-postroyki/2015220511.jpg" class="img-responsive" alt="Хозблок"/></a>
     </div>
     <div class="col-md-3">
     <p>Хозблок 2х1,5м от 27000 р.</p>
@@ -109,7 +109,7 @@ $(document).ready(function() {
     <h2>Будки для собак</h2>
     <div class="row">
     <div class="col-md-3">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/sadovyie-postroyki/1_3.jpg"><img src="http://www.kluch585.ru/sadovyie-postroyki/1_3.jpg" class="img-responsive" alt="Будка для собак"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/sadovyie-postroyki/1_3.jpg"><img src="/sadovyie-postroyki/1_3.jpg" class="img-responsive" alt="Будка для собак"/></a>
     </div>
     </div>
     <h2>Лестницы деревянные межэтажные</h2>
@@ -118,7 +118,7 @@ $(document).ready(function() {
     <p>При заказе лестниц нужно знать следующие размеры:</p>
     <p>А также ширину лестничного марша.</p>
     <p>Стоимость лестниц начинается от 6000 р. за погонный метр и включает в себя:</p>
-    <img src="http://www.kluch585.ru/sadovyie-postroyki/9.jpg" alt="" class="img-circle cena-block" />
+    <img src="/sadovyie-postroyki/9.jpg" alt="" class="img-circle cena-block" />
     <ol>
       <li>Лестничный марш</li>
       <li>Cтойки и перила с одной стороны.</li>

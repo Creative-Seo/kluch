@@ -11,21 +11,21 @@
 				});
 			});
 </script>
-<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script><script src="http://www.kluch585.ru/js/map.js"></script>
+<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script><script src="/js/map.js"></script>
 '; ?>
 
 <?php $title = 'Строительство домов из бруса под ключ недорого во Владимире, проекты, цены'; ?>
 <?php $description = 'Приоритетное направление работы компании «Ключ 585» — возведение загородных коттеджей, строительство домов из бруса и древесного массива. Мы самостоятельно производим строительные материалы из хвойных пород дерева, поэтому наши клиенты получают возможность купить дом из бруса по минимальной цене'; ?>
 <?php $keywords = 'строительство домов из бруса,проекты домов из бруса,дома из клееного бруса,строительство домов из клееного бруса'; ?>
-<?php $canonical = 'http://www.kluch585.ru'; ?>
+<?php $canonical = ''; ?>
 <?php include("blocks/meta.php"); ?>
 <?php include("blocks/header.php"); ?>
 
 
 <div class="container-fluid">
    <div class="row">
-     <img src="http://www.kluch585.ru/img/1.jpg" alt="" class="img-responsive hidden-xs" style="width:100%">
-     <img src="http://www.kluch585.ru/img/1-1.jpg" alt="" style="width:100%" class="visible-xs img-responsive">
+     <img src="/img/1.jpg" alt="" class="img-responsive hidden-xs" style="width:100%">
+     <img src="/img/1-1.jpg" alt="" style="width:100%" class="visible-xs img-responsive">
    </div>  
 </div>     
       
@@ -47,21 +47,21 @@
 <!--item-->
 <div class="container-fluid plitka">
 
-    <div class="col-md-6 parent"> <a title="Деревянные дома" href="http://www.kluch585.ru/derevyannyie-doma/"><img src="http://www.kluch585.ru/img/brevno.jpg" class="img-responsive" alt="Деревянные дома" title="Деревянные дома"></a>
+    <div class="col-md-6 parent"> <a title="Деревянные дома" href="/derevyannyie-doma/"><img src="/img/brevno.jpg" class="img-responsive" alt="Деревянные дома" title="Деревянные дома"></a>
       <div class="child">
-        <div class="zag1 zagd"><a title="Деревянные дома" href="http://www.kluch585.ru/derevyannyie-doma/">Деревянные дома</a></div>
+        <div class="zag1 zagd"><a title="Деревянные дома" href="/derevyannyie-doma/">Деревянные дома</a></div>
       </div>
     </div>
-    <div class="col-md-6  parent hidden-xs"> <a href="http://www.kluch585.ru/doma-iz-brevna/"><img src="http://www.kluch585.ru/img/brus.jpg" class="img-responsive" alt="Дома из бревна"></a>
+    <div class="col-md-6  parent hidden-xs"> <a href="/doma-iz-brevna/"><img src="/img/brus.jpg" class="img-responsive" alt="Дома из бревна"></a>
       <div class="child">
-        <div class="zag1 zagd"><a href="http://www.kluch585.ru/doma-iz-brevna/">Дома из бревна</a></div>
+        <div class="zag1 zagd"><a href="/doma-iz-brevna/">Дома из бревна</a></div>
       </div>
     </div>
     <div class="col-md-6 parent visible-xs">
       <div class="child2">
-        <div class="zag1 zagd"><a href="http://www.kluch585.ru/bani/" title="Бани">Бани</a></div>
+        <div class="zag1 zagd"><a href="/bani/" title="Бани">Бани</a></div>
       </div>
-      <a href="http://www.kluch585.ru/bani/" title="Бани"> <img src="http://www.kluch585.ru/img/4.jpg" class="img-responsive" alt="Бани"></a> </div>
+      <a href="/bani/" title="Бани"> <img src="/img/4.jpg" class="img-responsive" alt="Бани"></a> </div>
 
 </div>
 <!--item-->
@@ -69,21 +69,21 @@
 <!--item-->
 <div class="container-fluid plitka">
 
-    <div class="col-md-6  parent  visible-xs"> <a href="http://www.kluch585.ru/doma-iz-brevna/"><img src="http://www.kluch585.ru/img/brus.jpg" class="img-responsive" alt=""></a>
+    <div class="col-md-6  parent  visible-xs"> <a href="/doma-iz-brevna/"><img src="/img/brus.jpg" class="img-responsive" alt=""></a>
       <div class="child">
-        <div class="zag1 zagd"><a href="http://www.kluch585.ru/doma-iz-brevna/">Дома из бревна</a></div>
+        <div class="zag1 zagd"><a href="/doma-iz-brevna/">Дома из бревна</a></div>
       </div>
     </div>
     <div class="col-md-6 parent">
       <div class="child2">
-        <div class="zag1 zagd"><a href="http://www.kluch585.ru/dachnyie-domiki/">Дачные домики</a></div>
+        <div class="zag1 zagd"><a href="/dachnyie-domiki/">Дачные домики</a></div>
       </div>
-      <a href="http://www.kluch585.ru/dachnyie-domiki/" title="Дачные домики"><img src="http://www.kluch585.ru/img/3.jpg" class="img-responsive" alt="Дачные домики" title="Дачные домики"></a> </div>
+      <a href="/dachnyie-domiki/" title="Дачные домики"><img src="/img/3.jpg" class="img-responsive" alt="Дачные домики" title="Дачные домики"></a> </div>
     <div class="col-md-6 parent hidden-xs">
       <div class="child2">
-        <div class="zag1 zagd"><a href="http://www.kluch585.ru/bani/" title="Бани">Бани</a></div>
+        <div class="zag1 zagd"><a href="/bani/" title="Бани">Бани</a></div>
       </div>
-      <a href="http://www.kluch585.ru/bani/" title="Бани"> <img title="Бани" src="http://www.kluch585.ru/img/4.jpg" class="img-responsive" alt="Бани"></a> </div>
+      <a href="/bani/" title="Бани"> <img title="Бани" src="/img/4.jpg" class="img-responsive" alt="Бани"></a> </div>
 
 </div>
 <!--item-->
@@ -109,7 +109,7 @@
       <ul>
       	<li>С 1998 года мы производим на собственном предприятии во Владимире изделия из дерева и строительные материалы, поэтому наши дома, дачи и бани - недорогие и качественные.</li>
       	<li>Главное наше достижение - доверие клиентов, завоёванное добросовестной работой и хорошей продукцией.</li>
-      	<li><a href="http://www.kluch585.ru/otzyivyi-pokupateley/">Положительные отзывы</a> - лучшее подтверждение качества нашей работы.</li>
+      	<li><a href="/otzyivyi-pokupateley/">Положительные отзывы</a> - лучшее подтверждение качества нашей работы.</li>
       	<li>Мы можем показать любое сооружение, построенное нами, нам нечего скрывать.</li>
       	<li>Вы успешно вложите свои деньги, т.к. мы гарантируем качество!</li>
         <li>Наши специалисты дадут вам  бесплатные консультации по вопросам процесса строительства и производства продукции.</li>
@@ -180,48 +180,48 @@
 <div class="container-fluid plitka">
 
     <div class="col-md-3  border-left arrow_box4" style="height:100%">
-      <div class="zag1"><a href="http://www.kluch585.ru/brus/">Брус</a></div>
+      <div class="zag1"><a href="/brus/">Брус</a></div>
     </div>
     <div class="col-md-3 border-left arrow_box4">
-      <div class="zag1"><a href="http://www.kluch585.ru/vagonka/">Вагонка</a></div>
+      <div class="zag1"><a href="/vagonka/">Вагонка</a></div>
     </div>
     <div class="col-md-3  border-left arrow_box4">
-      <div class="zag1"><a href="http://www.kluch585.ru/polovaya-doska/">Доска пола</a></div>
+      <div class="zag1"><a href="/polovaya-doska/">Доска пола</a></div>
     </div>
     <div class="col-md-3 border-left arrow_box4">
-      <div class="zag1"><a href="http://www.kluch585.ru/plintus/">Плинтус</a></div>
+      <div class="zag1"><a href="/plintus/">Плинтус</a></div>
     </div>
 
 </div>
 <div class="container-fluid plitka">
 
-    <div class="col-md-3 image-thumb"> <a href="http://www.kluch585.ru/brus/"><img src="http://www.kluch585.ru/img/brusok.jpg" class="img-responsive" alt="Брусок"></a> </div>
-    <div class="col-md-3 image-thumb"> <a href="http://www.kluch585.ru/vagonka/"> <img src="http://www.kluch585.ru/img/vag.jpg" class="img-responsive" alt="Вагонка"></a> </div>
-    <div class="col-md-3 image-thumb"> <a href="http://www.kluch585.ru/polovaya-doska/"><img src="http://www.kluch585.ru/img/pol.jpg" class="img-responsive" alt="Доска пола"></a> </div>
-    <div class="col-md-3 image-thumb"> <a href="http://www.kluch585.ru/plintus/"> <img src="http://www.kluch585.ru/img/pli.jpg" class="img-responsive" alt="Плинтус"></a> </div>
+    <div class="col-md-3 image-thumb"> <a href="/brus/"><img src="/img/brusok.jpg" class="img-responsive" alt="Брусок"></a> </div>
+    <div class="col-md-3 image-thumb"> <a href="/vagonka/"> <img src="/img/vag.jpg" class="img-responsive" alt="Вагонка"></a> </div>
+    <div class="col-md-3 image-thumb"> <a href="/polovaya-doska/"><img src="/img/pol.jpg" class="img-responsive" alt="Доска пола"></a> </div>
+    <div class="col-md-3 image-thumb"> <a href="/plintus/"> <img src="/img/pli.jpg" class="img-responsive" alt="Плинтус"></a> </div>
 
 </div>
 <div class="container-fluid plitka">
 
-    <div class="col-md-3 image-thumb"> <a href="http://www.kluch585.ru/doska-obreznaya/"><img src="http://www.kluch585.ru/img/obr.jpg" class="img-responsive" alt="ДОСКА ОБРЕЗНАЯ"></a> </div>
-    <div class="col-md-3 image-thumb"> <a href="http://www.kluch585.ru/blok-khaus/"> <img src="http://www.kluch585.ru/img/bl.jpg" class="img-responsive" alt="БЛОК-ХАУС"></a> </div>
-    <div class="col-md-3 image-thumb"> <a href="http://www.kluch585.ru/nalichniki/"><img src="http://www.kluch585.ru/img/nal.jpg" class="img-responsive" alt="НАЛИЧНИК"></a> </div>
-    <div class="col-md-3 image-thumb"> <a href="#"> <img src="http://www.kluch585.ru/img/pli.jpg" class="img-responsive" alt=""></a> </div>
+    <div class="col-md-3 image-thumb"> <a href="/doska-obreznaya/"><img src="/img/obr.jpg" class="img-responsive" alt="ДОСКА ОБРЕЗНАЯ"></a> </div>
+    <div class="col-md-3 image-thumb"> <a href="/blok-khaus/"> <img src="/img/bl.jpg" class="img-responsive" alt="БЛОК-ХАУС"></a> </div>
+    <div class="col-md-3 image-thumb"> <a href="/nalichniki/"><img src="/img/nal.jpg" class="img-responsive" alt="НАЛИЧНИК"></a> </div>
+    <div class="col-md-3 image-thumb"> <a href="#"> <img src="/img/pli.jpg" class="img-responsive" alt=""></a> </div>
 
 </div>
 <div class="container-fluid plitka">
 
     <div class="col-md-3 arrow_box5" style="height:100%">
-      <div class="zag1"><a href="http://www.kluch585.ru/doska-obreznaya/">Доска обрезная</a></div>
+      <div class="zag1"><a href="/doska-obreznaya/">Доска обрезная</a></div>
     </div>
     <div class="col-md-3 arrow_box5">
-      <div class="zag1"><a href="http://www.kluch585.ru/blok-khaus/">Блок-хаус</a></div>
+      <div class="zag1"><a href="/blok-khaus/">Блок-хаус</a></div>
     </div>
     <div class="col-md-3  arrow_box5">
-      <div class="zag1"><a href="http://www.kluch585.ru/nalichniki/">Наличник</a></div>
+      <div class="zag1"><a href="/nalichniki/">Наличник</a></div>
     </div>
     <div class="col-md-3  arrow_box5">
-      <div class="zag1"><a href="http://www.kluch585.ru/plintus/">Плинтус</a></div>
+      <div class="zag1"><a href="/plintus/">Плинтус</a></div>
     </div>
 
 </div>

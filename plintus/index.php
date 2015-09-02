@@ -2,7 +2,7 @@
 <?php $description = 'Предлагаем купить плинтус деревянный во Владимире по доступной цене от производителя, акции, скидки'; ?>
 <?php $keywords = 'Плинтус сращенный'; ?>
 <?php $breadcrumb = 'Плинтус сращенный'; ?>
-<?php $canonical = 'http://www.kluch585.ru/plintus/'; ?>
+<?php $canonical = '/plintus/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

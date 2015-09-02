@@ -2,9 +2,9 @@
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb2 = 'Беседки'; ?>
-<?php $breadcrumb2_url = 'http://www.kluch585.ru/besedki/'; ?>
+<?php $breadcrumb2_url = '/besedki/'; ?>
 <?php $breadcrumb = 'Беседка из бруса'; ?>
-<?php $canonical = 'http://www.kluch585.ru/besedki/garmoniya/'; ?>
+<?php $canonical = '/besedki/garmoniya/'; ?>
 <?php include("../../blocks/meta.php"); ?>
 <?php include("../../blocks/header.php"); ?>
 <?php include("../../blocks/breadcrumbs.php"); ?>
@@ -14,8 +14,8 @@
     <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" style="padding:0"> 
        </div>
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12"> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/besedki/besedka-iz-brusa/besedka-iz-brusa.jpg">
-		<img src="http://www.kluch585.ru/besedki/besedka-iz-brusa/besedka-iz-brusa.jpg" class="img-responsive" alt="Беседка из бруса"/></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/besedki/besedka-iz-brusa/besedka-iz-brusa.jpg">
+		<img src="/besedki/besedka-iz-brusa/besedka-iz-brusa.jpg" class="img-responsive" alt="Беседка из бруса"/></a>
     <!--gallery-->  
 
    </div>
@@ -65,17 +65,17 @@
         
          <div class="gallery2">
 <?php for ($i=1;$i<=17;$i++) { ?>
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/besedka-iz-brusa/besedka-iz-brusa<?php echo $i;?>.jpg" title="Беседка из бруса <?php echo $i;?>">
-	<img src="http://www.kluch585.ru/besedki/besedka-iz-brusa/besedka-iz-brusa<?php echo $i;?>.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
+    <a class="fancybox-thumb2" rel="gallery1" href="/besedki/besedka-iz-brusa/besedka-iz-brusa<?php echo $i;?>.jpg" title="Беседка из бруса <?php echo $i;?>">
+	<img src="/besedki/besedka-iz-brusa/besedka-iz-brusa<?php echo $i;?>.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
 <?php } ?>
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/besedka-iz-brusa/besedka-dlya-sada.jpg" title="Беседка для сада">
-		<img src="http://www.kluch585.ru/besedki/besedka-iz-brusa/besedka-dlya-sada.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/besedka-iz-brusa/besedka-gril.jpg" title="Беседка гриль">
-		<img src="http://www.kluch585.ru/besedki/besedka-iz-brusa/besedka-gril.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/besedka-iz-brusa/besedka-romantika.jpg" title="Беседка Романтика">
-		<img src="http://www.kluch585.ru/besedki/besedka-iz-brusa/besedka-romantika.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/besedka-iz-brusa/besedka-s-kuhney.jpg" title="Беседка с кухней">
-		<img src="http://www.kluch585.ru/besedki/besedka-iz-brusa/besedka-s-kuhney.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
+    <a class="fancybox-thumb2" rel="gallery1" href="/besedki/besedka-iz-brusa/besedka-dlya-sada.jpg" title="Беседка для сада">
+		<img src="/besedki/besedka-iz-brusa/besedka-dlya-sada.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
+    <a class="fancybox-thumb2" rel="gallery1" href="/besedki/besedka-iz-brusa/besedka-gril.jpg" title="Беседка гриль">
+		<img src="/besedki/besedka-iz-brusa/besedka-gril.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
+    <a class="fancybox-thumb2" rel="gallery1" href="/besedki/besedka-iz-brusa/besedka-romantika.jpg" title="Беседка Романтика">
+		<img src="/besedki/besedka-iz-brusa/besedka-romantika.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
+    <a class="fancybox-thumb2" rel="gallery1" href="/besedki/besedka-iz-brusa/besedka-s-kuhney.jpg" title="Беседка с кухней">
+		<img src="/besedki/besedka-iz-brusa/besedka-s-kuhney.jpg" width="150" class="img-responsive" alt="<?php echo $title; ?>"/></a>
        </div>
         
         

@@ -2,7 +2,7 @@
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'О нас'; ?>
-<?php $canonical = 'http://www.kluch585.ru/o-nas/'; ?>
+<?php $canonical = '/o-nas/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>
@@ -30,7 +30,7 @@
        <li>- Мы предложим оптимальный вариант сооружения, где цена будет выгодно сочетаться с надёжностью и качеством;</li>
        <li>- Наши клиенты экономят на посредниках, а не на качестве материала квалификации работников.</li>
     </ul>
-    <a href="http://www.kluch585.ru/nashe-proizvodstvo/">Фотографии нашего производства</a>
+    <a href="/nashe-proizvodstvo/">Фотографии нашего производства</a>
   </div>
 </div>    
 

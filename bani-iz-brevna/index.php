@@ -2,7 +2,7 @@
 <?php $description = 'Строительство срубов бань из оцилиндрованного бревна под ключ во Владимире. Вы можете доверить нам возведение постройки на любой стадии'; ?>
 <?php $keywords = 'Бани из бревна, оцилиндрованное, цены, под ключ, недорого, проекты'; ?>
 <?php $breadcrumb = 'Бани из бревна'; ?>
-<?php $canonical = 'http://www.kluch585.ru/bani-iz-brevna/'; ?>
+<?php $canonical = '/bani-iz-brevna/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

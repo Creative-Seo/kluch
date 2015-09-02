@@ -2,7 +2,7 @@
 <?php $description = 'Предлагаем купить каркасные бан иво Владимире. Посмотреть цены строительства под ключ можно на сайте. В наличии готовые проекты с мансардой на дачу'; ?>
 <?php $keywords = 'каркасные бани, строительство каркасной бани, проекты каркасных бань'; ?>
 <?php $breadcrumb = 'Каркасные бани'; ?>
-<?php $canonical = 'http://www.kluch585.ru/karkasnye-bani/'; ?>
+<?php $canonical = '/karkasnye-bani/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

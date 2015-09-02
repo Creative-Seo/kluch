@@ -2,7 +2,7 @@
 <?php $description = 'Изготовление срубов во Владимирской области под ключ из строганного и оцилиндрованного бревна, бруса. Фотогалерея объектов. Цены. Проекты.'; ?>
 <?php $keywords = 'продажа срубов, сруб, бани, срубы домов, купить, заказ, строительство'; ?>
 <?php $breadcrumb = 'Срубы'; ?>
-<?php $canonical = 'http://www.kluch585.ru/sruby/'; ?>
+<?php $canonical = '/sruby/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

@@ -2,7 +2,7 @@
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Дома из клееного бруса'; ?>
-<?php $canonical = 'http://www.kluch585.ru/doma-iz-kleenogo-brusa/'; ?>
+<?php $canonical = '/doma-iz-kleenogo-brusa/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

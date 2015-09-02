@@ -2,7 +2,7 @@
 <?php $description = 'Продажа и доставка пиломатериалов во Владимире от производителя по доступной цене. Брус, доска обрезная, рейка, вагонка'; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Пиломатериалы'; ?>
-<?php $canonical = 'http://www.kluch585.ru/pilomaterialyi/'; ?>
+<?php $canonical = '/pilomaterialyi/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

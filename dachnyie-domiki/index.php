@@ -1,5 +1,5 @@
-<?php $meta_container = '<link rel="stylesheet" href="http://www.kluch585.ru/css/jquery.fancybox.css"><link rel="stylesheet" href="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="http://www.kluch585.ru/js/jquery.fancybox.js"></script><script src="http://www.kluch585.ru/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.js"></script> 
+<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
+<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
 <script type="text/javascript">
 $(document).ready(function() {
 	$(".fancybox-thumb").fancybox({
@@ -24,7 +24,7 @@ $(document).ready(function() {
 <?php $description = 'Предлагаем дачные дома и домики с типовыми готовыми проектами построить под ключ во Владимире и области: только качественное строительство дач по доступным ценам'; ?>
 <?php $keywords = 'дачные дома,дачные домики фото,дачные домики цены,дачные домики на заказ,дачные дома из бруса,проекты дачных домов,дачные домики,строительство дач'; ?>
 <?php $breadcrumb = 'Дачные дома'; ?>
-<?php $canonical = 'http://www.kluch585.ru/dachnyie-domiki/'; ?>
+<?php $canonical = '/dachnyie-domiki/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 
@@ -157,15 +157,15 @@ $x=0;
 while ($x++<9){ echo'
     <div class="grid">
 <div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/dachnyie-domiki/foto/dachnyy-dom-'; echo $x; echo '.jpg">
+    <a class="fancybox-thumb" rel="gallery1" href="/dachnyie-domiki/foto/dachnyy-dom-'; echo $x; echo '.jpg">
 	<figure class=" animated zoomIn">	
-	<img src="http://www.kluch585.ru/dachnyie-domiki/foto/dachnyy-dom-'; echo $x; echo '.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
+	<img src="/dachnyie-domiki/foto/dachnyy-dom-'; echo $x; echo '.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
 	</figure></a></div></div>
     ';}
 
 ?>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-<a style="font-size: 22px" href="http://www.kluch585.ru/dachnyie-domiki/foto/">Посмотреть все фотографии</a>  
+<a style="font-size: 22px" href="/dachnyie-domiki/foto/">Посмотреть все фотографии</a>  
 </div>  
 </div>     
     </div>

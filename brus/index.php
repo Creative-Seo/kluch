@@ -2,7 +2,7 @@
 <?php $description = 'Ключ 585 предлагает купить брус собственного производства во Владимире по доступной цене'; ?>
 <?php $keywords = 'брус деревянный, цена'; ?>
 <?php $breadcrumb = 'Брус'; ?>
-<?php $canonical = 'http://www.kluch585.ru/brus/'; ?>
+<?php $canonical = '/brus/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

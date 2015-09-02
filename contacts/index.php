@@ -2,7 +2,7 @@
 <?php $description = 'Контакты - Строительная компания «Ключ 585»'; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Контакты'; ?>
-<?php $canonical = 'http://www.kluch585.ru/contacts/'; ?>
+<?php $canonical = '/contacts/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>
@@ -245,7 +245,7 @@ function init(){
     });
 
     var html  = '<div class="popup">';
-        html +=     '<img src="http://www.kluch585.ru/img/ofis.jpg" alt="" width="200" />';
+        html +=     '<img src="/img/ofis.jpg" alt="" width="200" />';
         html +=     '<div class="popup-text">';
         html +=         '<span>Ключ 585</span><br>';
         html +=         '<span>ул. Лакина, д 4</span>';
@@ -259,7 +259,7 @@ function init(){
           balloonContent: html
         },
         { iconLayout: 'default#image',
-          iconImageHref: 'http://www.kluch585.ru/img/metka.png',
+          iconImageHref: '/img/metka.png',
           iconImageSize: [120, 120],
           iconImageOffset: [-58, -118],
 
@@ -311,7 +311,7 @@ function init(){
           balloonContent: html
         },
         { iconLayout: 'default#image',
-          iconImageHref: 'http://www.kluch585.ru/img/metka.png',
+          iconImageHref: '/img/metka.png',
           iconImageSize: [120, 120],
           iconImageOffset: [-58, -118],
 

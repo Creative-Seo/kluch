@@ -1,5 +1,5 @@
-<?php $meta_container = '<link rel="stylesheet" href="http://www.kluch585.ru/css/jquery.fancybox.css"><link rel="stylesheet" href="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="http://www.kluch585.ru/js/jquery.fancybox.js"></script><script src="http://www.kluch585.ru/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.js"></script> 
+<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
+<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
 <script type="text/javascript">
 $(document).ready(function() {
 	$(".fancybox-thumb").fancybox({
@@ -41,9 +41,9 @@ $(document).ready(function() {
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb2 = 'Беседки'; ?>
-<?php $breadcrumb2_url = 'http://www.kluch585.ru/besedki/'; ?>
+<?php $breadcrumb2_url = '/besedki/'; ?>
 <?php $breadcrumb = 'Беседка Сруб'; ?>
-<?php $canonical = 'http://www.kluch585.ru/besedki/srub/'; ?>
+<?php $canonical = '/besedki/srub/'; ?>
 <?php include("../../blocks/meta.php"); ?>
 <?php include("../../blocks/header.php"); ?>
 <?php include("../../blocks/breadcrumbs.php"); ?>
@@ -53,7 +53,7 @@ $(document).ready(function() {
     <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" style="padding:0"> 
        </div>
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12"> 
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/besedki/srub/srub1.jpg"><img src="http://www.kluch585.ru/besedki/srub/srub1.jpg" class="img-responsive" alt="Беседка Сруб" width="600" /></a>
+    <a class="fancybox-thumb" rel="gallery1" href="/besedki/srub/srub1.jpg"><img src="/besedki/srub/srub1.jpg" class="img-responsive" alt="Беседка Сруб" width="600" /></a>
     <!--gallery-->  
 
    </div>
@@ -105,10 +105,10 @@ $(document).ready(function() {
         
         <div class="gallery2">
     
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/srub/besedka-s-pechkoy.jpg"><img src="http://www.kluch585.ru/besedki/srub/besedka-s-pechkoy.jpg" width="150" class="img-responsive" alt="беседка с печкой"/></a> 
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/srub/besedka-s-pechkoy2.jpg"><img src="http://www.kluch585.ru/besedki/srub/besedka-s-pechkoy2.jpg" width="150" class="img-responsive" alt="беседка с печкой"/></a> 
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/srub/besedka-srub-iz-brevna.jpg"><img src="http://www.kluch585.ru/besedki/srub/besedka-srub-iz-brevna.jpg" width="150" class="img-responsive" alt="Беседка сруб из оцилиндрованного бревна"/></a> 
-    <a class="fancybox-thumb2" rel="gallery1" href="http://www.kluch585.ru/besedki/srub/besedka-srub.jpg"><img src="http://www.kluch585.ru/besedki/srub/besedka-srub.jpg" width="150" class="img-responsive" alt="Беседка сруб"/></a> 
+    <a class="fancybox-thumb2" rel="gallery1" href="/besedki/srub/besedka-s-pechkoy.jpg"><img src="/besedki/srub/besedka-s-pechkoy.jpg" width="150" class="img-responsive" alt="беседка с печкой"/></a> 
+    <a class="fancybox-thumb2" rel="gallery1" href="/besedki/srub/besedka-s-pechkoy2.jpg"><img src="/besedki/srub/besedka-s-pechkoy2.jpg" width="150" class="img-responsive" alt="беседка с печкой"/></a> 
+    <a class="fancybox-thumb2" rel="gallery1" href="/besedki/srub/besedka-srub-iz-brevna.jpg"><img src="/besedki/srub/besedka-srub-iz-brevna.jpg" width="150" class="img-responsive" alt="Беседка сруб из оцилиндрованного бревна"/></a> 
+    <a class="fancybox-thumb2" rel="gallery1" href="/besedki/srub/besedka-srub.jpg"><img src="/besedki/srub/besedka-srub.jpg" width="150" class="img-responsive" alt="Беседка сруб"/></a> 
     </div>
         
      </div>   

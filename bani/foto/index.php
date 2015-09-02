@@ -1,5 +1,5 @@
-<?php $meta_container = '<link rel="stylesheet" href="http://www.kluch585.ru/css/jquery.fancybox.css"><link rel="stylesheet" href="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="http://www.kluch585.ru/js/jquery.fancybox.js"></script><script src="http://www.kluch585.ru/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.js"></script> 
+<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
+<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
 <script type="text/javascript">
 $(document).ready(function() {
 	$(".fancybox-thumb").fancybox({
@@ -42,8 +42,8 @@ $(document).ready(function() {
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Фото бань'; ?>
 <?php $breadcrumb2 = 'Бани'; ?>
-<?php $breadcrumb2_url = 'http://www.kluch585.ru/bani/'; ?>
-<?php $canonical = 'http://www.kluch585.ru/bani/foto/'; ?>
+<?php $breadcrumb2_url = '/bani/'; ?>
+<?php $canonical = '/bani/foto/'; ?>
 <?php include("../../blocks/meta.php"); ?>
 <?php include("../../blocks/header.php"); ?>
 <?php include("../../blocks/breadcrumbs.php"); ?>
@@ -58,9 +58,9 @@ $x=0;
 while ($x++<43){ echo'
     <div class="grid">
 <div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="http://www.kluch585.ru/bani/foto/banya-'; echo $x; echo '.jpg">
+    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-'; echo $x; echo '.jpg">
 	<figure class=" animated zoomIn">	
-	<img src="http://www.kluch585.ru/bani/foto/banya-'; echo $x; echo '.jpg" class="img-responsive" alt="Баня - Ключ 585"/>
+	<img src="/bani/foto/banya-'; echo $x; echo '.jpg" class="img-responsive" alt="Баня - Ключ 585"/>
 	</figure></a></div></div>
     ';}
 

@@ -2,7 +2,7 @@
 <?php $description = 'Качественная деревянная вагонка во Владимире от прозводителя. Цена от 200 рублей за квадратный метр'; ?>
 <?php $keywords = 'вагонка деревянная, цена'; ?>
 <?php $breadcrumb = 'Вагонка'; ?>
-<?php $canonical = 'http://www.kluch585.ru/vagonka/'; ?>
+<?php $canonical = '/vagonka/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>

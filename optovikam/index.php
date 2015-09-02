@@ -1,5 +1,5 @@
-<?php $meta_container = '<link rel="stylesheet" href="http://www.kluch585.ru/css/jquery.fancybox.css"><link rel="stylesheet" href="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="http://www.kluch585.ru/js/jquery.fancybox.js"></script><script src="http://www.kluch585.ru/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="http://www.kluch585.ru/js/helpers/jquery.fancybox-thumbs.js"></script> 
+<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
+<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
 <script type="text/javascript">
 $(document).ready(function() {
 	$(".fancybox-thumb").fancybox({
@@ -41,7 +41,7 @@ $(document).ready(function() {
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Оптовикам'; ?>
-<?php $canonical = 'http://www.kluch585.ru/optovikam/'; ?>
+<?php $canonical = '/optovikam/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>
@@ -49,7 +49,7 @@ $(document).ready(function() {
 <div class="container">
   <div class="row">
     <h1>Для оптовых покупателей</h1>
-    <a href="http://www.kluch585.ru/derevyannyy-pogonazh/" style="padding:10px 0;">Деревянный погонаж оптом</a>
+    <a href="/derevyannyy-pogonazh/" style="padding:10px 0;">Деревянный погонаж оптом</a>
     <p>Основным направлением нашей деятельности является производство погонажных изделий для 
 отделки домов, бань, дачных домиков. Мы предлагаем выгодные условия сотрудничества для 
 строительных магазинов, багетных мастерских, рынков, сетевых гипермаркетов.</p>

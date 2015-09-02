@@ -2,7 +2,7 @@
 <?php $description = 'Предлагаем обрезную доску от производителя во Владимире! Высочайшее качество продукции, приятная цена от 6200 руб и оперативная доставка!'; ?>
 <?php $keywords = 'доска обрезная, обрезная доска, доска обрезная цена, доска обрезная брус, доска обрезная лиственница, доска обрезная сухая, доска обрезная стоимость'; ?>
 <?php $breadcrumb = 'Доска обрезная'; ?>
-<?php $canonical = 'http://www.kluch585.ru/doska-obreznaya/'; ?>
+<?php $canonical = '/doska-obreznaya/'; ?>
 <?php include("../blocks/meta.php"); ?>
 <?php include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>
