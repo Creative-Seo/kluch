@@ -15,7 +15,7 @@
        <li><a href="http://www.kluch585.ru/prays-list/prays-na-DEREVYANNYIE-DOMA-1.pdf" target="_blank">Прайс на деревянные дома для ПМЖ (pdf)</a></li>
        <li><a href="http://www.kluch585.ru/prays-list/prays-na-dachnye-doma.pdf" target="_blank">Прайс на дачные домики (pdf)</a></li>
        <li><a href="http://www.kluch585.ru/prays-list/PRAYS-NA-BESEDKI1.pdf" target="_blank">Прайс на беседки (pdf)</a></li>
-       <li><a href="http://www.kluch585.ru/prays-list/PILOMATERIALYI-prays-30.04.15.pdf" target="_blank">Прайс на пиломатериалы (pdf)</a></li>
+       <li><a href="http://www.kluch585.ru/prays-list/PILOMATERIALYI-prays.pdf" target="_blank">Прайс на пиломатериалы (pdf)</a></li>
        <li><a href="http://www.kluch585.ru/prays-list/prays-na-bani-iz-brusa.xlsx" target="_blank">Прайс на бани из бруса (excel)</a></li>
        <li><a href="http://www.kluch585.ru/prays-list/prays-na-bani-iz-ocilindrovannogo-brevna.xlsx" target="_blank">Прайс на бани из оцилиндрованного бревна (excel)</a></li>
        <li><a href="http://www.kluch585.ru/prays-list/prays-na-reyku-dlya-podramnika.pdf" target="_blank">Прайс на рейку для подрамника (pdf)</a></li>
