@@ -179,7 +179,7 @@
 <div class="border"></div>
 <div class="container-fluid plitka">
 
-    <div class="col-md-3  border-left arrow_box4" style="height:100%">
+    <div class="col-md-3  border-left arrow_box4">
       <div class="zag1"><a href="/brus/">Брус</a></div>
     </div>
     <div class="col-md-3 border-left arrow_box4">
@@ -195,23 +195,23 @@
 </div>
 <div class="container-fluid plitka">
 
-    <div class="col-md-3 image-thumb"> <a href="/brus/"><img src="/img/brusok.jpg" class="img-responsive" alt="Брусок"></a> </div>
-    <div class="col-md-3 image-thumb"> <a href="/vagonka/"> <img src="/img/vag.jpg" class="img-responsive" alt="Вагонка"></a> </div>
-    <div class="col-md-3 image-thumb"> <a href="/polovaya-doska/"><img src="/img/pol.jpg" class="img-responsive" alt="Доска пола"></a> </div>
-    <div class="col-md-3 image-thumb"> <a href="/plintus/"> <img src="/img/pli.jpg" class="img-responsive" alt="Плинтус"></a> </div>
+    <div class="col-sm-6 col-md-3 image-thumb"> <a href="/brus/"><img src="/img/brusok.jpg" class="img-responsive" alt="Брусок"></a> </div>
+    <div class="col-sm-6 col-md-3 image-thumb"> <a href="/vagonka/"> <img src="/img/vag.jpg" class="img-responsive" alt="Вагонка"></a> </div>
+    <div class="col-sm-6 col-md-3 image-thumb"> <a href="/polovaya-doska/"><img src="/img/pol.jpg" class="img-responsive" alt="Доска пола"></a> </div>
+    <div class="col-sm-6 col-md-3 image-thumb"> <a href="/plintus/"> <img src="/img/pli.jpg" class="img-responsive" alt="Плинтус"></a> </div>
 
 </div>
 <div class="container-fluid plitka">
 
-    <div class="col-md-3 image-thumb"> <a href="/doska-obreznaya/"><img src="/img/obr.jpg" class="img-responsive" alt="ДОСКА ОБРЕЗНАЯ"></a> </div>
-    <div class="col-md-3 image-thumb"> <a href="/blok-khaus/"> <img src="/img/bl.jpg" class="img-responsive" alt="БЛОК-ХАУС"></a> </div>
-    <div class="col-md-3 image-thumb"> <a href="/nalichniki/"><img src="/img/nal.jpg" class="img-responsive" alt="НАЛИЧНИК"></a> </div>
-    <div class="col-md-3 image-thumb"> <a href="#"> <img src="/img/pli.jpg" class="img-responsive" alt=""></a> </div>
+    <div class="col-sm-6 col-md-3 image-thumb"> <a href="/doska-obreznaya/"><img src="/img/obr.jpg" class="img-responsive" alt="ДОСКА ОБРЕЗНАЯ"></a> </div>
+    <div class="col-sm-6 col-md-3 image-thumb"> <a href="/blok-khaus/"> <img src="/img/bl.jpg" class="img-responsive" alt="БЛОК-ХАУС"></a> </div>
+    <div class="col-sm-6 col-md-3 image-thumb"> <a href="/nalichniki/"><img src="/img/nal.jpg" class="img-responsive" alt="НАЛИЧНИК"></a> </div>
+    <div class="col-sm-6 col-md-3 image-thumb"> <a href="#"> <img src="/img/pli.jpg" class="img-responsive" alt=""></a> </div>
 
 </div>
 <div class="container-fluid plitka">
 
-    <div class="col-md-3 arrow_box5" style="height:100%">
+    <div class="col-md-3 arrow_box5">
       <div class="zag1"><a href="/doska-obreznaya/">Доска обрезная</a></div>
     </div>
     <div class="col-md-3 arrow_box5">

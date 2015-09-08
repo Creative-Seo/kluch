@@ -74,9 +74,6 @@ article p{text-indent:15px}
 .zag{margin-left:auto;margin-right:auto}
 }
 
-
-
-
 .likeh2{font-size:24px;padding-bottom:20px}
 .cont i{vertical-align:middle;margin-right:5px}
 .cont .cont2{margin-top:10px}
@@ -280,3 +277,40 @@ table{background-color:transparent;border-collapse:collapse;border-spacing:0;max
     margin-top: 5px;
 }
 .col-xs-12>p{padding-top:1em;}
+
+.cd-primary-nav, .cd-primary-nav ul {
+    position: inherit;
+    top: auto;
+}
+.nav-is-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+@media only screen and (min-width: 1171px){
+	.cd-primary-nav {
+		padding: 0 0 0 0;
+		position: static;
+		margin: auto;
+		height: auto;
+		width: auto;
+		overflow: visible;
+		background: transparent;
+	}
+}
+@media only screen and (max-width: 1170px){
+.nav-is-fixed {
+    visibility: hidden;
+    -webkit-transition: visibility 0s 0.3s;
+    -moz-transition: visibility 0s 0.3s;
+    transition: visibility 0s 0.3s;
+}
+.cd-main-header {
+    min-height: 50px;
+}
+.cd-primary-nav, .cd-primary-nav ul {
+    position: fixed;
+    top: 0;
+}
+}
+.cd-main-content {background:#003685;}

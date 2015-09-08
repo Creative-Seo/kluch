@@ -25,36 +25,36 @@ $(document).ready(function() {
 <?php $keywords = 'дачные дома,дачные домики фото,дачные домики цены,дачные домики на заказ,дачные дома из бруса,проекты дачных домов,дачные домики,строительство дач'; ?>
 <?php $breadcrumb = 'Дачные дома'; ?>
 <?php $canonical = '/dachnyie-domiki/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = "../";
+include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container" itemtype="http://schema.org/ItemList" itemscope>
   <h1>Дачные дома из бруса</h1>
   <div class="row">
     
      <!--col-md-6-->
-     <?php include("../dachnyie-domiki/dom-1/param.php"); ?>
-     <?php include("../blocks/block-proekt.php"); ?>
+     <?php include($root."dachnyie-domiki/dom-1/param.php"); ?>
+     <?php include($root."blocks/block-proekt.php"); ?>
      
    
     <!--col-md-6-->
-    <?php include("../dachnyie-domiki/dom-2-s-navesom/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."dachnyie-domiki/dom-2-s-navesom/param.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
  
     <!--col-md-6--> 
     <!--col-md-6-->
-    <?php include("../dachnyie-domiki/dom-3/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."dachnyie-domiki/dom-3/param.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
   
     <!--col-md-6-->
     <!--col-md-6-->
-    <?php include("../dachnyie-domiki/dom-4/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."dachnyie-domiki/dom-4/param.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
    
     <!--col-md-6-->
-    
+<?php $cena_ot = 'цена под ключ '; ?>
     <!--col-md-6-->
     <?php include("../dachnyie-domiki/dom-5/param.php"); ?>
     <?php include("../blocks/block-proekt.php"); ?>
@@ -170,4 +170,4 @@ while ($x++<9){ echo'
 </div>     
     </div>
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

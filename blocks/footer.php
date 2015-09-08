@@ -1,4 +1,4 @@
-<?php include("/blocks/callback.php"); ?>
+<?php include($root."blocks/callback.php"); ?>
 
 <footer style="margin-top:15px">
   <div class="container">

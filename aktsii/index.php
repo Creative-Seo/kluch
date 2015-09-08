@@ -25,13 +25,22 @@ $(document).ready(function() {
 <?php $keywords = 'акции,скидки,спецпредложения'; ?>
 <?php $breadcrumb = 'Акции'; ?>
 <?php $canonical = '/aktsii/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
+<?php $root='../';
+include("../blocks/meta.php");
+include("../blocks/header.php"); ?>
 <?php include("../blocks/breadcrumbs.php"); ?>
 
 <div class="container">
     <h1>Акции</h1>
     <p>Для посетителей нашего сайта мы предлагаем специальные акции.</p>
+	
+	<h3>Попади в яблочко</h3>
+    <p>У нас стартует новая акция "Попади в яблочко!" До 10.10.15 на первые 10 домов скидка 10%. Умное вложение денег!</p>
+	<a href="/dachnyie-domiki/"><img src="/aktsii/ezhik-s-yablokom.jpg" width="300px" alt="Попади в яблочко"/></a>
+
+	<h3>Дачный дом №8</h3>
+	<p>Выгодное СПЕЦПРЕДЛОЖЕНИЕ - Дачный дом №8  6х4м с мансардой и верандой с полной отделкой 1 этажа всего <nobr>за 258 000 руб.</nobr></p>
+	<a href="/dachnyie-domiki/dom-8/"><img width="300px" src="/aktsii/dachnyy-dom-8.jpg" alt="Дачный дом №8"></a>
 	
 	<h3>Подарок на выбор</h3>
     <p>При заказе строительства дачного дома или деревянного дома мы дарим подарки на выбор:</p>
