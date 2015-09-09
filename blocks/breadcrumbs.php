@@ -5,7 +5,11 @@
 </a>-->
 <a class="pull-right col-sm-6 col-lg-5" href="/dachnyie-domiki/" style="text-decoration:none; background-color: #fff; margin: 10px; padding:5px; border: 1px solid #dd4041;">
 	<img class="col-xs-4 img-responsive" src="/aktsii/ezhik-s-yablokom.jpg" alt="Попади в яблочко">
-	<p class="col-xs-8"><span style="color: #dd4041;">Акция "Попади в яблочко!"</span> - До 10.10.15 на первые 10 домов скидка 10%. Умное вложение денег!</p>
+	<div class="col-xs-8">
+		<p><span style="color: #dd4041;">Акция "Попади в яблочко!"</span> - До 10.10.15 первым 10 клиентам дома со скидкой 10%. Умное вложение денег!</p>
+		<p>Осталось <span style="color: #dd4041;">9</span> домов</p>
+		<p id="timer"> </p>
+	</div>
 </a>
 <?php } ?>
 <!--Breadcrumbs-->
