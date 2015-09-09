@@ -1,4 +1,16 @@
+//timer
+function time(g,m,d) {
+	timeend= new Date(g,m-1,d);
+//	timeend= new Date(timeend.getYear()>1900?(timeend.getYear()+1):(timeend.getYear()+1901),0,1);
+    today = new Date();
+    today = Math.floor((timeend-today)/(1000*24*60*60));
+    return today;
+}
+
 $(document).ready(function(){
+$('.carousel').carousel()
+	var timer=time(2015,10,10)+1;
+	if (timer>0) {$("#timer").text('Осталось '+timer+' дней.');} else {$("#timer").text('Акция закончилась!');}
 	$(function($){
 	   $("#tel").mask("+7 (999) 999-9999");
 	});

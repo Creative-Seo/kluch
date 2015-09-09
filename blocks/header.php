@@ -35,5 +35,3 @@
 </header>
 
 <?php include($root.'/blocks/navbar.php');?>
-
-<a href="#" class="scrollUpButton"><i class="fa fa-chevron-up fa-2x"></i></a>

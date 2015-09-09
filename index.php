@@ -1,19 +1,3 @@
-<?php $footer_block = '<script src="js/slippry.min.js"></script>
-<script>
-			$(function() {
-				var demo1 = $("#demo1").slippry({
-					transition: \'fade\',
-					useCSS: true,
-					speed: 1000,
-					pause: 30000,
-					auto: true,
-					preload: \'visible\'
-				});
-			});
-</script>
-<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script><script src="/js/map.js"></script>
-'; ?>
-
 <?php $title = 'Строительство домов из бруса под ключ недорого во Владимире, проекты, цены'; ?>
 <?php $description = 'Приоритетное направление работы компании «Ключ 585» — возведение загородных коттеджей, строительство домов из бруса и древесного массива. Мы самостоятельно производим строительные материалы из хвойных пород дерева, поэтому наши клиенты получают возможность купить дом из бруса по минимальной цене'; ?>
 <?php $keywords = 'строительство домов из бруса,проекты домов из бруса,дома из клееного бруса,строительство домов из клееного бруса'; ?>
@@ -21,15 +5,36 @@
 <?php include("blocks/meta.php"); ?>
 <?php include("blocks/header.php"); ?>
 
-
-<div class="container-fluid">
-   <div class="row">
-     <img src="/img/1.jpg" alt="" class="img-responsive hidden-xs" style="width:100%">
-     <img src="/img/1-1.jpg" alt="" style="width:100%" class="visible-xs img-responsive">
-   </div>  
-</div>     
-      
-
+<div id="carousel" class="carousel slide hidden-xs" data-ride="carousel">
+  <div class="carousel-inner">
+<?php $carousel = json_decode('[
+{"url":"","text":"Баня из оцилиндрованного бревна","img":"banya-iz-brevna"},
+{"url":"","text":"Беседка из оцилиндрованного бревна","img":"besedka-iz-brevna"},
+{"url":"","text":"Беседка Сказка","img":"besedka-skazka"},
+{"url":"","text":"Дачный дом 6","img":"dachnyy-dom-6"},
+{"url":"","text":"Дачный дом 11","img":"dachnyy-dom-11"},
+{"url":"","text":"Дачный домик 5","img":"dachnyy-domik-5"},
+{"url":"","text":"Деревянный дом из оцилиндрованного бревна","img":"dom-iz-brevna"},
+{"url":"","text":"Каркасный дачный домик","img":"karkasnyy-dachnyy-domik"}
+]',true);
+foreach ($carousel as $key => $row) {
+	if ($key == 0) {$indicators .= '<li data-target="#carousel" data-slide-to="0" class="active"></li>';
+	} else {
+	$indicators .= '<li data-target="#carousel" data-slide-to="'.$key.'"></li>';
+	}
+?>
+    <div class="item<? if ($key == 0) {echo ' active';}?>">
+      <img style="height:70vh;width:100%" src="/img/slider/<?php echo $row["img"];?>.jpg" alt=" ">
+      <div class="carousel-caption">
+        <p class="h2"><?php echo $row["text"];?><p>
+      </div>
+    </div>
+<?php } ?>
+  </div>
+  <ol class="carousel-indicators">
+    <?php echo $indicators;?>
+  </ol>
+</div>
 
 <div class="container visible-xs">
   <div class="row">

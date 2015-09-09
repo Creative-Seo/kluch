@@ -29,7 +29,7 @@
     </tr>
     <tr class="darkline">
         <td>25*25*2500</td>
-        <td>17</td>
+        <td>12 (Акция - пока имеется в наличии)</td>
       
     </tr>
     <tr class="greyline">
@@ -45,7 +45,7 @@
           <img itemprop="image" src="/img/pogonazh/plintus-sroshchennyy-ekstra.jpg" alt="Плинтус срощенный ЭКСТРА" class="img-responsive"></a></td>
         <td><a itemprop="url" href="/derevyannyy-pogonazh/plintus-sroshchennyy-ekstra/"><span itemprop="name">Плинтус срощенный ЭКСТРА</span></a></td>
         <td>12*45*2500</td>
-        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">15</span><meta itemprop="priceCurrency" content="RUB"></td>
+        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">17</span><meta itemprop="priceCurrency" content="RUB"></td>
     </tr>
     <tr class="darkline" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
         <td><a class="fancybox-thumb" rel="gallery1" title="Плинтус срощенный ЭКСТРА" href="/img/pogonazh/plintus-potolochnyy-sroshchennyy-ekstra.jpg">
@@ -64,14 +64,14 @@
     <tr class="greyline">
         
         <td>19*19*2500</td>
-        <td>11</td>
+        <td>12</td>
     </tr>
     <tr class="darkline" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
         <td rowspan="2"><a class="fancybox-thumb" rel="gallery1" title="Коробочный брус, срощенный ЭКСТРА" href="/img/pogonazh/korobochnyy-brus.jpg">
           <img itemprop="image" src="/img/pogonazh/korobochnyy-brus.jpg" alt="Коробочный брус, срощенный ЭКСТРА" class="img-responsive"></a></td>
         <td><a itemprop="url" href="/derevyannyy-pogonazh/korobochnyy-brus-sroshchennyy-ekstra/"><span itemprop="name">Коробочный брус, срощенный ЭКСТРА</span></a></td>
         <td>35*70*2100</td>
-        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">52</span><meta itemprop="priceCurrency" content="RUB"></td>
+        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">55</span><meta itemprop="priceCurrency" content="RUB"></td>
     </tr>
     <tr class="darkline" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
         <td><a itemprop="url" href="/derevyannyy-pogonazh/korobochnyy-brus-pod-ukutku-2-sort/"><span itemprop="name">Коробочный брус под укутку, 2 сорт</span></a></td>
@@ -83,7 +83,7 @@
           <img itemprop="image" src="/img/pogonazh/nashchelnik-sroshchennyy-ekstra.jpg" alt="Нащельник срощенный ЭКСТРА" class="img-responsive"></a></td>
         <td rowspan="3"><a itemprop="url" href="/derevyannyy-pogonazh/nashchelnik-sroshchennyy-ekstra/"><span itemprop="name">Нащельник срощенный ЭКСТРА</span></a></td>
         <td>6*34*2100</td>
-        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">6</span><meta itemprop="priceCurrency" content="RUB"></td>
+        <td itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">5,5</span><meta itemprop="priceCurrency" content="RUB"></td>
     </tr>
     <tr class="greyline">
         <td>6*40*2100</td>
