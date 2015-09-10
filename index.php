@@ -8,32 +8,32 @@
 <div id="carousel" class="carousel slide hidden-xs" data-ride="carousel">
   <div class="carousel-inner">
 <?php $carousel = json_decode('[
-{"url":"","text":"Баня из оцилиндрованного бревна","img":"banya-iz-brevna"},
-{"url":"","text":"Беседка из оцилиндрованного бревна","img":"besedka-iz-brevna"},
-{"url":"","text":"Беседка Сказка","img":"besedka-skazka"},
-{"url":"","text":"Дачный дом 6","img":"dachnyy-dom-6"},
-{"url":"","text":"Дачный дом 11","img":"dachnyy-dom-11"},
-{"url":"","text":"Дачный домик 5","img":"dachnyy-domik-5"},
-{"url":"","text":"Деревянный дом из оцилиндрованного бревна","img":"dom-iz-brevna"},
-{"url":"","text":"Каркасный дачный домик","img":"karkasnyy-dachnyy-domik"}
+{"url":"/bani-iz-brevna/","text":"Баня из оцилиндрованного бревна","img":"banya-iz-brevna"},
+{"url":"/besedki/srub/","text":"Беседка из оцилиндрованного бревна","img":"besedka-iz-brevna"},
+{"url":"/besedki/skazka/","text":"Беседка Сказка","img":"besedka-skazka"},
+{"url":"/dachnyie-domiki/dom-6/","text":"Дачный дом №6","img":"dachnyy-dom-6"},
+{"url":"/dachnyie-domiki/dom-11/","text":"Дачный дом №11","img":"dachnyy-dom-11"},
+{"url":"/dachnyie-domiki/dom-5/","text":"Дачный домик №5","img":"dachnyy-domik-5"},
+{"url":"/doma-iz-brevna/","text":"Деревянный дом из оцилиндрованного бревна","img":"dom-iz-brevna"},
+{"url":"/karkasnye-doma/","text":"Каркасный дачный домик","img":"karkasnyy-dachnyy-domik"}
 ]',true);
+$active = ' active';
 foreach ($carousel as $key => $row) {
-	if ($key == 0) {$indicators .= '<li data-target="#carousel" data-slide-to="0" class="active"></li>';
-	} else {
-	$indicators .= '<li data-target="#carousel" data-slide-to="'.$key.'"></li>';
-	}
+	if ($key == 1) {$active ='';}
+	$indicators .= '<div data-target="#carousel" data-slide-to="'.$key.'" class="carousel-circle'.$active.'"></div>';
 ?>
-    <div class="item<? if ($key == 0) {echo ' active';}?>">
-      <img style="height:70vh;width:100%" src="/img/slider/<?php echo $row["img"];?>.jpg" alt=" ">
+    <div class="item<? echo $active;?>">
+      <img class="carousel-img" src="/img/slider/<?php echo $row["img"];?>.jpg" alt=" ">
       <div class="carousel-caption">
-        <p class="h2"><?php echo $row["text"];?><p>
+        <p><?php echo $row["text"];?></p>
+		<a href="<?php echo $row["url"];?>" class="carousel-about">Подробнее</a>
       </div>
     </div>
 <?php } ?>
   </div>
-  <ol class="carousel-indicators">
+  <div class="carousel-indicators">
     <?php echo $indicators;?>
-  </ol>
+  </div>
 </div>
 
 <div class="container visible-xs">

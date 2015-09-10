@@ -1,25 +1,3 @@
-<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
-<script type="text/javascript">
-$(document).ready(function() {
-	$(".fancybox-thumb").fancybox({
-		prevEffect	: \'none\',
-		nextEffect	: \'none\',
-		showNavArrows : \'true\',
-		helpers	: {
-			title	: {
-				type: \'outside\'
-			},
-			thumbs	: {
-				width	: 50,
-				height	: 50
-			}
-		}
-	});
-});
-</script>
-
-'; ?>
 <?php $title = 'Дачные дома и домики под ключ на заказ проекты, фото, планировка, цена во Владимире'; ?>
 <?php $description = 'Предлагаем дачные дома и домики с типовыми готовыми проектами построить под ключ во Владимире и области: только качественное строительство дач по доступным ценам'; ?>
 <?php $keywords = 'дачные дома,дачные домики фото,дачные домики цены,дачные домики на заказ,дачные дома из бруса,проекты дачных домов,дачные домики,строительство дач'; ?>

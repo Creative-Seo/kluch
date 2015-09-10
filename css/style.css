@@ -1,6 +1,37 @@
 body{font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;}
 
-
+.carousel-inner {min-height:70vh;}
+.carousel-img{
+	height:70vh !important;
+	min-width:100% !important;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    left: 15%;
+	bottom: initial;
+	font-size:60px;
+    text-align: left;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ff4;
+    text-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+.carousel-circle {
+    display: inline-block;
+	width:12px;
+	height:12px;
+	border-radius:100%;
+	border:2px solid #ff4;
+	margin-left:10px;
+	box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+.carousel-circle.active {background-color:#ff4;margin-left:10px;}
+.carousel-about {color:#ff4;text-decoration:none;font-size:26px;}
+.carousel-about:hover, .carousel-about:focus{color:#cc4;text-decoration:none;}
+@media screen and (min-width:900px){.carousel-caption {width:50%}}
 
 .sidemenu{min-height:110px}
 .sidemenu ul{list-style:outside none none;margin-bottom:20px;}
