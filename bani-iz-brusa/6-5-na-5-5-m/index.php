@@ -1,42 +1,3 @@
-<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
-<script type="text/javascript">
-$(document).ready(function() {
-	$(".fancybox-thumb").fancybox({
-		prevEffect	: \'none\',
-		nextEffect	: \'none\',
-		showNavArrows : \'true\',
-		helpers	: {
-			title	: {
-				type: \'outside\'
-			},
-			thumbs	: {
-				width	: 50,
-				height	: 50
-			}
-		}
-	});
-});
-</script>
-<script type="text/javascript">
-$(document).ready(function() {
-	$(".fancybox-thumb2").fancybox({
-		prevEffect	: \'none\',
-		nextEffect	: \'none\',
-		showNavArrows : \'true\',
-		helpers	: {
-			title	: {
-				type: \'outside\'
-			},
-			thumbs	: {
-				width	: 50,
-				height	: 50
-			}
-		}
-	});
-});
-</script>
-'; ?>
 <?php $title = 'Баня из бруса 6,5 на 5,5 метра с террасой под ключ во Владимире, проект, фото, цена'; ?>
 <?php $description = 'Готовый проект бани из бруса 6,5 на 5,5 метра с террасой под ключ во Владимире по доступной цене, фото, планировка'; ?>
 <?php $keywords = ''; ?>
@@ -82,7 +43,7 @@ $(document).ready(function() {
 			<div class="col-xs-7 col-sm-12 price-proekt4">Клеёный брус 150х150мм</div>
 			<div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $pricebd[4]; ?> </span>руб.</nobr></div>
 		</div>
-          <button type="submit" class="button-style open-modal">Оставить заявку</button>
+          <button class="button-style open-modal" data-toggle="callback" data-options="name,tel,email" data-text="Заказ бани из бруса 6,5 на 5,5 метра с террасой">Оставить заявку</button>
 <?php include("../../blocks/modal-zakaz.php"); ?>     
         <div class="opisanie table-responsive">
            <table class="table">

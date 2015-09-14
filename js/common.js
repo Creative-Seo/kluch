@@ -24,10 +24,6 @@ $('.carousel').carousel()
 	$('.navbar .dropdown').hover(function(e) {
 		if (document.body.clientWidth >= "970") {$(this).toggleClass('open');}
 	});
-	
-	$('.open-modal').click(function(){
-		$('#modal-zakaz').modal('show');
-	});
 
     $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {

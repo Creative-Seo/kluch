@@ -1,6 +1,6 @@
 <!-- Modal Contents -->
 
-<div id="modal-zakaz" class="modal fade modal-dialog-zakaz">
+<div id="callback" class="modal fade modal-dialog-zakaz">
 <div class="modal-dialog modal-sm">
 <div class="modal-content">
 <div class="modal-header">
@@ -16,13 +16,19 @@
         <li class="form-line">
           <label class="form-label-top"> ФИО<span class="form-required">*</span> </label>
           <div class="form-input-wide">
-            <input type="text" class="form-textbox input" id="name" size="40" placeholder="Ваше имя" required="required">
+            <input type="text" class="form-textbox input" name="name" size="40" placeholder="Ваше имя" required="required">
           </div>
         </li>
+		<li class="form-line">
+		  <label class="form-label-top"> E-mail </label>
+		  <div class="form-input-wide">
+			<input type="email" class="form-textbox" name="email" size="40">
+		  </div>
+		</li>
         <li class="form-line">
           <label class="form-label-top"> Телефон<span class="form-required">*</span> </label>
           <div class="form-input-wide">
-            <input type="text" class="form-textbox" size="40" id="tel" placeholder="+7 (___) ___-___" required="required">
+            <input type="text" class="form-textbox" size="40" name="tel" required="required">
           </div>
         </li>
       </ul>
@@ -34,7 +40,7 @@
 		  
           <div class="modal-footer modal-otpr">
             
-            <a id="send_btn" onclick="yaCounter21486487.reachGoal('callBack'); return true;" class="" href="#" value="Отправить">Отправить</a>
+            <a id="callback-btn" onclick="return true;" class="" href="#" value="Отправить">Отправить</a>
           </div>
 		  
         </div>

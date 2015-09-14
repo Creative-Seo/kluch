@@ -177,39 +177,39 @@
       <div class="tcboard"></div>
       <span class="besplcons">Форма обратной связи</span></div>
     <div class="contact-form">
-      <form class="jotform-form center-block" accept-charset="utf-8">
+      <form class="jotform-form center-block" accept-charset="utf-8" id="form">
         <input type="hidden"  />
         <div class="form-all">
           <ul class="form-section">
             <li class="form-line">
               <label class="form-label-top"> ФИО<span class="form-required">*</span> </label>
               <div class="form-input-wide">
-                <input type="text" class="form-textbox" size="40" id="name3" placeholder="Ваше имя">
+                <input type="text" class="form-textbox" size="40" name="name" placeholder="Ваше имя">
               </div>
             </li>
             <li class="form-line">
               <label class="form-label-top"> E-mail<span class="form-required">*</span> </label>
               <div class="form-input-wide">
-                <input type="email" class="form-textbox" size="40" id="mail3" placeholder="Ваш E-mail">
+                <input type="email" class="form-textbox" size="40" name="email" placeholder="Ваш E-mail">
               </div>
             </li>
             <li class="form-line">
               <label class="form-label-top"> Телефон </label>
               <div class="form-input-wide">
-                <input type="text" class="form-textbox" placeholder="+7 (___) ___-___" data-type="input-textbox" size="40" id="tel3">
+                <input type="text" class="form-textbox" placeholder="+7 (___) ___-___" data-type="input-textbox" size="40" name="tel">
               </div>
             </li>
             <li class="form-line form-line-column">
               <label class="form-label-top"> Сообщение<span class="form-required">*</span> </label>
               <div class="form-input-wide">
-                <textarea class="form-textarea" cols="32" rows="7" id="message" placeholder="Ваше сообщение"></textarea>
+                <textarea class="form-textarea" cols="32" rows="7" name="message" placeholder="Ваше сообщение"></textarea>
               </div>
             </li>
 
             <li class="form-line">
               <div class="form-input-wide">
                 <div style="text-align: center;" class="form-buttons-wrapper">
-                  <button type="submit" class="form-submit-button form-submit-button-simple_blue" id="send_btn3"> Отправить </button>
+                  <button type="submit" class="form-submit-button form-submit-button-simple_blue" id="form-btn"> Отправить </button>
                 </div>
               </div>
             </li>

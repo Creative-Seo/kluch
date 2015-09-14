@@ -28,7 +28,7 @@
         //var_dump($phoneNumber);
         ?>
         <div class="tel pull-right"><i class="fa fa-phone"></i><a href="tel:<?php echo $phoneSystem; ?>" title="Позвоните нам"><span>(<?php echo $phoneCode; ?>)</span><span class="nomer"><?php echo $phoneNumber; ?></span></a></div>
-        <div class="callback pull-right open-modal"><a>Заказать обратный звонок</a> </div>
+        <div class="callback pull-right open-modal"><a href="javascript: void(0);" data-toggle="callback" data-options="name,tel" data-text="Заказ обратного звонка">Заказать обратный звонок</a> </div>
       </div>
     </div>
   </div>

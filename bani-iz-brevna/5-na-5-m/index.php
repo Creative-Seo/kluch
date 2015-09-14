@@ -72,7 +72,7 @@ $(document).ready(function() {
         <span>Бревно диаметром 18 см</span><br>
         <span class="price-proekt3">696000 </span>руб.<br>
         <span>Бревно диаметром 20 см</span><br>
-          <button type="submit" class="button-style open-modal">Оставить заявку</button>
+          <button class="button-style open-modal" data-toggle="callback" data-options="name,tel,email" data-text="Заказ бани из бревна с террасой 5 на 5 метра">Оставить заявку</button>
 <?php include("../../blocks/modal-zakaz.php"); ?>     
         <div class="opisanie table-responsive">
            <table class="table">

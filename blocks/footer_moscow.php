@@ -101,13 +101,6 @@ jQuery(function($){
 		if (document.body.clientWidth >= "970") {$(this).toggleClass('open');}
 	});
 </script>
-<script>
-$(document).ready(function(){
-	$('.open-modal').click(function(){
-		$('#modal-zakaz').modal('show');
-	});
-});
-</script>
 
 <script>
 $(document).ready(function(){
@@ -124,40 +117,6 @@ $(document).ready(function(){
     });
 });
 </script>
-<script>
-$(document).ready(function() {
-	$('#send_btnz').click(function(){
-		var n = $('#name-z').val(),
-			t = $('#tel-z').val(),
-			nomer = "<? echo $nomer ?>",
-			error = '';
-
-		$('#name-z').removeClass('error');
-		$('#tel-z').removeClass('error');
-
-		if(!n) { $('#name-z').addClass('error'); error+= 'Вы не заполнили поле "Ваше имя"!\n'; }
-		if(!t) { $('#tel-z').addClass('error'); error+= 'Вы не заполнили поле "Ваш телефон"!\n'; }
-
-
-
-		if (error != '') {
-			alert('Обнаружены ошибки:\n'+error);
-			return false;
-		}
-
-		$.post('http://www.kluch585.ru/ajax4.php',
-			{ n: n, t: t, nomer: nomer, key: 'xZuyP93oNVpiNx4w4EemBxbFvGNFgWah'}
-		).done(function(data) {
-			alert(data);
-		}).fail(function() {
-			alert('Ошибка отправки данных.');
-		});
-
-		return false;
-	});
-});
-	</script>
-
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -82,7 +82,7 @@ $(document).ready(function() {
 			<div class="col-xs-7 col-sm-12 price-proekt4">Клеёный брус 150х150мм</div>
 			<div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $pricebd[4]; ?> </span>руб.</nobr></div>
 		</div>
-          <button type="submit" class="button-style open-modal">Оставить заявку</button>
+          <button class="button-style open-modal" data-toggle="callback" data-options="name,tel,email" data-text="Заказ бани из бруса 6 на 4 метра с террасой">Оставить заявку</button>
 <?php include("../../blocks/modal-zakaz.php"); ?>     
         <div class="opisanie table-responsive">
            <table class="table">
