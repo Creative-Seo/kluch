@@ -83,7 +83,7 @@ $(document).ready(function() {
 			<div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $pricebd[4]; ?> </span>руб.</nobr></div>
 		</div>
 
-          <button type="submit" class="button-style open-modal" data-toggle="callback" data-options="name,tel,email" data-text="Заказ бани из бруса 3 на 4 метра">Оставить заявку</button>
+          <button type="submit" class="button-style open-modal">Оставить заявку</button>
 <?php include("../../blocks/modal-zakaz.php"); ?>     
         <div class="opisanie table-responsive">
            <table class="table">

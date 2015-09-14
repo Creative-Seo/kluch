@@ -233,32 +233,32 @@
       <div class="tcboard"></div>
       <span class="besplcons">Получить бесплатную консультацию</span></div>
     <div class="contact-form">
-      <form class="jotform-form center-block" accept-charset="utf-8" id="form">
+      <form class="jotform-form center-block" accept-charset="utf-8">
         <input type="hidden"  />
         <div class="form-all">
           <ul class="form-section">
             <li class="form-line">
               <label class="form-label-top"> ФИО<span class="form-required">*</span> </label>
               <div class="form-input-wide">
-                <input type="text" class="form-textbox" data-type="input-textbox" name="name" name="q5_input5" size="40" placeholder="Ваше имя">
+                <input type="text" class="form-textbox" data-type="input-textbox" id="name2" name="q5_input5" size="40" placeholder="Ваше имя">
               </div>
             </li>
             <li class="form-line">
               <label class="form-label-top"> E-mail </label>
               <div class="form-input-wide">
-                <input type="email" class="form-textbox" size="40" name="email" placeholder="Ваш E-mail">
+                <input type="email" class="form-textbox" size="40" id="mail" placeholder="Ваш E-mail">
               </div>
             </li>
             <li class="form-line">
               <label class="form-label-top"> Телефон<span class="form-required">*</span> </label>
               <div class="form-input-wide">
-                <input type="text" class="form-textbox" placeholder="+7 (___) ___-___" data-type="input-textbox" size="40" name="tel">
+                <input type="text" class="form-textbox" placeholder="+7 (___) ___-___" data-type="input-textbox" size="40" id="tel2">
               </div>
             </li>
             <li class="form-line">
               <div class="form-input-wide">
                 <div style="text-align: center;" class="form-buttons-wrapper">
-                  <button type="submit" class="form-submit-button form-submit-button-simple_blue" id="form-btn"> Отправить </button>
+                  <button type="submit" class="form-submit-button form-submit-button-simple_blue" id="send_btn2"> Отправить </button>
                 </div>
               </div>
             </li>
