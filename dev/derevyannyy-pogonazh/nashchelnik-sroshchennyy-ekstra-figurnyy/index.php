@@ -7,7 +7,7 @@
 <?php $breadcrumb = 'Нащельник срощенный фигурный'; ?>
 <?php $canonical = '/derevyannyy-pogonazh/nashchelnik-sroshchennyy-ekstra-figurnyy/'; ?>
 <?php $root='../../';include($root."blocks/meta.php");
-<?php include($root."blocks/header_moscow.php"); ?>
+include($root."blocks/header_moscow.php");
 include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">

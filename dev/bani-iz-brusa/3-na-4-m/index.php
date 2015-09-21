@@ -1,112 +1,21 @@
-<?php $title = 'Баня из бруса 3 на 4 метра под ключ во Владимире, проект, фото, цена'; ?>
-<?php $description = 'Готовый проект бани из бруса 3 на 4 метра под ключ во Владимире по доступной цене, фото, планировка'; ?>
-<?php $keywords = ''; ?>
-<?php $breadcrumb2 = 'Бани из бруса'; ?>
-<?php $breadcrumb2_url = '/bani-iz-brusa/'; ?>
-<?php $breadcrumb = 'Баня из бруса 3x4 м'; ?>
-<?php $canonical = '/bani-iz-brusa/3-na-4-m/'; ?>
-<?php $pricebd = array(190000,322000,265000,285000,390000); ?>
-<?php $root='../../';include($root."blocks/meta.php");
-include($root."blocks/header.php");
-include($root."blocks/breadcrumbs.php"); ?>
-<div class="container proekt-style">
-  <div class="row">
-    <h1>Баня из бруса 3 на 4 метра</h1>
-    <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" style="padding:0"> 
-    <div class="gallery">
-    <a class="fancybox-thumb" rel="gallery1" href="/bani-iz-brusa/3-na-4-m/banya-iz-brusa-3-na-4-m-1.jpg"><img src="/bani-iz-brusa/3-na-4-m/banya-iz-brusa-3-na-4-m-1.jpg" width="150" class="img-responsive" alt="Баня из бруса 3 на 4 метра"/></a>
-   </div>
-    </div>
-    <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12"> 
-    <a class="fancybox-thumb" rel="gallery1" href="/bani-iz-brusa/3-na-4-m/banya-iz-brusa-3-na-4-m.jpg"><img src="/bani-iz-brusa/3-na-4-m/banya-iz-brusa-3-na-4-m.jpg" class="img-responsive" alt="Баня из бруса 3 на 4 метра"/></a>
-    <!--gallery-->  
-    <div class="gallery2 visible-sm visible-xs">
- <a class="fancybox-thumb" rel="gallery1" href="/bani-iz-brusa/3-na-4-m/banya-iz-brusa-3-na-4-m-1.jpg"><img src="/bani-iz-brusa/3-na-4-m/banya-iz-brusa-3-na-4-m-1.jpg" width="150" class="img-responsive" alt="Баня из бруса 3 на 4 метра"/></a>
-   </div>
-   </div>
-    
-    
-  
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-      <div class="row">
-       
-        <div class="cena-block"> <span class="price-proekt2">Стоимость строительства:</span>
-		<div class="row">
-			<div class="col-xs-7 col-sm-12 price-proekt4">Cухой профиль 45х135мм</div>
-			<div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $pricebd[0]; ?> </span>руб.</nobr></div>
-			<div class="col-xs-7 col-sm-12 price-proekt4">Cухой профиль 90х135мм</div>
-			<div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $pricebd[1]; ?> </span>руб.</nobr></div>
-			<div class="col-xs-7 col-sm-12 price-proekt4">Брус 100х100мм</div>
-			<div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $pricebd[2]; ?> </span>руб.</nobr></div>
-			<div class="col-xs-7 col-sm-12 price-proekt4">Брус 150х150мм</div>
-			<div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $pricebd[3]; ?> </span>руб.</nobr></div>
-			<div class="col-xs-7 col-sm-12 price-proekt4">Клеёный брус 150х150мм</div>
-			<div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $pricebd[4]; ?> </span>руб.</nobr></div>
-		</div>
+<?php $title = 'Баня из бруса 3 на 4 метра под ключ во Владимире, проект, фото, цена';
+$description = 'Готовый проект бани из бруса 3 на 4 метра под ключ во Владимире по доступной цене, фото, планировка';
+$keywords = '';
+$breadcrumb2 = 'Бани из бруса';
+$breadcrumb2_url = '/bani-iz-brusa/';
+$breadcrumb = 'Баня из бруса 3x4 м';
+$canonical = '/bani-iz-brusa/3-na-4-m/';
 
-          <button type="submit" class="button-style open-modal">Оставить заявку</button>
-<?php include($root."blocks/modal-zakaz.php"); ?>     
-        <div class="opisanie table-responsive">
-           <table class="table">
-              <caption>Основные характеристики</caption>
-              <tbody>
-                <tr>
-                  <th scope="row">Габариты:</th>
-                  <td>3х4 м</td>
-                </tr>
-                <tr>
-                  <th scope="row">Общая площадь:</th>
-                  <td>12 м<sup>2</sup></td>
-                </tr>
-               
-              </tbody>
-           </table>  
-        </div>
-        </div><!--cena-block-->
-   
-      </div><!--row-->
-    </div><!--col-md-4-->
-  </div><!--row-->
-</div><!--container--> 
+$lang=json_decode('{
+  "h1":"Баня из бруса 3 на 4 метра",
+  "about":"Баня 3х4м с парилкой и раздевалкой. Цена указана под ключ, т.е. от фундамента до кровли с доставкой  в радиусе 30 км от Владимира и установкой. Печь (в пределах 25 тыс. руб.) и палати также входят в стоимость.",
+  "alt":"Баня из бруса 3 на 4 метра",
+  "id":"banya-iz-brusa-3-na-4-m",
+  "img":"banya-iz-brusa-3-na-4-m-planirovka",
+  "eche":["5-na-4-m","6-na-4-m","5-na-5-m","6-na-6-m"]
+}',true);
+$pricebd = [["Cухой профиль 45х135мм",190000],["Cухой профиль 90х135мм",322000],["Брус 100х100мм",265000],["Брус 150х150мм",285000],["Клеёный брус 150х150мм",390000]];
+$harakt = [["Габариты","3х4 м"],["Общая площадь","12 м<sup>2</sup>"]];
 
-<div class="container">
-  <div class="row"> 
-    
-   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">  
-     <div class="opisanie table-responsive">
-
-              <div><h2>Описание</h2></div>
-Баня 3х4м с парилкой и раздевалкой. Цена указана под ключ, т.е. от фундамента до кровли с доставкой  в радиусе 30 км от Владимира и установкой. Печь (в пределах 25 тыс. руб.) и палати также входят в стоимость.
-        </div>
-     </div>
-     
-     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-xs">
-        <h2>Планировка</h2>
-        
-        <div class="gallery2">
-    <a class="fancybox-thumb2" rel="gallery1" href="/bani-iz-brusa/3-na-4-m/banya-iz-brusa-3-na-4-m-planirovka.jpg"><img src="/bani-iz-brusa/3-na-4-m/banya-iz-brusa-3-na-4-m-planirovka.jpg" width="150" class="img-responsive" alt="Планировка Баня из бруса 3 на 4 метра"/></a>
-   </div>
-        
-     </div>   
-    
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title"><span>Похожие проекты</span></div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>
-     <!--col-md-6-->
-     <?php include("../../bani-iz-brusa/5-na-4-m/param.php"); ?>
-     <?php include($root."blocks/block-proekt.php"); ?>
-  <!--col-md-6-->
-  <!--col-md-6-->
-     <?php include("../../bani-iz-brusa/6-na-4-m/param.php"); ?>
-     <?php include($root."blocks/block-proekt.php"); ?>
-  <!--col-md-6-->
-  <!--col-md-6-->
-     <?php include("../../bani-iz-brusa/5-na-5-m/param.php"); ?>
-     <?php include($root."blocks/block-proekt.php"); ?>
-  <!--col-md-6-->
-  <!--col-md-6-->
-     <?php include("../../bani-iz-brusa/6-na-6-m/param.php"); ?>
-     <?php include($root."blocks/block-proekt.php"); ?>
-  <!--col-md-6-->
-  </div><!--row-->
-</div><!--container-->
-<?php include($root."blocks/footer.php"); ?>
+php include("../template.php");
+?>

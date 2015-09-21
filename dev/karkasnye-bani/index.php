@@ -3,7 +3,8 @@
 <?php $keywords = 'каркасные бани, строительство каркасной бани, проекты каркасных бань'; ?>
 <?php $breadcrumb = 'Каркасные бани'; ?>
 <?php $canonical = '/karkasnye-bani/'; ?>
-<?php $root = '../';include($root."blocks/meta.php");
+<?php $root = '../';
+include($root."blocks/meta.php");
 include($root."blocks/header.php");
 include($root."blocks/breadcrumbs.php"); ?>
 

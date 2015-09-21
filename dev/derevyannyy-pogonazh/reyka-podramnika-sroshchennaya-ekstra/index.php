@@ -7,7 +7,7 @@
 <?php $breadcrumb = 'Рейка подрамника'; ?>
 <?php $canonical = '/derevyannyy-pogonazh/reyka-podramnika-sroshchennaya-ekstra/'; ?>
 <?php $root='../../';include($root."blocks/meta.php");
-<?php include($root."blocks/header_moscow.php"); ?>
+include($root."blocks/header_moscow.php");
 include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">

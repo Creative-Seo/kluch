@@ -3,7 +3,8 @@
 <?php $keywords = 'деревянные дома,строительство деревянных домов,проекты деревянных домов,загородные деревянные дома,деревянные дома под ключ'; ?>
 <?php $breadcrumb = 'Деревянные дома'; ?>
 <?php $canonical = '/derevyannyie-doma/'; ?>
-<?php $root = '../';include($root."blocks/meta.php");
+<?php $root = '../';
+include($root."blocks/meta.php");
 include($root."blocks/header.php");
 include($root."blocks/breadcrumbs.php"); ?>
 

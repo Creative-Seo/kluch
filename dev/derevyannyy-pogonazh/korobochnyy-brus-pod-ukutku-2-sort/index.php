@@ -7,7 +7,7 @@
 <?php $breadcrumb = 'Коробочный брус 2 сорт'; ?>
 <?php $canonical = '/derevyannyy-pogonazh/korobochnyy-brus-pod-ukutku-2-sort/'; ?>
 <?php $root='../../';include($root."blocks/meta.php");
-<?php include($root."blocks/header_moscow.php"); ?>
+include($root."blocks/header_moscow.php");
 include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">

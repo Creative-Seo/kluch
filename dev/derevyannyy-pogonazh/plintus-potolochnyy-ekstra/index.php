@@ -7,7 +7,7 @@
 <?php $breadcrumb = 'Плинтус потолочный'; ?>
 <?php $canonical = '/derevyannyy-pogonazh/plintus-potolochnyy-ekstra/'; ?>
 <?php $root='../../';include($root."blocks/meta.php");
-<?php include($root."blocks/header_moscow.php"); ?>
+include($root."blocks/header_moscow.php");
 include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">

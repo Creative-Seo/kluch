@@ -7,7 +7,7 @@
 <?php $breadcrumb = 'Угловая раскладка,фигурная'; ?>
 <?php $canonical = '/derevyannyy-pogonazh/uglovaya-raskladka-figurnaya-ekstra/'; ?>
 <?php $root='../../';include($root."blocks/meta.php");
-<?php include($root."blocks/header_moscow.php"); ?>
+include($root."blocks/header_moscow.php");
 include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">

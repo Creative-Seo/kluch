@@ -3,7 +3,8 @@
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Фотогалерея'; ?>
 <?php $canonical = '/fotogallery/'; ?>
-<?php $root = '../';include($root."blocks/meta.php");
+<?php $root = '../';
+include($root."blocks/meta.php");
 include($root."blocks/header.php");
 include($root."blocks/breadcrumbs.php"); ?>
 

@@ -15,28 +15,8 @@ $lang=json_decode('{
   "img":"b1-1",
   "eche":["5-na-4-m","5-na-5-m","6-na-4-m","6-5-na-5-5"]
 }',true);
-$cena='<div class="cena-block"> <span class="price-proekt2">Стоимость строительства:</span> <span class="price-proekt3">299000 </span>руб.<br>
-        <span>Бревно диаметром 18 см</span><br>
-        <span class="price-proekt3">330000 </span>руб.<br>
-        <span>Бревно диаметром 20 см</span><br>
-          <button type="submit" class="button-style open-modal">Оставить заявку</button>
-        <div class="opisanie table-responsive">
-           <table class="table">
-              <caption>Основные характеристики</caption>
-              <tbody>
-                <tr>
-                  <th scope="row">Габариты:</th>
-                  <td>3х4 м</td>
-                </tr>
-                <tr>
-                  <th scope="row">Общая площадь:</th>
-                  <td>12 м<sup>2</sup></td>
-                </tr>
-               
-              </tbody>
-           </table>  
-        </div>
-</div><!--cena-block-->';
+$pricebd = [["Бревно диаметром 18 см",299000],["Бревно диаметром 20 см",330000]];
+$harakt = [["Габариты","3х4 м"],["Общая площадь","12 м<sup>2</sup>"]];
 
 php include("../template.php");
 ?>

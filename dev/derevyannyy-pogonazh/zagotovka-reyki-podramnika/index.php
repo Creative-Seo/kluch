@@ -7,7 +7,7 @@
 <?php $breadcrumb = 'Заготовка рейки подрамника'; ?>
 <?php $canonical = '/derevyannyy-pogonazh/zagotovka-reyki-podramnika/'; ?>
 <?php $root='../../';include($root."blocks/meta.php");
-<?php include($root."blocks/header_moscow.php"); ?>
+include($root."blocks/header_moscow.php");
 include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">

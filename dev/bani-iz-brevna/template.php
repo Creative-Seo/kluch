@@ -24,7 +24,30 @@ include($root."/blocks/breadcrumbs.php");
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
       <div class="row">
        
-<?php echo $cena;?>
+        <div class="cena-block"><span class="price-proekt2">Стоимость строительства:</span><br>
+          <div class="row">
+<?php foreach ($pricebd as $row) { ?>
+          <div class="col-xs-7 col-sm-12 price-proekt4"><?php echo $row[0];?></div>
+          <div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $row[1];?>&nbsp;</span>руб.</nobr></div>
+<?php } ?>
+          </div>
+
+          <button type="submit" class="button-style open-modal">Оставить заявку</button>
+<?php include($root."blocks/modal-zakaz.php"); ?>     
+          <div class="opisanie table-responsive">
+           <table class="table">
+              <caption>Основные характеристики</caption>
+              <tbody>
+<?php foreach ($harakt as $row) { ?>
+                <tr>
+                  <th scope="row"><?php echo $row[0];?>:</th>
+                  <td><?php echo $row[1];?></td>
+                </tr>
+<?php } ?>
+              </tbody>
+           </table>  
+          </div>
+        </div><!--cena-block-->
    
       </div><!--row-->
     </div><!--col-md-4-->
@@ -56,7 +79,7 @@ include($root."/blocks/breadcrumbs.php");
     </div>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>
 <?php foreach ($lang['eche'] as $row) { ?>
-     <?php include("../../bani-iz-brevna/".$row."/param.php"); ?>
+     <?php include("../".$row."/param.php"); ?>
      <?php include($root."/blocks/block-proekt.php"); ?>
 }?>
 
