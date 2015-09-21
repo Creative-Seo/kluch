@@ -10,14 +10,14 @@ include($root."/blocks/breadcrumbs.php");
     <h1><?php echo $lang['h1'];?></h1>
     <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" style="padding:0"> 
     <div class="gallery">
-      <a class="fancybox-thumb" rel="gallery1" href="<?php echo $lang['id'];?>-1.jpg"><img src="<?php echo $lang['id'];?>-1.jpg" width="150" class="img-responsive" alt="<?php echo $lang['alt'];?>"/></a>
+      <a class="fancybox-thumb" rel="gallery1" href="<?php echo $lang['img'];?>-1.jpg"><img src="<?php echo $lang['id'];?>-1.jpg" width="150" class="img-responsive" alt="<?php echo $lang['alt'];?>"/></a>
    </div>
     </div>
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12"> 
-      <a class="fancybox-thumb" rel="gallery1" href="<?php echo $lang['id'];?>.jpg"><img src="<?php echo $lang['id'];?>.jpg" class="img-responsive" alt="<?php echo $lang['alt'];?>"/></a>
+      <a class="fancybox-thumb" rel="gallery1" href="<?php echo $lang['img'];?>.jpg"><img src="<?php echo $lang['id'];?>.jpg" class="img-responsive" alt="<?php echo $lang['alt'];?>"/></a>
     <!--gallery-->  
       <div class="gallery2 visible-sm visible-xs">
-        <a class="fancybox-thumb" rel="gallery1" href="<?php echo $lang['id'];?>-1.jpg"><img src="<?php echo $lang['id'];?>-1.jpg" width="150" class="img-responsive" alt="<?php echo $lang['alt'];?>"/></a>
+        <a class="fancybox-thumb" rel="gallery1" href="<?php echo $lang['img'];?>-1.jpg"><img src="<?php echo $lang['id'];?>-1.jpg" width="150" class="img-responsive" alt="<?php echo $lang['alt'];?>"/></a>
      </div>
    </div>
   
@@ -69,7 +69,7 @@ include($root."/blocks/breadcrumbs.php");
         <h2>Планировка</h2>
         
     <div class="gallery2">
-		<a class="fancybox-thumb2" rel="gallery1" href="<?php echo $lang['img'];?>.jpg"><img src="<?php echo $lang['img'];?>.jpg" width="150" class="img-responsive" alt="Планировка <?php echo $lang['alt'];?>"/></a>
+		<a class="fancybox-thumb2" rel="gallery1" href="<?php echo $lang['img'];?>.jpg"><img src="<?php echo $lang['img'];?>-planirovka.jpg" width="150" class="img-responsive" alt="Планировка <?php echo $lang['alt'];?>"/></a>
    </div>
         
      </div>   
