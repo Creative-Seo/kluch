@@ -1,10 +1,7 @@
 node_modules/
-.sass-cache
-.sass-cache
-prod/
-dev/
-googled*.html
-mailru*.html
-
-
-
+.sass-cache/
+dploy.yaml
+dev/libs/
+*.log
+**/googled*.html
+**/mailru*.html
