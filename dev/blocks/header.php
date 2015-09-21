@@ -34,4 +34,4 @@
   </div>
 </header>
 
-<?php include($root.'/blocks/navbar.php');?>
+<?php include($root.'blocks/navbar.php');?>

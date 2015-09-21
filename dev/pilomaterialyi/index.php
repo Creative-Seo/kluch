@@ -3,9 +3,9 @@
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Пиломатериалы'; ?>
 <?php $canonical = '/pilomaterialyi/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 <?php include("array.php"); ?>
 
 <div class="container">
@@ -111,4 +111,4 @@
   </div>
 </div>    
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

@@ -1,34 +1,12 @@
-<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
-<script type="text/javascript">
-$(document).ready(function() {
-	$(".fancybox-thumb").fancybox({
-		prevEffect	: \'none\',
-		nextEffect	: \'none\',
-		showNavArrows : \'true\',
-		helpers	: {
-			title	: {
-				type: \'outside\'
-			},
-			thumbs	: {
-				width	: 50,
-				height	: 50
-			}
-		}
-	});
-});
-</script>
-
-'; ?>
 <?php $title = 'Акции - Специальные предложения на строительство домов'; ?>
 <?php $description = 'Скидки и акции на пиломатериалы и строительство деревянных домов от компании Ключ 585 во Владимире'; ?>
 <?php $keywords = 'акции,скидки,спецпредложения'; ?>
 <?php $breadcrumb = 'Акции'; ?>
 <?php $canonical = '/aktsii/'; ?>
 <?php $root='../';
-include("../blocks/meta.php");
-include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+include($root."blocks/meta.php");
+include($root."blocks/header.php"); ?>
+include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">
     <h1>Акции</h1>
@@ -62,4 +40,4 @@ include("../blocks/header.php"); ?>
   </div>
 </div>    
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

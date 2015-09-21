@@ -5,9 +5,9 @@
 <?php $breadcrumb2_url = '/besedki/'; ?>
 <?php $breadcrumb = 'Беседка из бруса'; ?>
 <?php $canonical = '/besedki/garmoniya/'; ?>
-<?php include("../../blocks/meta.php"); ?>
-<?php include("../../blocks/header.php"); ?>
-<?php include("../../blocks/breadcrumbs.php"); ?>
+<?php $root='../../';include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 <div class="container proekt-style">
   <div class="row">
     <h1>Беседка из бруса</h1>
@@ -25,7 +25,7 @@
        
         <div class="cena-block"> <span class="price-proekt2">Стоимость строительства:</span> <span class="price-proekt3">договорная </span><br>
           <button type="submit" class="button-style open-modal">Оставить заявку</button>
-<?php include("../../blocks/modal-zakaz.php"); ?>     
+<?php include($root."blocks/modal-zakaz.php"); ?>     
         <div class="opisanie table-responsive">
            <table class="table">
               <caption>Основные характеристики</caption>
@@ -84,20 +84,20 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title"><span>Похожие беседки</span></div>
               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>
  <?php include("../../besedki/skazka/param.php"); ?>
-    <?php include("../../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
     
      <!--col-md-6-->
     <?php include("../../besedki/leto/param.php"); ?>
-    <?php include("../../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
      <!--col-md-6-->
     <?php include("../../besedki/srub/param.php"); ?>
-    <?php include("../../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
  
     <!--col-md-6--> 
     <!--col-md-6-->
     <?php include("../../besedki/besedka-iz-brusa/param.php"); ?>
-    <?php include("../../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
     
   </div><!--row-->
 </div><!--container-->
-<?php include("../../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

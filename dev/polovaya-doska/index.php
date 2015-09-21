@@ -5,9 +5,9 @@
 <?php $breadcrumb2 = 'Пиломатериалы'; ?>
 <?php $breadcrumb2_url = '/pilomaterialyi/'; ?>
 <?php $canonical = '/polovaya-doska/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 <?php include("../pilomaterialyi/array.php"); ?>
 
 <div class="container">
@@ -73,4 +73,4 @@ if (strrpos($row['name'],'ДОСКА ПОЛА') !== false) {?>
   </div>
 </div>    
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

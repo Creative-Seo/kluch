@@ -3,9 +3,9 @@
 <?php $keywords = 'деревянный погонаж'; ?>
 <?php $breadcrumb = 'Погонаж'; ?>
 <?php $canonical = '/derevyannyy-pogonazh/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header_moscow.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';include($root."blocks/meta.php");
+<?php include($root."blocks/header_moscow.php"); ?>
+include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">
   <div class="row" itemtype="http://schema.org/ItemList" itemscope>
@@ -157,4 +157,4 @@ if (false !== $images) {
 		
 </div>    
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

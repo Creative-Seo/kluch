@@ -3,9 +3,9 @@
 <?php $keywords = 'каркасные бани, строительство каркасной бани, проекты каркасных бань'; ?>
 <?php $breadcrumb = 'Каркасные бани'; ?>
 <?php $canonical = '/karkasnye-bani/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container" itemtype="http://schema.org/ItemList" itemscope>
   <div class="row">
@@ -30,4 +30,4 @@
 
   
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

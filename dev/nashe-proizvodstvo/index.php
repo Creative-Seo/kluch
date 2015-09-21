@@ -42,9 +42,9 @@ $(document).ready(function() {
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Наше производство'; ?>
 <?php $canonical = '/nashe-proizvodstvo/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">
   <div class="row">
@@ -109,4 +109,4 @@ $(document).ready(function() {
   </div>
 </div>    
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

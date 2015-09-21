@@ -24,9 +24,9 @@ $(document).ready(function() {
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Отзывы'; ?>
 <?php $canonical = '/otzyivyi-pokupateley/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 <div class="container">
     <h1>Отзывы покупателей</h1>
 		<div class="gallery2">
@@ -160,4 +160,4 @@ if (false !== $images) {
     </div><!--end-->
   </div>
 </div>
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

@@ -6,9 +6,9 @@
 <?php $breadcrumb2_url = '/derevyannyy-pogonazh/'; ?>
 <?php $breadcrumb = 'Коробочный брус 2 сорт'; ?>
 <?php $canonical = '/derevyannyy-pogonazh/korobochnyy-brus-pod-ukutku-2-sort/'; ?>
-<?php include("../../blocks/meta.php"); ?>
-<?php include("../../blocks/header_moscow.php"); ?>
-<?php include("../../blocks/breadcrumbs.php"); ?>
+<?php $root='../../';include($root."blocks/meta.php");
+<?php include($root."blocks/header_moscow.php"); ?>
+include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">
   <div class="row">
@@ -58,5 +58,5 @@
 	</div>
   </div>
 </div>
-<?php include("../../blocks/modal-zakaz.php"); ?>
-<?php include("../../blocks/footer.php"); ?>
+<?php include($root."blocks/modal-zakaz.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

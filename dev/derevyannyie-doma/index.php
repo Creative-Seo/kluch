@@ -3,36 +3,36 @@
 <?php $keywords = 'деревянные дома,строительство деревянных домов,проекты деревянных домов,загородные деревянные дома,деревянные дома под ключ'; ?>
 <?php $breadcrumb = 'Деревянные дома'; ?>
 <?php $canonical = '/derevyannyie-doma/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">
   <div class="row">
     <h1>Строительство деревянных домов</h1>
     <!--col-md-6-->
      <?php include("../derevyannyie-doma/dom-7-na-9/param.php"); ?>
-     <?php include("../blocks/block-proekt.php"); ?>
+     <?php include($root."blocks/block-proekt.php"); ?>
     <!--col-md-6-->
     <!--col-md-6-->
      <?php include("../derevyannyie-doma/dom-8-na-8/param.php"); ?>
-     <?php include("../blocks/block-proekt.php"); ?>
+     <?php include($root."blocks/block-proekt.php"); ?>
     <!--col-md-6-->
     <!--col-md-6-->
      <?php include("../derevyannyie-doma/dom-8-na-9/param.php"); ?>
-     <?php include("../blocks/block-proekt.php"); ?>
+     <?php include($root."blocks/block-proekt.php"); ?>
     <!--col-md-6-->
     <!--col-md-6-->
      <?php include("../derevyannyie-doma/dom-10-na-7/param.php"); ?>
-     <?php include("../blocks/block-proekt.php"); ?>
+     <?php include($root."blocks/block-proekt.php"); ?>
     <!--col-md-6-->
     <!--col-md-6-->
      <?php include("../derevyannyie-doma/dom-10-na-10/param.php"); ?>
-     <?php include("../blocks/block-proekt.php"); ?>
+     <?php include($root."blocks/block-proekt.php"); ?>
     <!--col-md-6-->
     <!--col-md-6-->
      <?php include("../derevyannyie-doma/dom-semeynyy/param.php"); ?>
-     <?php include("../blocks/block-proekt.php"); ?>
+     <?php include($root."blocks/block-proekt.php"); ?>
     <!--col-md-6-->
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -98,4 +98,4 @@
   </div>
 </div>    
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

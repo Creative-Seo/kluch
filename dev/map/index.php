@@ -4,9 +4,10 @@
 <?php $breadcrumb = 'Карта'; ?>
 <?php $canonical = '/map/'; ?>
 <?php $footer_block = ' <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script><script src="/js/map.js"></script>'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 <div class="container">
 <div class="row">
 <div class="content">
@@ -15,4 +16,4 @@
     <div id="map" style="width:auto;height:550px;"></div>
   </div>
 </div>
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

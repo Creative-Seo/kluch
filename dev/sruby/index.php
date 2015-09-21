@@ -3,9 +3,9 @@
 <?php $keywords = 'продажа срубов, сруб, бани, срубы домов, купить, заказ, строительство'; ?>
 <?php $breadcrumb = 'Срубы'; ?>
 <?php $canonical = '/sruby/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">
   <div class="row">
@@ -26,4 +26,4 @@
     <p>Если вы твердо решили купить сруб для бани или дома, просто дайте нам знать. Для этого позвоните нам по телефону или оставьте заявку, чтобы наш менеджер перезвонил вам.</p>
 </div>    
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

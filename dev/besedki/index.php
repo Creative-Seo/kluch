@@ -3,10 +3,10 @@
 <?php $keywords = 'беседки для дачи, беседки, беседка, купить, фото, цены, Владимир, садовые беседки, беседки деревянные, дачные беседки'; ?>
 <?php $breadcrumb = 'Беседки'; ?>
 <?php $canonical = '/besedki/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container clearfix" itemtype="http://schema.org/ItemList" itemscope>
   <h1>Беседки во Владимире</h1>
@@ -14,19 +14,19 @@
     
     <!--col-md-6-->
     <?php include("../besedki/garmoniya/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
 	<!--col-md-6-->
     <?php include("../besedki/leto/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
      <!--col-md-6-->
     <?php include("../besedki/skazka/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
     <!--col-md-6-->
     <?php include("../besedki/besedka-iz-brusa/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
     <!--col-md-6-->
     <?php include("../besedki/srub/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
 
     <div class="col-md-12">    
     <p>Беседка представляет собой небольшую постройку, сооруженную на территории прилегающей к загородному дому или даче. Как правило, это место, где  есть  возможность  уютно уединившись побыть  одному ,пообщаться  с  близкими  или  укрыться  от непогоды. Беседка  дает возможность комфортно присутствовать на  природе и быть защищенным от ее невзгод!</p>                                                                                                                  
@@ -45,4 +45,4 @@
 </div><!--container-->
 
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

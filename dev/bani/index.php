@@ -1,50 +1,12 @@
-<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
-<script type="text/javascript">
-$(document).ready(function() {
-	$(".fancybox-thumb").fancybox({
-		prevEffect	: \'none\',
-		nextEffect	: \'none\',
-		showNavArrows : \'true\',
-		helpers	: {
-			title	: {
-				type: \'outside\'
-			},
-			thumbs	: {
-				width	: 50,
-				height	: 50
-			}
-		}
-	});
-});
-</script>
-<script type="text/javascript">
-$(document).ready(function() {
-	$(".fancybox-thumb2").fancybox({
-		prevEffect	: \'none\',
-		nextEffect	: \'none\',
-		showNavArrows : \'true\',
-		helpers	: {
-			title	: {
-				type: \'outside\'
-			},
-			thumbs	: {
-				width	: 50,
-				height	: 50
-			}
-		}
-	});
-});
-</script>
-'; ?>
 <?php $title = 'Строительство деревянных бань под ключ во Владимире, проекты и цены'; ?>
 <?php $description = 'Компания Ключ 585 предоставляет реальную возможность для клиентов заказать строительство деревянной бани под ключ на их земельных участках. Наши специалисты возводят бани, которые строятся только из натуральной древесины. Мы используем профилированный брус, который самостоятельно производим из высококачественного сырья'; ?>
 <?php $keywords = 'Строительство бани,бани под ключ,баня под ключ,баня из бруса,строительство бани,бани из бруса под ключ,бани под ключ недорого,бани из бруса недорого'; ?>
 <?php $breadcrumb = 'Бани'; ?>
 <?php $canonical = '/bani/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">
   <div class="row">
@@ -150,4 +112,4 @@ $(document).ready(function() {
 </div>
 </div>
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

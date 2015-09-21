@@ -3,9 +3,10 @@
 <?php $keywords = 'Бани из бруса, бани из бруса фото и цены, проекты бань из бруса, бани из бруса во владимире, строительство бани из бруса'; ?>
 <?php $breadcrumb = 'Бани из бруса'; ?>
 <?php $canonical = '/bani-iz-brusa/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container" itemtype="http://schema.org/ItemList" itemscope>
   <div class="row">
@@ -13,27 +14,27 @@
 
   <!--col-md-6-->
      <?php include("../bani-iz-brusa/3-na-4-m/param.php"); ?>
-     <?php include("../blocks/block-proekt.php"); ?>
+     <?php include($root."blocks/block-proekt.php"); ?>
   <!--col-md-6-->
   <!--col-md-6-->
      <?php include("../bani-iz-brusa/5-na-4-m/param.php"); ?>
-     <?php include("../blocks/block-proekt.php"); ?>
+     <?php include($root."blocks/block-proekt.php"); ?>
   <!--col-md-6-->
   <!--col-md-6-->
      <?php include("../bani-iz-brusa/6-na-4-m/param.php"); ?>
-     <?php include("../blocks/block-proekt.php"); ?>
+     <?php include($root."blocks/block-proekt.php"); ?>
   <!--col-md-6-->
   <!--col-md-6-->
      <?php include("../bani-iz-brusa/5-na-5-m/param.php"); ?>
-     <?php include("../blocks/block-proekt.php"); ?>
+     <?php include($root."blocks/block-proekt.php"); ?>
   <!--col-md-6-->
   <!--col-md-6-->
      <?php include("../bani-iz-brusa/6-na-6-m/param.php"); ?>
-     <?php include("../blocks/block-proekt.php"); ?>
+     <?php include($root."blocks/block-proekt.php"); ?>
   <!--col-md-6-->
   <!--col-md-6-->
      <?php include("../bani-iz-brusa/6-5-na-5-5-m/param.php"); ?>
-     <?php include("../blocks/block-proekt.php"); ?>
+     <?php include($root."blocks/block-proekt.php"); ?>
   <!--col-md-6-->
   </div>
 </div>
@@ -104,4 +105,4 @@
   </div>
   
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

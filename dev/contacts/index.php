@@ -3,9 +3,9 @@
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Контакты'; ?>
 <?php $canonical = '/contacts/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 <div class="container">
   <div class="row" style="position: relative">
   	<a id="print-buttom" href="" style="position: absolute; right: 15px; margin-top: 20px">Версия для печати</a>
@@ -329,4 +329,4 @@ function init(){
 }
 	</script>
     
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

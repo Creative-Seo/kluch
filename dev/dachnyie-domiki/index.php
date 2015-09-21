@@ -35,36 +35,36 @@ include($root."blocks/breadcrumbs.php"); ?>
 <?php $cena_ot = 'цена под ключ '; ?>
     <!--col-md-6-->
     <?php include("../dachnyie-domiki/dom-5/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
     
     <!--col-md-6-->
     <?php include("../dachnyie-domiki/dom-6/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
    
     <!--col-md-6--> 
     <!--col-md-6-->
     <?php include("../dachnyie-domiki/dom-7/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
    
     <!--col-md-6-->
     <!--col-md-6-->
     <?php include("../dachnyie-domiki/dom-8/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
     
     <!--col-md-6-->
     <!--col-md-6-->
     <?php include("../dachnyie-domiki/dom-9/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
     
     <!--col-md-6--> 
     <!--col-md-6-->
     <?php include("../dachnyie-domiki/dom-10-s-verandoy/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
    
     <!--col-md-6-->
     <!--col-md-6-->
     <?php include("../dachnyie-domiki/dom-11-s-verandoy/param.php"); ?>
-    <?php include("../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
     
     <!--col-md-6-->
     

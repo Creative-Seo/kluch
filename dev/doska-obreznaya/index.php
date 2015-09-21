@@ -3,9 +3,9 @@
 <?php $keywords = 'доска обрезная, обрезная доска, доска обрезная цена, доска обрезная брус, доска обрезная лиственница, доска обрезная сухая, доска обрезная стоимость'; ?>
 <?php $breadcrumb = 'Доска обрезная'; ?>
 <?php $canonical = '/doska-obreznaya/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 <?php include("../pilomaterialyi/array.php"); ?>
 
 <div class="container">
@@ -74,4 +74,4 @@ if (strrpos($row['name'],'ДОСКА ОБРЕЗНАЯ') !== false) {?>
   </div>
 </div>    
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

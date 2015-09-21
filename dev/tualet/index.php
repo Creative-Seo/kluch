@@ -25,10 +25,10 @@ $(document).ready(function() {
 <?php $keywords = 'туалет для дачи, купить туалет для дачи, недорогой туалет для дачи'; ?>
 <?php $breadcrumb = 'Туалеты'; ?>
 <?php $canonical = '/tualet/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
+<?php $root = '../';include($root."blocks/meta.php");
+include($root."blocks/header.php");
 
-<?php include("../blocks/breadcrumbs.php"); ?>
+include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">
   <h1>Туалеты для дачи и сада</h1>
@@ -49,4 +49,4 @@ $(document).ready(function() {
   </div><!--row-->
 </div><!--container-->
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

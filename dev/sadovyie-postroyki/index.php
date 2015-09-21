@@ -25,10 +25,10 @@ $(document).ready(function() {
 <?php $keywords = ''; ?>
 <?php $breadcrumb = 'Садовые постройки'; ?>
 <?php $canonical = '/sadovyie-postroyki/'; ?>
-<?php include("../blocks/meta.php"); ?>
+<?php $root = '../';include($root."blocks/meta.php");
 <style> .img1 img {height: 160px;} .img2 img {height: 230px;}.container .col-md-3 {padding-bottom: 10px;}</style>
-<?php include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">
   <div class="row img1">
@@ -128,4 +128,4 @@ $(document).ready(function() {
   </div><!--row-->
 </div> <!--container-->   
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

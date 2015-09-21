@@ -3,9 +3,10 @@
 <?php $keywords = 'брус деревянный, цена'; ?>
 <?php $breadcrumb = 'Брус'; ?>
 <?php $canonical = '/brus/'; ?>
-<?php include("../blocks/meta.php"); ?>
-<?php include("../blocks/header.php"); ?>
-<?php include("../blocks/breadcrumbs.php"); ?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 <?php include("../pilomaterialyi/array.php"); ?>
 
 <div class="container">
@@ -60,4 +61,4 @@ if ((strrpos($row['name'],'БРУС') !== false)&&(strrpos($row['name'],'БРУ�
   </div>
 </div>    
 
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

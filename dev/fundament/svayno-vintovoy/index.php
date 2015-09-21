@@ -5,9 +5,10 @@
 <?php $breadcrumb2 = 'Фундамент'; ?>
 <?php $breadcrumb2_url = '/fundament/'; ?>
 <?php $canonical = '/fundament/svayno-vintovoy/'; ?>
-<?php include("../../blocks/meta.php"); ?>
-<?php include("../../blocks/header.php"); ?>
-<?php include("../../blocks/breadcrumbs.php"); ?>
+<?php $root='../../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 
 <div class="container">
   <div class="row">
@@ -31,4 +32,4 @@
   </div>
 </div>    
 
-<?php include("../../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

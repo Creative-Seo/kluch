@@ -44,9 +44,9 @@ $(document).ready(function() {
 <?php $breadcrumb2_url = '/besedki/'; ?>
 <?php $breadcrumb = 'Беседка Сказка'; ?>
 <?php $canonical = '/besedki/skazka/'; ?>
-<?php include("../../blocks/meta.php"); ?>
-<?php include("../../blocks/header.php"); ?>
-<?php include("../../blocks/breadcrumbs.php"); ?>
+<?php $root='../../';include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php"); ?>
 <div class="container proekt-style">
   <div class="row">
     <h1>Беседка Сказка</h1>
@@ -65,7 +65,7 @@ $(document).ready(function() {
        
         <div class="cena-block"> <span class="price-proekt2">Стоимость строительства:</span> <span class="price-proekt3">79000 </span>руб.<br>
           <button type="submit" class="button-style open-modal">Оставить заявку</button>
-<?php include("../../blocks/modal-zakaz.php"); ?>     
+<?php include($root."blocks/modal-zakaz.php"); ?>     
         <div class="opisanie table-responsive">
            <table class="table">
               <caption>Основные характеристики</caption>
@@ -118,22 +118,22 @@ $(document).ready(function() {
               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>
  <!--col-md-6-->
     <?php include("../../besedki/besedka-iz-brusa/param.php"); ?>
-    <?php include("../../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
      <!--col-md-6-->
     <?php include("../../besedki/leto/param.php"); ?>
-    <?php include("../../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
  
     <!--col-md-6--> 
     <!--col-md-6-->
     <?php include("../../besedki/garmoniya/param.php"); ?>
-    <?php include("../../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
   
     <!--col-md-6-->
      <!--col-md-6-->
     <?php include("../../besedki/srub/param.php"); ?>
-    <?php include("../../blocks/block-proekt.php"); ?>
+    <?php include($root."blocks/block-proekt.php"); ?>
    
     <!--col-md-6-->
   </div><!--row-->
 </div><!--container-->
-<?php include("../../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>
