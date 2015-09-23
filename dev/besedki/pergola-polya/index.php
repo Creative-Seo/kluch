@@ -1,49 +1,25 @@
-<?php $meta_container = '<link rel="stylesheet" href="/css/jquery.fancybox.css"><link rel="stylesheet" href="/js/helpers/jquery.fancybox-thumbs.css">'; ?>
-<?php $footer_block = '<script src="/js/jquery.fancybox.js"></script><script src="/js/jquery.mousewheel-3.0.6.pack.js"></script><script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
-<script type="text/javascript">
-$(document).ready(function() {
-	$(".fancybox-thumb").fancybox({
-		prevEffect	: \'none\',
-		nextEffect	: \'none\',
-		showNavArrows : \'true\',
-		helpers	: {
-			title	: {
-				type: \'outside\'
-			},
-			thumbs	: {
-				width	: 50,
-				height	: 50
-			}
-		}
-	});
-});
-</script>
-<script type="text/javascript">
-$(document).ready(function() {
-	$(".fancybox-thumb2").fancybox({
-		prevEffect	: \'none\',
-		nextEffect	: \'none\',
-		showNavArrows : \'true\',
-		helpers	: {
-			title	: {
-				type: \'outside\'
-			},
-			thumbs	: {
-				width	: 50,
-				height	: 50
-			}
-		}
-	});
-});
-</script>
-'; ?>
-<?php $title = 'Пергола для дачи и сада на заказ по доступной цене фото'; ?>
-<?php $description = ''; ?>
-<?php $keywords = 'пергола, перголы фото, перголы на дачу, пергола из дерева'; ?>
-<?php $breadcrumb2 = 'Беседки'; ?>
-<?php $breadcrumb2_url = '/besedki/'; ?>
-<?php $breadcrumb = 'Пергола Поля'; ?>
-<?php $canonical = '/besedki/pergola-polya/'; ?>
+<?php $title = 'Пергола для дачи и сада на заказ по доступной цене фото';
+$description = '';
+$keywords = 'пергола, перголы фото, перголы на дачу, пергола из дерева';
+$breadcrumb2 = 'Беседки';
+$breadcrumb2_url = '/besedki/';
+$breadcrumb = 'Пергола Поля';
+$canonical = '/besedki/pergola-polya/';
+
+$lang=json_decode('{
+  "h1":"Беседка Сруб",
+  "about":"<p>Беседка из бревна получается очень уютной и красивой. Мы строим беседки из бревна любого диаметра от фундамента до кровли.</p><p>Для обозначения стоимости присылайте нам желаемый размер беседки и диаметр бревна. Срок изготовления -1 месяц.</p>",
+  "alt":"Беседка Сруб",
+  "img":"srub1",
+  "eche":["skazka","leto","besedka-iz-brusa","garmoniya"]
+}',true);
+$pricebd = [["","договорная"]];
+$harakt = [["Размер беседки",""],["Срок постройки","30 дней"]];
+$gallery2 = [["besedka-s-pechkoy","беседка с печкой"],["besedka-s-pechkoy2","беседка с печкой"],["besedka-srub-iz-brevna","Беседка сруб из оцилиндрованного бревна"],["besedka-srub","Беседка сруб"]];
+
+include("../template.php"); ?>
+
+
 <?php $root='../../';include($root."blocks/meta.php");
 include($root."blocks/header.php");
 include($root."blocks/breadcrumbs.php"); ?>

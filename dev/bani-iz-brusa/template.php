@@ -1,9 +1,7 @@
-<?php 
-$root = "../../";
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");
-include($root."/blocks/breadcrumbs.php");
-?>
+<?php $root = "../../";
+include($root."blocks/meta.php");
+include($root."blocks/header.php");
+include($root."blocks/breadcrumbs.php");?>
 
 <div class="container proekt-style">
   <div class="row">
@@ -31,9 +29,7 @@ include($root."/blocks/breadcrumbs.php");
           <div class="col-xs-5 col-sm-12"><nobr><span class="price-proekt5"><?php echo $row[1];?>&nbsp;</span>руб.</nobr></div>
 <?php } ?>
           </div>
-
           <button type="submit" class="button-style open-modal">Оставить заявку</button>
-<?php include($root."blocks/modal-zakaz.php"); ?>     
           <div class="opisanie table-responsive">
            <table class="table">
               <caption>Основные характеристики</caption>
@@ -78,12 +74,12 @@ include($root."/blocks/breadcrumbs.php");
       <span>Похожие проекты</span>
     </div>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>
-<?php foreach ($lang['eche'] as $row) { ?>
-     <?php include("../".$row."/param.php"); ?>
-     <?php include($root."/blocks/block-proekt.php"); ?>
-}?>
+<?php foreach ($lang['eche'] as $row) {
+  include("../".$row."/param.php");
+  include($root."blocks/block-proekt.php");
+} ?>
 
   </div><!--row-->
 </div><!--container-->
 
-<?php include($root."/blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>
