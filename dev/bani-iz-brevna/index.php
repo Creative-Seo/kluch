@@ -4,5 +4,6 @@ $description = 'Строительство срубов бань из оцили
 $keywords = 'Бани из бревна, оцилиндрованное, цены, под ключ, недорого, проекты';
 $breadcrumb = 'Бани из бревна';
 $canonical = '/bani-iz-brevna/';
+
 include('content.php');
 ?>
