@@ -1,5 +1,5 @@
-<?php $url = 'http://www.kluch585.ru/derevyannyie-doma/dom-semeynyy/'; ?>
-<?php $img = 'http://www.kluch585.ru/derevyannyie-doma/img/dom-semeynyy.jpg'; ?>
+<?php $url = '/derevyannyie-doma/dom-semeynyy/'; ?>
+<?php $img = '/derevyannyie-doma/img/dom-semeynyy.jpg'; ?>
 <?php $alt = 'Дом семейный'; ?>
 <?php $name = 'Дом семейный'; ?>
 <?php $price = 1300000; ?>

@@ -1,0 +1,19 @@
+@import "header-variables";
+@import "header-bootstrap";
+@import "header";
+@import "navbar";
+@import "pms";
+
+body {
+	font-family:$font-body-open-sans;
+	font-weight:$font-weight-body;
+	font-size:$font-size-body;
+	ul li {
+		list-style-type: none;
+	}
+}
+.tel_svyaz {
+	line-height:0.1em;
+	font-size:12px;
+	font-weight:300;
+}

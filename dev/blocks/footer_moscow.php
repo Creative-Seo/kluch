@@ -1,18 +1,18 @@
 <footer style="margin-top:15px">
   <div class="container">
   <div class="row">
-    <div class="logo-bottom"><img src="http://www.kluch585.ru/img/logo2.jpg" alt="Ключ 585"></div>
+    <div class="logo-bottom"><img src="/img/logo2.jpg" alt="Ключ 585"></div>
     <div class="footer-content">
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"> <span class="zag">Строительство</span>
         <ul>
 
 
-          <li><a href="http://www.kluch585.ru/dachnyie-domiki/">Дачные домики</a></li>
-          <li><a href="http://www.kluch585.ru/bani/">Бани</a></li>
-          <li><a href="http://www.kluch585.ru/sruby/">Срубы</a></li>
-          <li><a href="http://www.kluch585.ru/fundament/">Фундамент</a></li>
-          <li><a href="http://www.kluch585.ru/bytovki/">Бытовки</a></li>
-          <li><a href="http://www.kluch585.ru/sadovyie-postroyki/">Садовые постройки</a></li>
+          <li><a href="/dachnyie-domiki/">Дачные домики</a></li>
+          <li><a href="/bani/">Бани</a></li>
+          <li><a href="/sruby/">Срубы</a></li>
+          <li><a href="/fundament/">Фундамент</a></li>
+          <li><a href="/bytovki/">Бытовки</a></li>
+          <li><a href="/sadovyie-postroyki/">Садовые постройки</a></li>
         </ul>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"> <span class="zag">Пиломатериалы</span>
@@ -21,18 +21,18 @@
           <li><a href="#">Доска обрезная</a></li>
           <li><a href="#">Рейка</a></li>
           <li><a href="#">Вагонка</a></li>
-          <li><a href="http://www.kluch585.ru/polovaya-doska/">Доска пола</a></li>
+          <li><a href="/polovaya-doska/">Доска пола</a></li>
           <li><a href="#">Блок-хаус</a></li>
         </ul>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"> <span class="zag">О компании</span>
         <ul>
-          <li><a href="http://www.kluch585.ru/aktsii/">Акции</a></li>
-          <li><a href="http://www.kluch585.ru/uslugi/">Услуги</a></li>
-          <li><a href="http://www.kluch585.ru/otzyivyi-pokupateley/">Отзывы</a></li>
-          <li><a href="http://www.kluch585.ru/fotogallery/">Фотогалерея</a></li>
-          <li><a href="http://www.kluch585.ru/prays-list/">Прайс-лист</a></li>
-          <li><a href="http://www.kluch585.ru/contacts/">Контакты</a></li>
+          <li><a href="/aktsii/">Акции</a></li>
+          <li><a href="/uslugi/">Услуги</a></li>
+          <li><a href="/otzyivyi-pokupateley/">Отзывы</a></li>
+          <li><a href="/fotogallery/">Фотогалерея</a></li>
+          <li><a href="/prays-list/">Прайс-лист</a></li>
+          <li><a href="/contacts/">Контакты</a></li>
         </ul>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" itemscope itemtype="http://schema.org/LocalBusiness"> <span class="zag">Контакты</span>
@@ -68,7 +68,7 @@
 
   <div>
     <div class="container content-bottom">
-      <div class="row"> © 2007–2015  ЗАО «Агро-Оптим» ОГРН: 1023301953344 ИНН/КПП 3315007157/331501001 <a style="margin-left:15px; color:#333333; text-decoration:underline" href="http://www.creative-seo.ru/" target="_blank" rel="nofollow">Создание и продвижение сайта</a> <img src="http://www.kluch585.ru/img/logo-creative.png" alt="Создание и продвижение сайта" width="120">
+      <div class="row"> © 2007–2015  ЗАО «Агро-Оптим» ОГРН: 1023301953344 ИНН/КПП 3315007157/331501001 <a style="margin-left:15px; color:#333333; text-decoration:underline" href="http://www.creative-seo.ru/" target="_blank" rel="nofollow">Создание и продвижение сайта</a> <img src="/img/logo-creative.png" alt="Создание и продвижение сайта" width="120">
       <!-- Yandex.Metrika informer --><a href="https://metrika.yandex.ru/stat/?id=21486487&amp;from=informer" target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/21486487/3_1_FFFFFFFF_EFEFEFFF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:21486487,lang:'ru'});return false}catch(e){}"/></a><!-- /Yandex.Metrika informer --><!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter21486487 = new Ya.Metrika({id:21486487, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/21486487" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
       </div>
     </div>
@@ -81,9 +81,9 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="http://www.kluch585.ru/js/bootstrap.min.js"></script>
-<script src="http://www.kluch585.ru/js/callback.js"></script>
-<script src="http://www.kluch585.ru/js/jquery.maskedinput.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/callback.js"></script>
+<script src="/js/jquery.maskedinput.min.js"></script>
 <script type="text/javascript">
 jQuery(function($){
    $("#tel").mask("+7 (999) 999-9999");
@@ -145,7 +145,7 @@ $(document).ready(function() {
 			return false;
 		}
 
-		$.post('http://www.kluch585.ru/ajax4.php',
+		$.post('/ajax4.php',
 			{ n: n, t: t, nomer: nomer, key: 'xZuyP93oNVpiNx4w4EemBxbFvGNFgWah'}
 		).done(function(data) {
 			alert(data);
@@ -190,7 +190,7 @@ $('#sidebar').affix({
       }
 });
 </script>
-<script src="http://www.kluch585.ru/js/blocksit.min.js"></script>
+<script src="/js/blocksit.min.js"></script>
 <script>
 $(document).ready(function() {
 

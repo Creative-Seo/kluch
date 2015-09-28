@@ -2,7 +2,7 @@
 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 proekt" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
  <a itemprop="url" href="<?php echo $url; ?>">
 	<img src="<?php echo $img; ?>" class="img-responsive" itemprop="image" alt="<?php echo $alt; ?>">
-<?php if ($akciya) {echo '<img src="http://www.kluch585.ru/dachnyie-domiki/img/akciya.png" width="100px" alt="" style="position:absolute; top:0;right:0">';$akciya=false;}?>
+<?php if ($akciya) {echo '<img src="/dachnyie-domiki/img/akciya.png" width="100px" alt="" style="position:absolute; top:0;right:0">';$akciya=false;}?>
  </a>
   <div class="pl">Площадь: <?php echo $pl; ?> м<sup>2</sup><br />
   Габариты: <?php echo $gab; ?> м

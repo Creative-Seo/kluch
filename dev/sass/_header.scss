@@ -1,0 +1,64 @@
+.header {
+	background-color:$header-color-back;
+	color:$header-color;
+	line-height:$header-height;
+}
+//Адрес
+.adres{
+		font-size:14px;	
+	}
+//-----//
+//Логотип
+.logo {
+		text-align:center;
+		font-weight:700;
+		font-size:32px;
+		height:$header-height;
+		line-height:0.7em;
+		padding-top: $header-height*0.25;
+		display:block;
+		&, &:hover, &:focus {
+			text-decoration: none;
+			color: #000;
+		}
+		span{
+			font-size:14px;
+			font-weight:300;
+		}
+	}
+//-------//
+//Телефон
+.tel{
+		font-weight:700;
+		color: $color-gold;
+		text-decoration: none;
+		&:hover,&:focus {
+			text-decoration: none;
+			color: $color-gold;
+		}
+		span, i{
+			font-size:24px;
+			color: #000;
+		}
+		i {
+			color: $color-gold;
+		}
+	}
+.tel_svyaz {
+	line-height:0.1em;
+	font-size:12px;
+	font-weight:300;
+}
+//-------//
+//Выбор языка
+.lang {
+	font-size:14px;
+	font-weight:300;
+	padding-left: 15px;
+}
+a.lang{&, &:hover, &focus{text-decoration:none;color:#000;}}
+span.active {
+		font-weight:700;
+		color: $color-gold;
+}
+//-------//

@@ -1,5 +1,5 @@
-<?php $url = 'http://www.kluch585.ru/besedki/garmoniya/'; ?>
-<?php $img = 'http://www.kluch585.ru/besedki/garmoniya/garmoniya.jpg'; ?>
+<?php $url = '/besedki/garmoniya/'; ?>
+<?php $img = '/besedki/garmoniya/garmoniya.jpg'; ?>
 <?php $alt = 'Беседка Гармония'; ?>
 <?php $name = 'Беседка Гармония'; ?>
 <?php $price = 65000; ?>
