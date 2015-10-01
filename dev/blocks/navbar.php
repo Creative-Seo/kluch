@@ -21,7 +21,7 @@
 				<li><a href="/doma-iz-brevna/">Дома из бревна</a></li>
 				<li><a href="/doma-iz-kleenogo-brusa/">Дома из клееного бруса</a></li>
 				<li><a href="/doma-iz-profilirovannogo-brusa/">Дома из профилированного бруса</a></li>
-				<li><a href="/sruby/">Срубы</a></li>
+				
 				<li><a href="/fundament/">Фундамент</a></li>
 				<li><a href="/bytovki/">Бытовки</a></li>
 		</ul>

@@ -8,19 +8,20 @@ include($root."blocks/breadcrumbs.php");?>
     <h1>Фотографии бань построенных нашей компанией</h1>
     <div id="container" class="gallery foto-otchyot">
     
-    <?php
-$x=0;
-while ($x++<43){ echo'
+<?php 
+$images = scandir('./');
+if (false !== $images) {
+    $imgarray = preg_grep('/\\.(?:jpe?g)$/', $images);
+  foreach($imgarray as $row) { 
+?>  
     <div class="grid">
-<div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-'; echo $x; echo '.jpg">
-	<figure class=" animated zoomIn">	
-	<img src="/bani/foto/banya-'; echo $x; echo '.jpg" class="img-responsive" alt="Баня - Ключ 585"/>
-	</figure></a></div></div>
-    ';}
-
-?>
-    
+    <div class="imgholder image-thumb">
+      <a class="fancybox-thumb" rel="gallery1" href="<?php echo htmlspecialchars(urlencode($row));?>">
+      <figure class=" animated zoomIn">
+      <img src="<?php echo htmlspecialchars(urlencode($row));?>" class="img-responsive" alt="Баня - Ключ 585"/>
+      </figure></a>
+    </div></div>
+<?php }} ?>
      
     </div>
   </div>

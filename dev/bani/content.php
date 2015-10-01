@@ -39,72 +39,24 @@ include($root."blocks/breadcrumbs.php");?>
 
 <div id="container" class="gallery foto-otchyot">
     
-      
+<?php 
+$images = scandir('foto/');
+if (false !== $images) {
+  $imgarray = preg_grep('/\\.(?:jpe?g)$/', $images);
+  foreach($imgarray as $key => $row) {
+  	if ($key<9) {
+?>  
     <div class="grid">
-<div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-1.jpg">
-	<figure class=" animated zoomIn">	
-	<img src="/bani/foto/banya-1.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
-	</figure></a></div></div>
-    
-    <div class="grid">
-<div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-2.jpg">
-	<figure class=" animated zoomIn">	
-	<img src="/bani/foto/banya-2.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
-	</figure></a></div></div>
-    
-    <div class="grid">
-<div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-3.jpg">
-	<figure class=" animated zoomIn">	
-	<img src="/bani/foto/banya-3.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
-	</figure></a></div></div>
-    
-    <div class="grid">
-<div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-4.jpg">
-	<figure class=" animated zoomIn">	
-	<img src="/bani/foto/banya-4.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
-	</figure></a></div></div>
-    
-    <div class="grid">
-<div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-5.jpg">
-	<figure class=" animated zoomIn">	
-	<img src="/bani/foto/banya-5.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
-	</figure></a></div></div>
-    
-    <div class="grid">
-<div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-6.jpg">
-	<figure class=" animated zoomIn">	
-	<img src="/bani/foto/banya-6.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
-	</figure></a></div></div>
-    
-    <div class="grid">
-<div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-7.jpg">
-	<figure class=" animated zoomIn">	
-	<img src="/bani/foto/banya-7.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
-	</figure></a></div></div>
-    
-    <div class="grid">
-<div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-8.jpg">
-	<figure class=" animated zoomIn">	
-	<img src="/bani/foto/banya-8.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
-	</figure></a></div></div>
-    
-    <div class="grid">
-<div class="imgholder image-thumb">
-    <a class="fancybox-thumb" rel="gallery1" href="/bani/foto/banya-9.jpg">
-	<figure class=" animated zoomIn">	
-	<img src="/bani/foto/banya-9.jpg" class="img-responsive" alt="Баня - Ключ 585"/></a>
-	</figure></a></div></div>
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-<a style="font-size: 22px" href="/bani/foto/">Посмотреть все фотографии</a>  
+    <div class="imgholder image-thumb">
+      <a class="fancybox-thumb" rel="gallery1" href="foto/<?php echo htmlspecialchars(urlencode($row));?>">
+      <figure class=" animated zoomIn">
+      <img src="foto/<?php echo htmlspecialchars(urlencode($row));?>" class="img-responsive" alt="Баня - Ключ 585"/>
+      </figure></a>
+    </div></div>
+<?php }}} ?>
+
 </div>
+<p><a style="font-size: 22px" href="/bani/foto/">Посмотреть все фотографии</a></p>
 </div>
 
 <?php include($root."blocks/footer.php"); ?>

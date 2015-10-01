@@ -9,7 +9,7 @@
         <ul>
           <li><a href="/dachnyie-domiki/">Дачные домики</a></li>
           <li><a href="/bani/">Бани</a></li>
-          <li><a href="/sruby/">Срубы</a></li>
+          
           <li><a href="/fundament/">Фундамент</a></li>
           <li><a href="/bytovki/">Бытовки</a></li>
           <li><a href="/sadovyie-postroyki/">Садовые постройки</a></li>
