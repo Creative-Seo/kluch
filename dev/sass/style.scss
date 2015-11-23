@@ -241,35 +241,6 @@ table{background-color:transparent;border-collapse:collapse;border-spacing:0;max
 .price-list {font-size:18px; padding-left:5px;}
 .fa-print {cursor: pointer}
 
-.rates tr.greyline td, .rates tr.darkline td {
-    border-bottom: 3px solid #fff;
-    border-left: 5px solid #fff;
-}
-.rates tr.firstline td {
-    border-top: 16px solid #fff;
-}
-.rates tr.greyline td{
-    background: #f7f6f3 none repeat scroll 0 0;
-}
-.rates tr td:first-child {
-    padding-left: 17px;
-    text-align: left;
-    vertical-align: middle;
-}
-
-.rates tr.greyline td, .rates tr.darkline td {
-    border-bottom: 3px solid #fff;
-    border-left: 5px solid #fff;
-    vertical-align: middle;
-}
-.rates tr.darkline td {
-    background: #ced5da none repeat scroll 0 0;
-}
-.rates tr td:first-child {
-    padding-left: 17px;
-    text-align: left;
-    vertical-align: middle;
-}
 .dostavka h3 {
 	font-size: 18px;
 }
@@ -285,6 +256,7 @@ table{background-color:transparent;border-collapse:collapse;border-spacing:0;max
 .col-xs-12>p{padding-top:1em;}
 
 .pogonazh {
+	padding: 10px;
       border: 2px solid #e5e5e5;
       border-radius: 8px !important;
       border-collapse: separate;
@@ -294,9 +266,6 @@ table{background-color:transparent;border-collapse:collapse;border-spacing:0;max
         border: 2px solid #134A95;
       }
     tr {
-      
-      padding:10px;
-      
       td {
         text-align:center; 
         vertical-align: middle !important;
@@ -332,3 +301,5 @@ table{background-color:transparent;border-collapse:collapse;border-spacing:0;max
     }
   
 }
+
+.table > tbody > tr > td {padding: 0;}

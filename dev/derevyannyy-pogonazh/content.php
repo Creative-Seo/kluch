@@ -28,7 +28,7 @@ foreach ($pogonazh_table as  $value) { $count=count($pogonazh[$value]['table']);
     <tbody>
       <tr>
         <td rowspan="<?php echo $count;?>"><a href="/derevyannyy-pogonazh/<?php echo $value; ?>"><img src="/img/pogonazh/vid/<?php echo $pogonazh[$value]['img'][0]; ?>" alt="<?php echo $pogonazh[$value]['name']; ?>" width="150" /></a></td>
-        <td rowspan="<?php echo $count;?>"><a href="/derevyannyy-pogonazh/<?php echo $value; ?>"><?php echo $pogonazh[$value]['name']; ?></a></td>
+        <td rowspan="<?php echo $count;?>" width="40%"><a href="/derevyannyy-pogonazh/<?php echo $value; ?>"><?php echo $pogonazh[$value]['name']; ?></a></td>
   <?php $br='<tr>'; foreach ($pogonazh[$value]['table'] as $key => $row) { if ($key==$count) $br=''; ?>
         <td><span class="razmer"><?php echo $row[0]; ?></span></td>
         <td><span class="price"><?php echo $row[1]; ?></span><span class="mp"> руб./м.п.</span></td>
