@@ -6,26 +6,28 @@ include($root."blocks/breadcrumbs.php"); ?>
 <div class="container">
   <div class="row">
     <h1><?php echo $lang['h1']; ?></h1>
-    <div class="col-md-7 col-sm-6 col-xs-12">
-		<a class="fancybox-thumb" rel="gallery1" title="<?php echo $lang['alt']; ?>" href="/img/pogonazh/<?php echo $lang['img']; ?>.jpg">
-			<img src="/img/pogonazh/<?php echo $lang['img']; ?>.jpg" alt="<?php echo $lang['alt']; ?>" class="img-responsive"></a>
+    <div class="col-md-5 col-sm-4 col-xs-6">
+		<img src="/img/pogonazh/vid/<?php echo $lang['img1']; ?>" alt="<?php echo $lang['alt']; ?>" class="img-responsive">
 	</div>
-    <div class="col-md-5 col-sm-6 col-xs-12">
+	<div class="col-md-4 col-sm-4 col-xs-6">
+		<img src="/img/pogonazh/plan/<?php echo $lang['img2']; ?>" alt="<?php echo $lang['alt']; ?>" class="img-responsive">
+	</div>
+	<div class="clearfix visible-xs"></div>
+    <div class="col-md-3 col-sm-4 col-xs-12">
 		<div class="cena-block"> <span class="price-proekt2">Стоимость:</span>
 		<table class="table" style="text-align:center; vertical-align: central;">
+<?php foreach ($lang['cena'] as $key => $value) { ?>
 			<tr>
-				<td><div><?php echo $lang['cena'][0][0]; ?></div></td>
-				<td><div><?php echo $lang['cena'][0][1]; ?></div></td>
+				<td><?php echo $value[0]; ?></td>
+				<td><?php echo $value[1]; ?></td>
 			</tr>
-			<tr>
-				<td><?php echo $lang['cena'][1][0]; ?></td>
-				<td><?php echo $lang['cena'][1][1]; ?></td>
-			</tr>
+<?php } ?>
 		</table>
-		<button type="submit" class="button-style open-modal">Оставить заявку</button>
+		<button class="button-style open-modal">Оставить заявку</button>
 		</div>
 	</div>
   </div>
+  <p><?php echo $lang['p']; ?></p>
   <div class="row" itemtype="http://schema.org/ItemList" itemscope>
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title"><span>Похожие товары</span></div>
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>

@@ -1,5 +1,5 @@
-<div  id="cd-main-header" class="cd-main-header">
-	<a class="cd-logo hidden-lg hidden-md hidden-sm" href="#0">Ключ 585<!--<img src="/img/logo.png" alt="Logo">--></a>
+<div class="cd-main-header">
+	<a class="cd-logo visible-xs" href="#0">Ключ 585<!--<img src="/img/logo.png" alt="Logo">--></a>
 	<ul class="cd-header-buttons">
     <!--<li><a class="cd-search-trigger" href="#cd-search">Search<span></span></a></li>-->
 		<li><a class="cd-nav-trigger" href="javascript: menu();"><span></span></a></li>
@@ -9,7 +9,8 @@
 <div class="cd-overlay"></div>
 
 <!--<div class="nav-color container">-->
-	<nav class="cd-nav nav-color container"><ul id="cd-primary-nav" class="cd-primary-nav nav-is-fixed">
+<nav class="cd-nav nav-color">
+	<div class="container"><ul id="cd-primary-nav" class="cd-primary-nav nav-is-fixed">
 		<li><a href="/"><i class="fa fa-home fa-lg"></i></a></li>
 
 		<li class="has-children"> <a href="javascript:void(0);">Строительство</a>
@@ -60,7 +61,8 @@
 		<li><a href="/optovikam/">Оптовикам</a></li>
 		<li><a href="/contacts/">Контакты</a></li>
 
-	</ul></nav>
+	</ul></div>
+</nav>
 
 	<!--<div id="cd-search" class="cd-search">
 		<form>

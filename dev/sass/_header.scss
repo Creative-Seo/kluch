@@ -1,64 +1,18 @@
-.header {
-	background-color:$header-color-back;
-	color:$header-color;
-	line-height:$header-height;
-}
-//Адрес
-.adres{
-		font-size:14px;	
-	}
-//-----//
-//Логотип
-.logo {
-		text-align:center;
-		font-weight:700;
-		font-size:32px;
-		height:$header-height;
-		line-height:0.7em;
-		padding-top: $header-height*0.25;
-		display:block;
-		&, &:hover, &:focus {
-			text-decoration: none;
-			color: #000;
-		}
-		span{
-			font-size:14px;
-			font-weight:300;
-		}
-	}
-//-------//
-//Телефон
-.tel{
-		font-weight:700;
-		color: $color-gold;
-		text-decoration: none;
-		&:hover,&:focus {
-			text-decoration: none;
-			color: $color-gold;
-		}
-		span, i{
-			font-size:24px;
-			color: #000;
-		}
-		i {
-			color: $color-gold;
-		}
-	}
-.tel_svyaz {
-	line-height:0.1em;
-	font-size:12px;
-	font-weight:300;
-}
-//-------//
-//Выбор языка
-.lang {
-	font-size:14px;
-	font-weight:300;
-	padding-left: 15px;
-}
-a.lang{&, &:hover, &focus{text-decoration:none;color:#000;}}
-span.active {
-		font-weight:700;
-		color: $color-gold;
-}
-//-------//
+header .tel{font-size:30px;line-height:40px;text-shadow:1px 1px 5px #fff, -1px 1px 5px #fff, 1px -1px 5px #fff, -1px -1px 5px #fff;}
+header .tel span{color:#dd4041;}
+header .tel{color:#223c7f;}
+.contacts{padding-top:30px}
+.callback{color:#223c7f !important;}
+.callback a{color:#223c7f !important;border-bottom:1px dashed #223c7f;font-size:14px}
+.callback a:hover{border:none;cursor:pointer;text-decoration:none}
+header .tel .nomer{font-size:36px;color:#223c7f;}
+.adres{margin-bottom:9px}
+.adrvr{font-size:16px;text-align:left;padding:40px 0 0 10px;}
+.adrvr i{padding-right:5px;color:#223c7f}
+.adrvr .vrem span{color:#dd4041;padding-left:20px}
+#main{background:url("/img/top-bg.jpg") repeat-x scroll center top rgba(0, 0, 0, 0);}
+.headlinks{padding-top:40px;padding-bottom:10px;}
+.headlinks a{padding:8px;color:#808080;text-decoration:underline;font-size:12px}
+.breadcrumb{background-color:#fff;margin-top:30px}
+.tel a:hover, .tel a:focus, .tel a:active {text-decoration:none}
+.tel a:hover{text-decoration:none}

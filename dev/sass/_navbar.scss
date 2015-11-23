@@ -1,4 +1,4 @@
-.nav-bar {
+/*.nav-bar {
 	background-color:$header-color-back;
 	line-height:$nav-height;
 	ul {
@@ -43,7 +43,7 @@ li.divid {
 	.nav-bar {position:fixed;width:80%;top:20vh;right:0px;@include translate(-260px,0);}
 	.nav-bar ul li {float: none;}
 	.tel {display: inline-block;}
-}
+}*/
 
 
 
@@ -79,19 +79,31 @@ Main components
 }
 
 .cd-main-content {
+	position: absolute;
+	background: $color-3;
+	min-height: 100vh;
 	z-index: $content;
 }
 
 .cd-main-header {
-//	min-height: $header-height-S;
+	height: $header-height-S;
 	background: $color-4;
 	z-index: $above-content;
 
-	@include MQ(maxL) {
-		min-height: $header-height-S;
+	.nav-is-fixed & {
+		/* add .nav-is-fixed class to body if you want a fixed navigation on > 1170px */
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+
+	@include MQ(L) {
+		height: 0;
 		@include clearfix;
 	}
 }
+
 .cd-logo {
 	position: absolute;
 	top: 12px;
@@ -252,7 +264,7 @@ Main components
 		display: inline-block;
 		height: 3px;
 		width: 24px;
-		background: $color-1;
+		background: $color-4;
 	}
 
 	span {
@@ -289,12 +301,12 @@ Main components
 	&.nav-is-visible {
 		span {
 			/* hide line in the center */
-			background: rgba($color-1, 0);
+			background: rgba($color-4, 0);
 		}
 
 		span::before, span::after {
 			/* keep visible other 2 lines */
-			background: rgba($color-1, 1);
+			background: rgba($color-4, 1);
 		}
 
 		span::before {
@@ -312,6 +324,9 @@ Main components
 }
 
 .cd-primary-nav, .cd-primary-nav ul {
+	position: fixed;
+	top: 0;
+	right: 0;
 	height: 100%;
 	width: $nav-width-S;
 	background: $color-1;
@@ -358,11 +373,10 @@ Main components
 		right: auto;
 		left: 0;
 	}
-	.cd-primary-nav {width: 80%;}
 }
 
 .cd-primary-nav {
-	z-index:5;
+
 	.see-all a {
 		/* different style for the See all button on mobile and tablet */
 		color: $color-2;
@@ -450,27 +464,27 @@ Main components
 			background-image: url('../img/line-icon-8.svg');
 		}
 	}
-}
-.nav-is-fixed {
-	position: fixed;
-	top: 0;
-	right: 0;
+
 	@include MQ(maxL) {
+		/* by default .cd-primary-nav is hidden - trick for iOS devices where you can see the navigation if you pull down */
 		visibility: hidden;
 		@include transition(visibility 0s .3s);
+
 		&.nav-is-visible {
 			visibility: visible;
 			@include transition(visibility 0s 0s);
 		}
 	}
 }
-@include MQ(L) {
 
+@include MQ(L) {
+	.cd-overlay.is-visible {display: none;}
 	.cd-primary-nav {
 		position: static;
-		margin: auto;
+		padding: 0 150px 0 0;
 		height: auto;
-		width: 90%;
+		width: auto;
+		float: right;
 		overflow: visible;
 		background: transparent;
 		@include clearfix;
@@ -484,7 +498,6 @@ Main components
 		ul {
 			position: static;
 			height: auto;
-			width: auto;
 			background: transparent;
 			overflow: visible;
 			z-index: $above-content;
@@ -502,11 +515,9 @@ Main components
 		}
 
 		> li {
+			position: relative;
 			float: left;
-			margin-left: .5em;
-			@include MQ(LG) {
-				margin-left: 1em;
-			}
+			margin-left: 1em;
 		}
 
 		> li > a {
@@ -516,17 +527,17 @@ Main components
 			height: $header-height-L;
 			line-height: $header-height-L;
 			padding: 0 10px;
-			color: $color-1;
+			color: $color-4;
 			overflow: visible;
 			border-bottom: none;
 			@include transition(color .3s, box-shadow .3s);
 
 			&:hover {
-				color: $color-2;
+				color: $color-5;
 			}
 
 			&.selected {
-				color: $color-2;
+				color: $color-5;
 				box-shadow: inset 0 -2px 0 $color-2;
 			}
 		}
@@ -537,17 +548,24 @@ Main components
 
 		.cd-secondary-nav, .cd-nav-gallery, .cd-nav-icons {
 			/* dropdown menu style */
-			position: absolute;
-			top: $header-height-L;
-			width: 100vw;
-			background: $color-4;
-			padding: 48px 64px 130px;
-			box-shadow: inset 0 1px 0 $color-3, 0 3px 6px rgba(#000, .05);
-			@include transform(translateX(0));
-			@include clearfix;
-			-webkit-transition: opacity .3s 0s, visibility 0s 0s;
-			-moz-transition: opacity .3s 0s, visibility 0s 0s;
-			transition: opacity .3s 0s, visibility 0s 0s;
+			    position: absolute;
+			    top: 100%;
+			    left: 0;
+			    z-index: 1000;
+			    display: block;
+			    float: left;
+			    min-width: 160px;
+			    padding: 5px 0;
+			    margin: 2px 0 0;
+			    list-style: none;
+			    font-size: 14px;
+			    background-color: #fff;
+			    border: 1px solid #ccc;
+			    border: 1px solid rgba(0,0,0,.15);
+			    border-radius: 4px;
+			    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+			    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+			    background-clip: padding-box;
 
 			&.is-hidden {
 				opacity: 0;
@@ -599,10 +617,7 @@ Main components
 		.cd-secondary-nav {
 
 			> li {
-				/* change the height according to your needs - you can even set height: auto */
-				height: 340px;
-				/* here you set the number of columns - use width percentage */
-				@include column(.23); // see partials > _layout.scss
+				width: auto;
 				margin-right: 2.66%;
 				border-right: 1px solid $color-3;
 				overflow: hidden;
@@ -617,11 +632,13 @@ Main components
 				}
 
 				> a {
-					/* secondary nav title */
-					color: $color-2;
-					font-weight: bold;
-					font-size: 1.6rem;
-					margin-bottom: .6em;
+					display: block;
+				    padding: 3px 20px;
+				    clear: both;
+				    font-weight: 400;
+				    line-height: 1.42857143;
+				    color: #333;
+				    white-space: nowrap;
 				}
 			}
 
@@ -760,7 +777,7 @@ Main components
 		display: inline-block;
 		height: 2px;
 		width: 10px;
-		background: lighten($color-1, 10%);
+		background: lighten($color-4, 10%);
 		-webkit-backface-visibility: hidden;
 		backface-visibility: hidden;
 	}
@@ -819,7 +836,7 @@ Main components
 		&::before, &::after {
 			width: 9px;
 			@include transform-origin(50% 50%);
-			background: darken($color-3, 10%);
+			background: darken($color-4, 10%);
 			-webkit-backface-visibility: hidden;
 			backface-visibility: hidden;
 			@include transition(width .3s, transform .3s);
@@ -995,4 +1012,53 @@ support for no js
 	.no-js .nav-is-fixed .cd-primary-nav {
 		position: fixed;
 	}
+}
+
+
+.cd-primary-nav  li { list-style-type:none;}
+.cd-primary-nav  li a:hover,.cd-primary-nav  li a:focus,.cd-primary-nav  li a:active { text-decoration:none;}
+.cd-secondary-nav { padding-left:0;}
+#cd-primary-nav {margin-bottom:0;}
+
+
+.cd-primary-nav, .cd-primary-nav ul {
+    position: inherit;
+    top: auto;
+}
+.nav-is-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+@media only screen and (min-width: 992px){
+	.cd-primary-nav {
+		padding: 0 5% 0 0;
+		position: static;
+		margin: auto;
+		height: auto;
+		width: auto;
+		overflow: visible;
+		background: transparent;
+	}
+}
+@media only screen and (max-width: 992px){
+.nav-is-fixed {
+    visibility: hidden;
+    -webkit-transition: visibility 0s 0.3s;
+    -moz-transition: visibility 0s 0.3s;
+    transition: visibility 0s 0.3s;
+}
+.cd-primary-nav, .cd-primary-nav ul {
+    position: fixed;
+    top: 0;
+}
+
+}
+.nav-color, .cd-main-header {
+	background:#003685;
+	background:-webkit-linear-gradient(top,#548dca,#003685);
+	background:-ms-linear-gradient(top,#548dca,#003685);
+	background:-o-linear-gradient(top,#548dca,#003685);
+	background:linear-gradient(top,#548dca,#003685);
+	background:-moz-linear-gradient(top,#548dca,#003685)
 }

@@ -85,7 +85,7 @@
 
 <script>
 var ms=document.createElement("link");ms.rel="stylesheet";
-ms.href="http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,cyrillic";document.getElementsByTagName("head")[0].appendChild(ms);
+/*ms.href="http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,cyrillic";document.getElementsByTagName("head")[0].appendChild(ms);
 var ms=document.createElement("link");ms.rel="stylesheet";
 ms.href="/css/bootstrap.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
 var ms=document.createElement("link");ms.rel="stylesheet";
@@ -93,7 +93,7 @@ ms.href="/css/font-awesome.min.css";document.getElementsByTagName("head")[0].app
 var ms=document.createElement("link");ms.rel="stylesheet";
 ms.href="/css/jquery.fancybox.css";document.getElementsByTagName("head")[0].appendChild(ms);
 var ms=document.createElement("link");ms.rel="stylesheet";
-ms.href="/css/jquery.fancybox-thumbs.css";document.getElementsByTagName("head")[0].appendChild(ms);
+ms.href="/css/jquery.fancybox-thumbs.css";document.getElementsByTagName("head")[0].appendChild(ms);*/
 var ms=document.createElement("link");ms.rel="stylesheet";
 ms.href="/css/style.css";document.getElementsByTagName("head")[0].appendChild(ms);
 </script>

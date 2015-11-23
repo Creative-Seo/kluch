@@ -1,5 +1,5 @@
 <?php if (!(in_array($_SERVER['REQUEST_URI'], ['/derevyannyy-pogonazh/','/optovikam/','/aktsii/']))) {?>
-<a class="pull-right col-sm-6 col-lg-5" href="/fundament/svayno-vintovoy/" style="text-decoration:none; background-color: #fff; margin: 10px; padding:5px; border: 1px solid #dd4041;">
+<a class="pull-right col-sm-6 col-lg-5" href="/fundament/svayno-vintovoy/" style="text-decoration:none; background-color: #fff; margin: 10px; padding:5px; border: 1px solid #dd4041;z-index:0;">
 	<img class="col-xs-4 img-responsive" src="/aktsii/bear.jpg" alt="Для тех, кто не спит зимой">
 	<div class="col-xs-8">
 		<p><span style="color: #dd4041;">Акция "Для тех, кто не спит зимой!"</span><br>При заказе на зимнее строительство свайно-винтовой фундамент в подарок!</p>
