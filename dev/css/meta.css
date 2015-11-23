@@ -6098,13 +6098,14 @@ body {
   display: inline-block;
   font-size: 18px;
   outline: 0 none;
-  padding: 10px 20px; }
-  /* line 57, ../sass/meta.scss */
+  padding: 10px 20px;
+  transition: color 0.3s, box-shadow 0.3s; }
+  /* line 58, ../sass/meta.scss */
   .button-style:hover, .button-style:focus {
-    opacity: 0.9;
-    text-shadow: 0 0 8px white; }
+    color: #F66;
+    text-decoration: none; }
 
-/* line 62, ../sass/meta.scss */
+/* line 63, ../sass/meta.scss */
 .cena-block {
   padding: 20px;
   text-align: center;

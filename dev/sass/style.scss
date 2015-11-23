@@ -240,8 +240,6 @@ table{background-color:transparent;border-collapse:collapse;border-spacing:0;max
 }
 .price-list {font-size:18px; padding-left:5px;}
 .fa-print {cursor: pointer}
-.pogonazh img {width:350px; border-top: none;}
-
 
 .rates tr.greyline td, .rates tr.darkline td {
     border-bottom: 3px solid #fff;
@@ -285,3 +283,52 @@ table{background-color:transparent;border-collapse:collapse;border-spacing:0;max
     margin-top: 5px;
 }
 .col-xs-12>p{padding-top:1em;}
+
+.pogonazh {
+      border: 2px solid #e5e5e5;
+      border-radius: 8px !important;
+      border-collapse: separate;
+      border-spacing: 0;
+      transition:border 0.3s ease-in;
+      &:hover {
+        border: 2px solid #134A95;
+      }
+    tr {
+      
+      padding:10px;
+      
+      td {
+        text-align:center; 
+        vertical-align: middle !important;
+        border:none !important;
+        a {
+          font-weight:700; 
+          color:#134A95;
+          font-size:16px;
+          transition:all 0.2s ease-in;
+          &:hover {
+            color:#FF3C3D;
+            text-decoration:none;
+            border:none;
+          }
+        }
+        .price {
+          font-weight:700; 
+          font-size:20px;
+        }
+        .promo {
+          font-size:12px;
+          font-weight:700; 
+          color: #868686;
+        }
+        .mp {
+          font-weight:700; 
+        }
+        .razmer {
+          font-size:16px;
+          font-weight:700;
+        }
+      }
+    }
+  
+}

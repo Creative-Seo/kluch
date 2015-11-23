@@ -54,9 +54,10 @@ body {
 	display:inline-block;
 	font-size:18px;outline:0 none;
 	padding: 10px 20px;
+	transition: color 0.3s, box-shadow 0.3s;
 	&:hover, &:focus{
-		opacity:0.9;
-		text-shadow:0 0 8px white;
+		color: #F66;
+		text-decoration: none;
 	}
 }
 .cena-block{
