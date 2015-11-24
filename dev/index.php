@@ -4,7 +4,7 @@ $description = 'Приоритетное направление работы к�
 $keywords = 'строительство домов из бруса,проекты домов из бруса,дома из клееного бруса,строительство домов из клееного бруса';
 $canonical = '';
 
-$carousel = json_decode('[
+/*$carousel = json_decode('[
 {"url":"/bani-iz-brevna/","text":"Баня из оцилиндрованного бревна","img":"banya-iz-brevna"},
 {"url":"/besedki/srub/","text":"Беседка из оцилиндрованного бревна","img":"besedka-iz-brevna"},
 {"url":"/besedki/skazka/","text":"Беседка Сказка","img":"besedka-skazka"},
@@ -13,6 +13,10 @@ $carousel = json_decode('[
 {"url":"/dachnyie-domiki/dom-5/","text":"Дачный домик №5","img":"dachnyy-domik-5"},
 {"url":"/doma-iz-brevna/","text":"Деревянный дом из оцилиндрованного бревна","img":"dom-iz-brevna"},
 {"url":"/karkasnye-doma/","text":"Каркасный дачный домик","img":"karkasnyy-dachnyy-domik"}
+]',true);*/
+
+$carousel = json_decode('[
+{"url":"/derevyannyie-doma/","text":"Деревянные дома","img":"dom-iz-brevna"}
 ]',true);
 
 include('content.php');

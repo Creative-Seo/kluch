@@ -3390,6 +3390,10 @@ support for no js
   background: linear-gradient(top, #548dca, #003685);
   background: -moz-linear-gradient(top, #548dca, #003685); }
 
+@media only screen and (max-width: 991px) {
+  /* line 1065, ../sass/_navbar.scss */
+  .cd-main-header {
+    min-height: 50px; } }
 /*!
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -6031,31 +6035,34 @@ body {
   body ul li {
     list-style-type: none; }
 
-/* line 16, ../sass/meta.scss */
+/* line 17, ../sass/meta.scss */
 .carousel-inner {
   min-height: 70vh; }
-
-/* line 17, ../sass/meta.scss */
+/* line 18, ../sass/meta.scss */
 .carousel-img {
-  height: 70vh !important;
-  min-width: 100% !important; }
-
-/* line 21, ../sass/meta.scss */
-.carousel-caption {
+  height: 100%;
+  width: 100%; }
+/* line 22, ../sass/meta.scss */
+.carousel-fon {
   position: absolute;
-  right: 15%;
-  top: 10%;
-  left: 15%;
+  min-height: 70vh;
+  height: 100%;
+  min-width: 100%; }
+/* line 28, ../sass/meta.scss */
+.carousel-caption {
+  position: relative;
   bottom: initial;
   font-size: 60px;
   text-align: left;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
   color: #ff4;
   text-shadow: 0 5px 8px rgba(0, 0, 0, 0.6); }
-
-/* line 35, ../sass/meta.scss */
+/* line 37, ../sass/meta.scss */
+.carousel-text {
+  min-height: 170px;
+  margin-top: 50px;
+  margin-bottom: 20px; }
+/* line 42, ../sass/meta.scss */
 .carousel-circle {
   display: inline-block;
   width: 12px;
@@ -6064,28 +6071,28 @@ body {
   border: 2px solid #ff4;
   margin-left: 10px;
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.6); }
-
-/* line 44, ../sass/meta.scss */
-.carousel-circle.active {
-  background-color: #ff4;
-  margin-left: 10px; }
-
-/* line 45, ../sass/meta.scss */
+  /* line 50, ../sass/meta.scss */
+  .carousel-circle.active {
+    background-color: #ff4;
+    margin-left: 10px; }
+/* line 55, ../sass/meta.scss */
 .carousel-about {
+  margin-bottom: 50px;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 5px 20px;
   color: #ff4;
   text-decoration: none;
   font-size: 26px; }
-
-/* line 46, ../sass/meta.scss */
-.carousel-about:hover, .carousel-about:focus {
-  color: #cc4;
-  text-decoration: none; }
+  /* line 62, ../sass/meta.scss */
+  .carousel-about:hover, .carousel-about:focus {
+    color: #cc4;
+    text-decoration: none; }
 
 @media screen and (min-width: 900px) {
-  /* line 47, ../sass/meta.scss */
+  /* line 68, ../sass/meta.scss */
   .carousel-caption {
     width: 50%; } }
-/* line 49, ../sass/meta.scss */
+/* line 70, ../sass/meta.scss */
 .button-style {
   background: none repeat scroll 0 0 #124994;
   border: medium none;
@@ -6096,12 +6103,12 @@ body {
   outline: 0 none;
   padding: 10px 20px;
   transition: color 0.3s, box-shadow 0.3s; }
-  /* line 58, ../sass/meta.scss */
+  /* line 79, ../sass/meta.scss */
   .button-style:hover, .button-style:focus {
     color: #F66;
     text-decoration: none; }
 
-/* line 63, ../sass/meta.scss */
+/* line 84, ../sass/meta.scss */
 .cena-block {
   padding: 20px;
   text-align: center;

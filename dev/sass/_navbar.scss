@@ -1060,3 +1060,9 @@ support for no js
 	background:linear-gradient(top,#548dca,#003685);
 	background:-moz-linear-gradient(top,#548dca,#003685)
 }
+
+@media only screen and (max-width: 991px) {
+	.cd-main-header {
+	    min-height: 50px;
+	}
+}
