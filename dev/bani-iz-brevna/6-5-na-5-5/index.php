@@ -17,5 +17,5 @@ $lang=json_decode('{
 $pricebd = [["Бревно диаметром 18 см",719000],["Бревно диаметром 20 см",759000]];
 $harakt = [["Габариты","6,5x5,5 м"],["Общая площадь","36 м<sup>2</sup>"]];
 
-php include("../template.php");
+include("../template.php");
 ?>

@@ -8,7 +8,7 @@ include($root."blocks/breadcrumbs.php");?>
   <div class="row" itemtype="http://schema.org/ItemList" itemscope>
      <h1>Деревянный погонаж оптом</h1>
      <p>Наше предприятие ЗАО «Агро-оптим», торговая марка «Ключ585» работает с 1998 года в н.п. Неверково, Владимирской области. Мы специализируемся на переработке дерева от круглого леса до сращивания древесины и выпуске из неё различного погонажа. Погонаж производится на хорошем оборудовании (Opticut, Dimter, строгальный Weinig и др.), что в совокупности с многолетним опытом позволяет получать высококачественные изделия по приемлимым ценам.</p>
-     <p><a href="/prays-list/PILOMATERIALYI-prays.pdf" class="button-style open-modal">Скачать прайс лист</a></p>
+     <p><a href="/prays-list/PILOMATERIALYI-prays.pdf" class="button-style open-modal">Каталог продукции</a></p>
 
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 gallery">
 <?php foreach ($pogonazh_table as  $value) { $count=count($pogonazh[$value]['table']);?>

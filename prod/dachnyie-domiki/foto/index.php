@@ -6,4 +6,5 @@ $breadcrumb2 = 'Дачные дома';
 $breadcrumb2_url = '/dachnyie-domiki/';
 $canonical = '/dachnyie-domiki/foto/';
 
-include("content..php"); ?>
+include('content.php'); 
+?>
