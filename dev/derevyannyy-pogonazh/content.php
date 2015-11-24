@@ -11,23 +11,11 @@ include($root."blocks/breadcrumbs.php");?>
      <p><a href="/prays-list/PILOMATERIALYI-prays.pdf" class="button-style open-modal">Скачать прайс лист</a></p>
 
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 gallery">
-<?php $pogonazh_table=[
-"ugolok-sroshchennyy-ekstra",
-"plintus-sroshchennyy-ekstra",
-"plintus-potolochnyy-ekstra",
-"uglovaya-raskladka-figurnaya-ekstra",
-"korobochnyy-brus-sroshchennyy-ekstra",
-"korobochnyy-brus-pod-ukutku-2-sort",
-"nashchelnik-sroshchennyy-ekstra",
-"nashchelnik-sroshchennyy-ekstra-figurnyy",
-"reyka-podramnika-sroshchennaya-ekstra",
-"zagotovka-reyki-podramnika"
-];
-foreach ($pogonazh_table as  $value) { $count=count($pogonazh[$value]['table']);?>
+<?php foreach ($pogonazh_table as  $value) { $count=count($pogonazh[$value]['table']);?>
 <table class="table rates pogonazh">
     <tbody>
       <tr>
-        <td rowspan="<?php echo $count;?>"><a href="/derevyannyy-pogonazh/<?php echo $value; ?>"><img src="/img/pogonazh/vid/<?php echo $pogonazh[$value]['img'][0]; ?>" alt="<?php echo $pogonazh[$value]['name']; ?>" width="150" /></a></td>
+        <td rowspan="<?php echo $count;?>"><a href="/derevyannyy-pogonazh/<?php echo $value; ?>"><img src="/img/pogonazh/vid/<?php echo $pogonazh[$value]['img'][0]; ?>" alt="<?php echo $pogonazh[$value]['name']; ?>" width="130" /></a></td>
         <td rowspan="<?php echo $count;?>" width="40%"><a href="/derevyannyy-pogonazh/<?php echo $value; ?>"><?php echo $pogonazh[$value]['name']; ?></a></td>
   <?php $br='<tr>'; foreach ($pogonazh[$value]['table'] as $key => $row) { if ($key==$count) $br=''; ?>
         <td><span class="razmer"><?php echo $row[0]; ?></span></td>

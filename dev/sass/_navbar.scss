@@ -86,7 +86,6 @@ Main components
 }
 
 .cd-main-header {
-	height: $header-height-S;
 	background: $color-4;
 	z-index: $above-content;
 
@@ -99,7 +98,6 @@ Main components
 	}
 
 	@include MQ(L) {
-		height: 0;
 		@include clearfix;
 	}
 }
