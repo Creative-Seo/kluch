@@ -21,7 +21,7 @@ $phone = getPhone();
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 <!-- /build -->
-<!-- build:css inline ../../../dev/css/meta.min.css -->
+<!-- build:css inline ../css/meta.min.css -->
 	<link href="/css/meta.css" rel="stylesheet">
 <!-- /build -->
 <!-- build:remove -->

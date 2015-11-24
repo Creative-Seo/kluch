@@ -11,10 +11,10 @@ foreach ($carousel as $key => $row) {
 	$indicators .= '<div data-target="#carousel" data-slide-to="'.$key.'" class="carousel-circle'.$active.'"></div>';
 ?>
     <div class="item<? echo $active;?>">
-      <div class="carousel-fon"><img class="carousel-img" src="/img/slider/<?php echo $row["img"];?>.jpg" alt=" "></div>
+      <div class="carousel-fon"><img class="carousel-img" src="/img/slider/<?php echo $row['img'];?>.jpg" alt=" "></div>
       <div class="carousel-caption">
-        <p class="carousel-text"><?php echo $row["text"];?></p>
-		    <a href="<?php echo $row["url"];?>" class="carousel-about">Подробнее</a>
+        <p class="carousel-text"><?php echo $row['text'];?></p>
+		    <a href="<?php echo $row['url'];?>" class="carousel-about">Подробнее</a>
       </div>
     </div>
 <?php } if ($key>0) { ?>
