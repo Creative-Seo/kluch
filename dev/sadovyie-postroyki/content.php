@@ -1,6 +1,5 @@
 <?php $root = '../';
 include($root."blocks/meta.php");
-//<style> .img1 img {height: 160px;} .img2 img {height: 230px;}.container .col-md-3 {padding-bottom: 10px;}</style>
 include($root."blocks/header.php");
 include($root."blocks/breadcrumbs.php"); ?>
 
