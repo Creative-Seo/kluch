@@ -1,13 +1,9 @@
-<?php
-// 7411ca86eb4fbafe8cfda550e6865cfe //
-require_once(dirname(__FILE__) . '/../refer/functions.php');
-$phone = getPhone();
-?>
+<?php include($root.'tel.php');?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<link href="/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">

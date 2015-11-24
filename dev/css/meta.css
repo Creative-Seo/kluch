@@ -2496,64 +2496,7 @@ body {
   body ul li {
     list-style-type: none; }
 
-/* line 16, ../sass/meta.scss */
-.carousel-inner {
-  min-height: 70vh; }
-/* line 17, ../sass/meta.scss */
-.carousel-img {
-  height: 100%;
-  width: 100%; }
-/* line 21, ../sass/meta.scss */
-.carousel-fon {
-  position: absolute;
-  min-height: 70vh;
-  height: 100%;
-  min-width: 100%; }
-/* line 27, ../sass/meta.scss */
-.carousel-caption {
-  position: relative;
-  bottom: initial;
-  font-size: 60px;
-  text-align: left;
-  z-index: 10;
-  color: #ff4;
-  text-shadow: 0 5px 8px rgba(0, 0, 0, 0.6); }
-/* line 36, ../sass/meta.scss */
-.carousel-text {
-  min-height: 170px;
-  margin-top: 50px;
-  margin-bottom: 20px; }
-/* line 41, ../sass/meta.scss */
-.carousel-circle {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  border-radius: 100%;
-  border: 2px solid #ff4;
-  margin-left: 10px;
-  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.6); }
-  /* line 49, ../sass/meta.scss */
-  .carousel-circle.active {
-    background-color: #ff4;
-    margin-left: 10px; }
-/* line 54, ../sass/meta.scss */
-.carousel-about {
-  margin-bottom: 50px;
-  background: rgba(255, 255, 255, 0.4);
-  padding: 5px 20px;
-  color: #ff4;
-  text-decoration: none;
-  font-size: 26px; }
-  /* line 61, ../sass/meta.scss */
-  .carousel-about:hover, .carousel-about:focus {
-    color: #cc4;
-    text-decoration: none; }
-
-@media screen and (min-width: 900px) {
-  /* line 67, ../sass/meta.scss */
-  .carousel-caption {
-    width: 50%; } }
-/* line 69, ../sass/meta.scss */
+/* line 15, ../sass/meta.scss */
 .button-style {
   background: none repeat scroll 0 0 #124994;
   border: medium none;
@@ -2564,12 +2507,12 @@ body {
   outline: 0 none;
   padding: 10px 20px;
   transition: color 0.3s, box-shadow 0.3s; }
-  /* line 78, ../sass/meta.scss */
+  /* line 24, ../sass/meta.scss */
   .button-style:hover, .button-style:focus {
     color: #F66;
     text-decoration: none; }
 
-/* line 83, ../sass/meta.scss */
+/* line 29, ../sass/meta.scss */
 .cena-block {
   padding: 20px;
   text-align: center;

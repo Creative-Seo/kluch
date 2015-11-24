@@ -15,18 +15,6 @@
         <div class="vrem"><i class="fa fa-clock-o"></i>пн-пт: 8:00-18:00<span>сб: </span>9:00-15:00 </div>
       </div>
       <div class="col-lg-3 col-md-3 contacts col-sm-6">
-        <?php
-        // 7411ca86eb4fbafe8cfda550e6865cfe //
-        require_once(dirname(__FILE__) . '/../refer/functions.php');
-        $phone = getPhone();
-        $phoneSystem = getPhoneSystem($phone);
-        $phoneCode = getPhoneCode($phone);
-        $phoneNumber = getPhoneNumber($phone);
-        //var_dump($phone);
-        //var_dump($phoneSystem);
-        //var_dump($phoneCode);
-        //var_dump($phoneNumber);
-        ?>
         <div class="tel pull-right"><i class="fa fa-phone"></i><a href="tel:8499350274" title="Позвоните нам"><span>(499)</span><span class="nomer">350-27-47</span></a></div>
         <div class="callback pull-right open-modal"><a>Заказать обратный звонок</a> </div>
         

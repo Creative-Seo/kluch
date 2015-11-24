@@ -38,18 +38,6 @@
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" itemscope itemtype="http://schema.org/LocalBusiness"> <span class="zag">Контакты</span>
         <ul style="padding-bottom:5px; margin-bottom:0px">
           <li><span itemprop="name">«Ключ 585»</span></li>
-        <?php
-        // 7411ca86eb4fbafe8cfda550e6865cfe //
-        require_once(dirname(__FILE__) . '/../refer/functions.php');
-        $phone = getPhone();
-        $phoneSystem = getPhoneSystem($phone);
-        $phoneCode = getPhoneCode($phone);
-        $phoneNumber = getPhoneNumber($phone);
-        //var_dump($phone);
-        //var_dump($phoneSystem);
-        //var_dump($phoneCode);
-        //var_dump($phoneNumber);
-        ?>
           <li><span itemprop="telephone">+7 (499) 350-27-47</span></li>
           <li><span itemprop="email">info@kluch585.ru</span></li>
           <li><a href="https://plus.google.com/b/110824236111847007584" rel="publisher">Мы в Google+</a></li>

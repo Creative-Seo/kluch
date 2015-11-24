@@ -2,24 +2,13 @@
 <script>
 (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter21486487 = new Ya.Metrika({id:21486487, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");
 </script>
-<script>
-/*var ms=document.createElement("link");ms.rel="stylesheet";
-ms.href="http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,cyrillic";document.getElementsByTagName("head")[0].appendChild(ms);
-var ms=document.createElement("link");ms.rel="stylesheet";
-ms.href="/css/bootstrap.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
-var ms=document.createElement("link");ms.rel="stylesheet";
-ms.href="/css/font-awesome.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
-var ms=document.createElement("link");ms.rel="stylesheet";
-ms.href="/css/jquery.fancybox.css";document.getElementsByTagName("head")[0].appendChild(ms);
-var ms=document.createElement("link");ms.rel="stylesheet";
-ms.href="/css/jquery.fancybox-thumbs.css";document.getElementsByTagName("head")[0].appendChild(ms);*/
-var ms=document.createElement("link");ms.rel="stylesheet";
-ms.href="/css/style.css";document.getElementsByTagName("head")[0].appendChild(ms);
-</script>
-
 
 <!-- build:remove -->
 <script>
+/*var ms=document.createElement("link");ms.rel="stylesheet";
+ms.href="http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,cyrillic";document.getElementsByTagName("head")[0].appendChild(ms);*/
+var ms=document.createElement("link");ms.rel="stylesheet";
+ms.href="/css/style.css";document.getElementsByTagName("head")[0].appendChild(ms);
 var scr = {"scripts":[
 {"src" : "/libs/jquery/dist/jquery.min.js", "async" : false},
 {"src" : "/libs/bootstrap-sass/assets/javascripts/bootstrap.min.js", "async" : false},
@@ -39,6 +28,8 @@ var scr = {"scripts":[
 
 <!-- build:template
 <script>
+var ms=document.createElement("link");ms.rel="stylesheet";
+ms.href="/css/style.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
 var scr = {"scripts":[{"src" : "/js/scripts.min.js", "async" : false}]};
 !function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 </script>

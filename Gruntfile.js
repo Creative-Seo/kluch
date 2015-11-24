@@ -31,12 +31,15 @@ grunt.initConfig({
 			'prod/js/scripts.min.js': [
 				'dev/libs/jquery/dist/jquery.min.js',
 				'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js',
-				'dev/libs/bootstrap-material/js/material.min.js',
-				'dev/libs/bootstrap-material/js/ripples.min.js',
-				'dev/js/inputmask.js',
-				'dev/js/slippry.js',
-				'dev/js/jquery.*.js',
-				'dev/helpers/jquery.fancybox-thumbs.js',
+				'dev/js/jquery.mobile.custom.min.js',
+				'dev/libs/fancybox/source/jquery.fancybox.pack.js',
+				'dev/libs/fancybox/source/helpers/jquery.fancybox-thumbs.js',
+				'dev/js/blocksit.min.js',
+				'dev/js/main.js',
+				'dev/js/callback.js',
+				'dev/js/jquery.maskedinput.min.js',
+				'dev/js/jquery.stickyheader.js',
+				'dev/js/jquery.ba-throttle-debounce.min.js',
 				'dev/js/common.js'
 			]
 		}
@@ -56,7 +59,7 @@ grunt.initConfig({
 	},
 
 	copy: {
-		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '.htaccess','robots.txt','sitemap.xml','*.ico','*.svg','!meta.php','!footer.php'], dest: 'prod/'},
+		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '.htaccess', '**/.htaccess','robots.txt','sitemap.xml','*.ico','*.svg','!meta.php','!script.php'], dest: 'prod/'},
 				{expand: true, cwd: 'dev/libs/font-awesome/fonts', src: ['**'], dest: 'prod/fonts'}]
 		}
 	},
@@ -70,7 +73,7 @@ grunt.initConfig({
 		files: [{                                   
 			expand: true,
 			cwd: 'prod/',
-			src: ['**/*.php', '*.php', '!config.php', '!**/array.php', '!**/index.php', '!index.php','**/*.svg', '!email.php'],
+			src: ['**/*.php', '*.php', '!config.php', '!tel.php', '!**/array.php', '!**/index.php', '!index.php','**/*.svg', '!email.php','!refer/*.php'],
 			dest: 'prod/'     
 		}]
 	  }
@@ -95,7 +98,7 @@ grunt.initConfig({
 		files: [{
 			expand: true,     
 			cwd: 'dev/',   
-			src: ['blocks/meta.php', 'blocks/footer.php'],
+			src: ['blocks/meta.php', 'blocks/script.php'],
 			dest: 'prod/'  
 		}]
 	  }  

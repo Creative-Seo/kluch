@@ -12,60 +12,6 @@ body {
 	}
 }
 
-.carousel {
-	&-inner {min-height:70vh;}
-	&-img{
-		height: 100%;
-		width:100%;
-	}
-	&-fon{
-		position: absolute;
-		min-height:70vh;
-		height: 100%;
-		min-width:100%;
-	}
-	&-caption {
-	    position: relative;
-		bottom: initial;
-		font-size:60px;
-	    text-align: left;
-	    z-index: 10;
-	    color: #ff4;
-	    text-shadow: 0 5px 8px rgba(0,0,0,.6);
-	}
-	&-text{
-		min-height: 170px;
-		margin-top: 50px;
-	    margin-bottom: 20px;
-	}
-	&-circle {
-	    display: inline-block;
-		width:12px;
-		height:12px;
-		border-radius:100%;
-		border:2px solid #ff4;
-		margin-left:10px;
-		box-shadow: 0 5px 8px rgba(0,0,0,.6);
-		&.active {
-			background-color:#ff4;
-			margin-left:10px;
-		}
-	}
-	&-about {
-		margin-bottom: 50px;
-		background: rgba(255,255,255,.4);
-		padding: 5px 20px;
-		color:#ff4;
-		text-decoration:none;
-		font-size:26px;
-		&:hover, &:focus {
-			color:#cc4;
-			text-decoration:none;
-		}
-	}
-}
-@media screen and (min-width:900px){.carousel-caption {width:50%}}
-
 .button-style{
 	background:none repeat scroll 0 0 #124994;
 	border:medium none;
