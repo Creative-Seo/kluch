@@ -1,9 +1,9 @@
-node_modules/
-.sass-cache/
-dploy.yaml
-dev/libs/
+/node_modules/
+/.sass-cache/
+/dploy.yaml
+/dev/libs/
 *.log
 **/googled*.html
 **/mailru*.html
-kluch585.sublime-project
-kluch585.sublime-workspace
+/kluch585.sublime-project
+/kluch585.sublime-workspace

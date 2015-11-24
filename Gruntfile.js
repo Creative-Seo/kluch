@@ -8,15 +8,15 @@ grunt.initConfig({
 		  report: 'gzip'
 		},
 		files: {
-		  'prod/css/style.min.css': ['libs/bootstrap-material-design/dist/css/ripples.css', 'dev/css/jquery.fancybox.css', 'dev/css/style.css']
+		  'prod/css/style.min.css': ['libs/bootstrap-material-design/dist/css/ripples.css', 'dev/css/style.css'],
+		  'dev/css/meta.min.css': ['dev/css/meta.css']
 		}
 	  }
 	},
 
 	autoprefixer: {
-		single_file: {
-			src: 'prod/css/style.min.css',
-			dest: 'prod/css/style.min.css'
+		dist: {
+			files:{'prod/css/style.min.css':'prod/css/style.min.css','dev/css/meta.min.css':'dev/css/meta.min.css'}
 		}  
 	},
 
@@ -56,8 +56,8 @@ grunt.initConfig({
 	},
 
 	copy: {
-		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '!config.php', '.htaccess','img/*.svg'], dest: 'prod/'},
-				{expand: true, cwd: 'dev/libs/**/fonts', src: ['**'], dest: 'prod/fonts'}]
+		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '.htaccess','robots.txt','sitemap.xml','*.ico','*.svg','!meta.php','!footer.php'], dest: 'prod/'},
+				{expand: true, cwd: 'dev/libs/font-awesome/fonts', src: ['**'], dest: 'prod/fonts'}]
 		}
 	},
 
@@ -70,7 +70,7 @@ grunt.initConfig({
 		files: [{                                   
 			expand: true,
 			cwd: 'prod/',
-			src: ['**/*.php', '*.php', '!config.php', '!**/var.php', '!var.php','**/*.svg', '!email.php'],
+			src: ['**/*.php', '*.php', '!config.php', '!**/array.php', '!**/index.php', '!index.php','**/*.svg', '!email.php'],
 			dest: 'prod/'     
 		}]
 	  }
