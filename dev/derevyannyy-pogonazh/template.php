@@ -29,7 +29,7 @@ include($root."blocks/breadcrumbs.php"); ?>
 	</div>
   </div>
   <p><?php echo $content; ?></p>
-  <p><a href="/prays-list/PILOMATERIALYI-prays.pdf" class="button-style open-modal">Каталог продукции</a></p>
+  <p><a href="/prays-list/catalog.pdf" class="button-style open-modal">Каталог продукции</a></p>
   <div class="row" itemtype="http://schema.org/ItemList" itemscope>
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title"><span>Похожие товары</span></div>
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 border2"></div>
