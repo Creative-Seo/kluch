@@ -1791,7 +1791,7 @@ Main components
 /* line 378, ../sass/_navbar.scss */
 .cd-primary-nav .see-all a {
   /* different style for the See all button on mobile and tablet */
-  color: #69aa6f; }
+  color: #f66; }
 /* line 383, ../sass/_navbar.scss */
 .cd-primary-nav .cd-nav-gallery .cd-nav-item, .cd-primary-nav .cd-nav-icons .cd-nav-item {
   /* items with picture (or icon) and title */
@@ -1952,7 +1952,7 @@ Main components
       /* line 537, ../sass/_navbar.scss */
       .cd-primary-nav > li > a.selected {
         color: #F66;
-        box-shadow: inset 0 -2px 0 #69aa6f; }
+        box-shadow: inset 0 -2px 0 #f66; }
     /* line 543, ../sass/_navbar.scss */
     .cd-primary-nav .go-back, .cd-primary-nav .see-all {
       display: none; }
@@ -1967,7 +1967,7 @@ Main components
       float: left;
       min-width: 160px;
       padding: 5px 0;
-      margin: 2px 0 0;
+      margin: 0 0;
       list-style: none;
       font-size: 14px;
       background-color: #fff;
@@ -2025,17 +2025,16 @@ Main components
     .cd-primary-nav .cd-secondary-nav > li {
       width: auto;
       margin-right: 2.66%;
-      border-right: 1px solid #e2e3df;
       overflow: hidden;
       overflow-x: hidden;
       overflow-y: auto;
       -webkit-overflow-scrolling: touch; }
-      /* line 626, ../sass/_navbar.scss */
+      /* line 625, ../sass/_navbar.scss */
       .cd-primary-nav .cd-secondary-nav > li:nth-child(4n+2) {
         /* +2 because we have 2 list items with display:none */
         margin-right: 0;
         border-right: none; }
-      /* line 632, ../sass/_navbar.scss */
+      /* line 631, ../sass/_navbar.scss */
       .cd-primary-nav .cd-secondary-nav > li > a {
         display: block;
         padding: 3px 20px;
@@ -2044,7 +2043,7 @@ Main components
         line-height: 1.42857143;
         color: #333;
         white-space: nowrap; }
-    /* line 643, ../sass/_navbar.scss */
+    /* line 642, ../sass/_navbar.scss */
     .cd-primary-nav .cd-secondary-nav a {
       height: 30px;
       line-height: 30px;
@@ -2052,10 +2051,10 @@ Main components
       color: #2e3233;
       border-bottom: none;
       font-size: 1.4rem; }
-      /* line 651, ../sass/_navbar.scss */
+      /* line 650, ../sass/_navbar.scss */
       .cd-primary-nav .cd-secondary-nav a:hover {
-        color: #69aa6f; }
-    /* line 656, ../sass/_navbar.scss */
+        color: #f66; }
+    /* line 655, ../sass/_navbar.scss */
     .cd-primary-nav .cd-secondary-nav ul {
       /* Force Hardware Acceleration in WebKit */
       -webkit-transform: translateZ(0);
@@ -2063,7 +2062,7 @@ Main components
       -ms-transform: translateZ(0);
       -o-transform: translateZ(0);
       transform: translateZ(0); }
-    /* line 661, ../sass/_navbar.scss */
+    /* line 660, ../sass/_navbar.scss */
     .cd-primary-nav .cd-secondary-nav ul ul {
       /* tertiary navigation */
       position: absolute;
@@ -2071,23 +2070,23 @@ Main components
       left: 0;
       height: 100%;
       width: 100%; }
-      /* line 669, ../sass/_navbar.scss */
+      /* line 668, ../sass/_navbar.scss */
       .cd-primary-nav .cd-secondary-nav ul ul.is-hidden {
         -webkit-transform: translateX(100%);
         -moz-transform: translateX(100%);
         -ms-transform: translateX(100%);
         -o-transform: translateX(100%);
         transform: translateX(100%); }
-      /* line 673, ../sass/_navbar.scss */
+      /* line 672, ../sass/_navbar.scss */
       .cd-primary-nav .cd-secondary-nav ul ul .go-back {
         display: block; }
-        /* line 676, ../sass/_navbar.scss */
+        /* line 675, ../sass/_navbar.scss */
         .cd-primary-nav .cd-secondary-nav ul ul .go-back a {
           color: transparent; }
-      /* line 681, ../sass/_navbar.scss */
+      /* line 680, ../sass/_navbar.scss */
       .cd-primary-nav .cd-secondary-nav ul ul .see-all {
         display: block; }
-    /* line 686, ../sass/_navbar.scss */
+    /* line 685, ../sass/_navbar.scss */
     .cd-primary-nav .cd-secondary-nav .moves-out > li > a {
       /* push the navigation items to the left - and lower down opacity - when tertiary nav slides in */
       -webkit-transform: translateX(-100%);
@@ -2095,68 +2094,68 @@ Main components
       -ms-transform: translateX(-100%);
       -o-transform: translateX(-100%);
       transform: translateX(-100%); }
-    /* line 693, ../sass/_navbar.scss */
+    /* line 692, ../sass/_navbar.scss */
     .cd-primary-nav .cd-nav-gallery li {
       /* set here number of columns - use width percentage */
       width: 22%;
       float: left;
       margin: 0 4% 40px 0; }
-      /* line 698, ../sass/_navbar.scss */
+      /* line 697, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-gallery li:nth-child(4n+2) {
         /* +2 because we have two additional list items with display:none */
         margin-right: 0; }
-    /* line 704, ../sass/_navbar.scss */
+    /* line 703, ../sass/_navbar.scss */
     .cd-primary-nav .cd-nav-gallery .cd-nav-item {
       border-bottom: none;
       padding: 0;
       height: auto;
       line-height: 1.2; }
-      /* line 710, ../sass/_navbar.scss */
+      /* line 709, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-gallery .cd-nav-item img {
         position: static;
         margin-top: 0;
         height: auto;
         width: 100%;
         margin-bottom: .6em; }
-      /* line 718, ../sass/_navbar.scss */
+      /* line 717, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-gallery .cd-nav-item h3 {
-        color: #69aa6f;
+        color: #f66;
         font-weight: bold;
         padding: 0 .4em; }
-    /* line 727, ../sass/_navbar.scss */
+    /* line 726, ../sass/_navbar.scss */
     .cd-primary-nav .cd-nav-icons li {
       /* set here number of columns - use width percentage */
       width: 32%;
       float: left;
       margin: 0 2% 20px 0; }
-      /* line 732, ../sass/_navbar.scss */
+      /* line 731, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-icons li:nth-child(3n+2) {
         /* +2 because we have two additional list items with display:none */
         margin-right: 0; }
-    /* line 738, ../sass/_navbar.scss */
+    /* line 737, ../sass/_navbar.scss */
     .cd-primary-nav .cd-nav-icons .cd-nav-item {
       border-bottom: none;
       height: 80px;
       line-height: 1.2;
       padding: 24px 0 0 85px;
       position: relative; }
-      /* line 745, ../sass/_navbar.scss */
+      /* line 744, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-icons .cd-nav-item:hover {
         background: #f6f6f5; }
-      /* line 749, ../sass/_navbar.scss */
+      /* line 748, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-icons .cd-nav-item h3 {
-        color: #69aa6f;
+        color: #f66;
         font-weight: bold; }
-      /* line 754, ../sass/_navbar.scss */
+      /* line 753, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-icons .cd-nav-item p {
         display: block; }
-      /* line 758, ../sass/_navbar.scss */
+      /* line 757, ../sass/_navbar.scss */
       .cd-primary-nav .cd-nav-icons .cd-nav-item::before {
         left: 25px; } }
-/* line 766, ../sass/_navbar.scss */
+/* line 765, ../sass/_navbar.scss */
 .has-children > a, .go-back a {
   position: relative; }
-  /* line 769, ../sass/_navbar.scss */
+  /* line 768, ../sass/_navbar.scss */
   .has-children > a::before, .has-children > a::after, .go-back a::before, .go-back a::after {
     /* arrow icon in CSS - for element with nested unordered lists */
     content: '';
@@ -2169,14 +2168,14 @@ Main components
     background: white;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
-  /* line 783, ../sass/_navbar.scss */
+  /* line 782, ../sass/_navbar.scss */
   .has-children > a::before, .go-back a::before {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg); }
-  /* line 787, ../sass/_navbar.scss */
+  /* line 786, ../sass/_navbar.scss */
   .has-children > a::after, .go-back a::after {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -2184,17 +2183,17 @@ Main components
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg); }
   @media only screen and (min-width: 992px) {
-    /* line 792, ../sass/_navbar.scss */
+    /* line 791, ../sass/_navbar.scss */
     .has-children > a::before, .has-children > a::after, .go-back a::before, .go-back a::after {
       background: #c9cbc4; }
-    /* line 796, ../sass/_navbar.scss */
+    /* line 795, ../sass/_navbar.scss */
     .has-children > a:hover::before, .has-children > a:hover::after, .go-back a:hover::before, .go-back a:hover::after {
-      background: #69aa6f; } }
+      background: #f66; } }
 
-/* line 802, ../sass/_navbar.scss */
+/* line 801, ../sass/_navbar.scss */
 .has-children > a {
   padding-right: 40px; }
-  /* line 805, ../sass/_navbar.scss */
+  /* line 804, ../sass/_navbar.scss */
   .has-children > a::before, .has-children > a::after {
     /* arrow goes on the right side - children navigation */
     right: 20px;
@@ -2204,10 +2203,10 @@ Main components
     -o-transform-origin: 9px 50%;
     transform-origin: 9px 50%; }
 
-/* line 812, ../sass/_navbar.scss */
+/* line 811, ../sass/_navbar.scss */
 .cd-primary-nav .go-back a {
   padding-left: 40px; }
-  /* line 815, ../sass/_navbar.scss */
+  /* line 814, ../sass/_navbar.scss */
   .cd-primary-nav .go-back a::before, .cd-primary-nav .go-back a::after {
     /* arrow goes on the left side - go back button */
     left: 20px;
@@ -2218,15 +2217,15 @@ Main components
     transform-origin: 1px 50%; }
 
 @media only screen and (min-width: 992px) {
-  /* line 825, ../sass/_navbar.scss */
+  /* line 824, ../sass/_navbar.scss */
   .has-children > a::before, .has-children > a::after {
     right: 15%; }
 
-  /* line 830, ../sass/_navbar.scss */
+  /* line 829, ../sass/_navbar.scss */
   .cd-primary-nav > .has-children > a {
     /* main navigation arrows on larger devices */
     padding-right: 30px !important; }
-    /* line 834, ../sass/_navbar.scss */
+    /* line 833, ../sass/_navbar.scss */
     .cd-primary-nav > .has-children > a::before, .cd-primary-nav > .has-children > a::after {
       width: 9px;
       -webkit-transform-origin: 50% 50%;
@@ -2240,23 +2239,23 @@ Main components
       -webkit-transition: width 0.3s, -webkit-transform 0.3s;
       -moz-transition: width 0.3s, -moz-transform 0.3s;
       transition: width 0.3s, transform 0.3s; }
-    /* line 843, ../sass/_navbar.scss */
+    /* line 842, ../sass/_navbar.scss */
     .cd-primary-nav > .has-children > a::before {
       right: 12px; }
-    /* line 847, ../sass/_navbar.scss */
+    /* line 846, ../sass/_navbar.scss */
     .cd-primary-nav > .has-children > a::after {
       right: 7px; }
-    /* line 851, ../sass/_navbar.scss */
+    /* line 850, ../sass/_navbar.scss */
     .cd-primary-nav > .has-children > a.selected::before, .cd-primary-nav > .has-children > a.selected::after {
       width: 14px; }
-    /* line 855, ../sass/_navbar.scss */
+    /* line 854, ../sass/_navbar.scss */
     .cd-primary-nav > .has-children > a.selected::before {
       -webkit-transform: translateX(5px) rotate(-45deg);
       -moz-transform: translateX(5px) rotate(-45deg);
       -ms-transform: translateX(5px) rotate(-45deg);
       -o-transform: translateX(5px) rotate(-45deg);
       transform: translateX(5px) rotate(-45deg); }
-    /* line 859, ../sass/_navbar.scss */
+    /* line 858, ../sass/_navbar.scss */
     .cd-primary-nav > .has-children > a.selected::after {
       -webkit-transform: rotate(45deg);
       -moz-transform: rotate(45deg);
@@ -2264,18 +2263,18 @@ Main components
       -o-transform: rotate(45deg);
       transform: rotate(45deg); }
 
-  /* line 864, ../sass/_navbar.scss */
+  /* line 863, ../sass/_navbar.scss */
   .cd-secondary-nav > .has-children > a::before, .cd-secondary-nav > .has-children > a::after {
     /* remove arrows on secondary nav titles */
     display: none; }
 
-  /* line 869, ../sass/_navbar.scss */
+  /* line 868, ../sass/_navbar.scss */
   .cd-primary-nav .go-back a {
     padding-left: 20px; }
-    /* line 872, ../sass/_navbar.scss */
+    /* line 871, ../sass/_navbar.scss */
     .cd-primary-nav .go-back a::before, .cd-primary-nav .go-back a::after {
       left: 1px; } }
-/* line 878, ../sass/_navbar.scss */
+/* line 877, ../sass/_navbar.scss */
 .cd-search {
   position: absolute;
   height: 50px;
@@ -2288,11 +2287,11 @@ Main components
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
   -moz-transition: opacity .3s 0s, visibility 0s .3s;
   transition: opacity .3s 0s, visibility 0s .3s; }
-  /* line 891, ../sass/_navbar.scss */
+  /* line 890, ../sass/_navbar.scss */
   .cd-search form {
     height: 100%;
     width: 100%; }
-  /* line 896, ../sass/_navbar.scss */
+  /* line 895, ../sass/_navbar.scss */
   .cd-search input {
     border-radius: 0;
     border: none;
@@ -2318,31 +2317,31 @@ Main components
     /* line 4, ../libs/bourbon/app/assets/stylesheets/css3/_placeholder.scss */
     .cd-search input:-ms-input-placeholder {
       color: #c9cbc4; }
-    /* line 910, ../sass/_navbar.scss */
+    /* line 909, ../sass/_navbar.scss */
     .cd-search input:focus {
       outline: none; }
-  /* line 915, ../sass/_navbar.scss */
+  /* line 914, ../sass/_navbar.scss */
   .cd-search.is-visible {
     opacity: 1;
     visibility: visible;
     -webkit-transition: opacity .3s 0s, visibility 0s 0s;
     -moz-transition: opacity .3s 0s, visibility 0s 0s;
     transition: opacity .3s 0s, visibility 0s 0s; }
-  /* line 923, ../sass/_navbar.scss */
+  /* line 922, ../sass/_navbar.scss */
   .nav-is-fixed .cd-search {
     position: fixed; }
   @media only screen and (min-width: 992px) {
-    /* line 878, ../sass/_navbar.scss */
+    /* line 877, ../sass/_navbar.scss */
     .cd-search {
       height: 120px;
       top: 50px; }
-      /* line 931, ../sass/_navbar.scss */
+      /* line 930, ../sass/_navbar.scss */
       .cd-search input {
         padding: 0 2em;
         font-size: 3.2rem;
         font-weight: 300; } }
 
-/* line 943, ../sass/_navbar.scss */
+/* line 942, ../sass/_navbar.scss */
 .cd-overlay {
   /* shadow layer visible when navigation is active */
   position: fixed;
@@ -2352,7 +2351,7 @@ Main components
   top: 0;
   left: 0;
   cursor: pointer;
-  background-color: rgba(105, 170, 111, 0.8);
+  background-color: rgba(255, 102, 102, 0.8);
   visibility: hidden;
   opacity: 0;
   -webkit-backface-visibility: hidden;
@@ -2360,7 +2359,7 @@ Main components
   -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s, -webkit-transform 0.3s 0s;
   -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s, -moz-transform 0.3s 0s;
   transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s; }
-  /* line 958, ../sass/_navbar.scss */
+  /* line 957, ../sass/_navbar.scss */
   .cd-overlay.is-visible {
     opacity: 1;
     visibility: visible;
@@ -2368,21 +2367,21 @@ Main components
     -moz-transition: opacity 0.3s 0s, visibility 0s 0s, -moz-transform 0.3s 0s;
     transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s; }
   @media only screen and (max-width: 991px) {
-    /* line 965, ../sass/_navbar.scss */
+    /* line 964, ../sass/_navbar.scss */
     .cd-overlay.is-visible {
       -webkit-transform: translateX(-260px);
       -moz-transform: translateX(-260px);
       -ms-transform: translateX(-260px);
       -o-transform: translateX(-260px);
       transform: translateX(-260px); }
-    /* line 968, ../sass/_navbar.scss */
+    /* line 967, ../sass/_navbar.scss */
     .nav-on-left .cd-overlay.is-visible {
       -webkit-transform: translateX(260px);
       -moz-transform: translateX(260px);
       -ms-transform: translateX(260px);
       -o-transform: translateX(260px);
       transform: translateX(260px); }
-    /* line 971, ../sass/_navbar.scss */
+    /* line 970, ../sass/_navbar.scss */
     .cd-overlay.is-visible.search-is-visible, .nav-on-left .cd-overlay.is-visible.search-is-visible {
       -webkit-transform: translateX(0);
       -moz-transform: translateX(0);
@@ -2395,7 +2394,7 @@ Main components
 support for no js 
 
 -------------------------------- */
-/* line 983, ../sass/_navbar.scss */
+/* line 982, ../sass/_navbar.scss */
 .no-js .cd-primary-nav {
   position: relative;
   height: auto;
@@ -2404,7 +2403,7 @@ support for no js
   visibility: visible;
   z-index: 20; }
 
-/* line 992, ../sass/_navbar.scss */
+/* line 991, ../sass/_navbar.scss */
 .no-js .cd-search {
   position: relative;
   top: 0;
@@ -2412,7 +2411,7 @@ support for no js
   visibility: visible; }
 
 @media only screen and (min-width: 992px) {
-  /* line 1000, ../sass/_navbar.scss */
+  /* line 999, ../sass/_navbar.scss */
   .no-js .cd-primary-nav {
     position: absolute;
     z-index: 30;
@@ -2422,38 +2421,38 @@ support for no js
     right: 150px;
     padding: 0; }
 
-  /* line 1010, ../sass/_navbar.scss */
+  /* line 1009, ../sass/_navbar.scss */
   .no-js .nav-is-fixed .cd-primary-nav {
     position: fixed; } }
-/* line 1016, ../sass/_navbar.scss */
+/* line 1015, ../sass/_navbar.scss */
 .cd-primary-nav li {
   list-style-type: none; }
 
-/* line 1017, ../sass/_navbar.scss */
+/* line 1016, ../sass/_navbar.scss */
 .cd-primary-nav li a:hover, .cd-primary-nav li a:focus, .cd-primary-nav li a:active {
   text-decoration: none; }
 
-/* line 1018, ../sass/_navbar.scss */
+/* line 1017, ../sass/_navbar.scss */
 .cd-secondary-nav {
   padding-left: 0; }
 
-/* line 1019, ../sass/_navbar.scss */
+/* line 1018, ../sass/_navbar.scss */
 #cd-primary-nav {
   margin-bottom: 0; }
 
-/* line 1022, ../sass/_navbar.scss */
+/* line 1021, ../sass/_navbar.scss */
 .cd-primary-nav, .cd-primary-nav ul {
   position: inherit;
   top: auto; }
 
-/* line 1026, ../sass/_navbar.scss */
+/* line 1025, ../sass/_navbar.scss */
 .nav-is-fixed {
   position: fixed;
   top: 0;
   right: 0; }
 
 @media only screen and (min-width: 992px) {
-  /* line 1032, ../sass/_navbar.scss */
+  /* line 1031, ../sass/_navbar.scss */
   .cd-primary-nav {
     padding: 0 5% 0 0;
     position: static;
@@ -2463,18 +2462,18 @@ support for no js
     overflow: visible;
     background: transparent; } }
 @media only screen and (max-width: 992px) {
-  /* line 1043, ../sass/_navbar.scss */
+  /* line 1042, ../sass/_navbar.scss */
   .nav-is-fixed {
     visibility: hidden;
     -webkit-transition: visibility 0s 0.3s;
     -moz-transition: visibility 0s 0.3s;
     transition: visibility 0s 0.3s; }
 
-  /* line 1049, ../sass/_navbar.scss */
+  /* line 1048, ../sass/_navbar.scss */
   .cd-primary-nav, .cd-primary-nav ul {
     position: fixed;
     top: 0; } }
-/* line 1055, ../sass/_navbar.scss */
+/* line 1054, ../sass/_navbar.scss */
 .nav-color, .cd-main-header {
   background: #003685;
   background: -webkit-linear-gradient(top, #548dca, #003685);
@@ -2484,7 +2483,7 @@ support for no js
   background: -moz-linear-gradient(top, #548dca, #003685); }
 
 @media only screen and (max-width: 991px) {
-  /* line 1065, ../sass/_navbar.scss */
+  /* line 1064, ../sass/_navbar.scss */
   .cd-main-header {
     min-height: 50px; } }
 /* line 6, ../sass/meta.scss */

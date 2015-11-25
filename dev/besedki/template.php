@@ -1,4 +1,4 @@
-<?php $root = "../../";
+<?php $root = '../../';
 include($root."blocks/meta.php");
 include($root."blocks/header.php");
 include($root."blocks/breadcrumbs.php");?>
@@ -60,7 +60,7 @@ include($root."blocks/breadcrumbs.php");?>
       <div class="gallery2">
 <?php foreach ($gallery2 as $row) { ?>
        <a class="fancybox-thumb2" rel="gallery1" href="<?php echo $row[0];?>.jpg"><img src="<?php echo $row[0];?>.jpg" width="150" class="img-responsive" alt="<?php echo $row[1];?>"/></a>
-<?php if (isset($row[3])) { for ($i:=1;$row[3];$i++) { ?>
+<?php if (isset($row[2])) { for ($i=1;$i<=$row[2];$i++) { ?>
         <a class="fancybox-thumb2" rel="gallery1" href="<?php echo $row[0].'-'.$i;?>.jpg"><img src="<?php echo $row[0].'-'.$i;?>.jpg" width="150" class="img-responsive" alt="<?php echo $row[1];?>"/></a>
 <?php }}} ?> 
       </div>

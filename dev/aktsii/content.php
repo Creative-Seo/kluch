@@ -17,7 +17,7 @@ include($root."blocks/breadcrumbs.php");?>
 	<a href="/dachnyie-domiki/"><img src="/aktsii/ezhik-s-yablokom.jpg" width="300px" alt="Попади в яблочко"/></a>
 
 	<h3>Дачный дом №8</h3>
-	<p>Выгодное СПЕЦПРЕДЛОЖЕНИЕ - Дачный дом №8  6х4м с мансардой и верандой с полной отделкой 1 этажа всего <nobr>за 258 000 руб.</nobr></p>
+	<p>Выгодное СПЕЦПРЕДЛОЖЕНИЕ - Дачный дом №8  6х4м с мансардой и верандой с полной отделкой 1 этажа всего<nobr> за 258 000 руб.</nobr></p>
 	<a href="/dachnyie-domiki/dom-8/"><img width="300px" src="/aktsii/dachnyy-dom-8.jpg" alt="Дачный дом №8"></a>
 	
 	<h3>Подарок на выбор</h3>

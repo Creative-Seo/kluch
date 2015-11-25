@@ -14,7 +14,7 @@ foreach ($carousel as $key => $row) {
       <div class="carousel-fon"><img class="carousel-img" src="/img/slider/<?php echo $row['img'];?>.jpg" alt=" "></div>
       <div class="carousel-caption">
         <p class="carousel-text"><?php echo $row['text'];?></p>
-		    <a href="<?php echo $row['url'];?>" class="carousel-about">Подробнее</a>
+<?php if (isset($row['url'])) { ?><a href="<?php echo $row['url'];?>" class="carousel-about">Подробнее</a><?php } ?>
       </div>
     </div>
 <?php } if ($key>0) { ?>

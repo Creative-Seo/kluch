@@ -29,18 +29,6 @@ include($root."blocks/breadcrumbs.php");?>
       <div class="cont2"><i class="fa fa-clock-o fa-2x"></i> пн-пт: 8:00-18:00, сб.9:00-15:00, вс.-выходной</div>
       <div class="cont2">
         <table>
-            <?php
-            // 7411ca86eb4fbafe8cfda550e6865cfe //
-            require_once(dirname(__FILE__) . '/../refer/functions.php');
-            $phone = getPhone();
-            $phoneSystem = getPhoneSystem($phone);
-            $phoneCode = getPhoneCode($phone);
-            $phoneNumber = getPhoneNumber($phone);
-            //var_dump($phone);
-            //var_dump($phoneSystem);
-            //var_dump($phoneCode);
-            //var_dump($phoneNumber);
-            ?>
           <tr>
             <td><i class="fa fa-phone fa-2x"></i> Телефоны:</td>
             <td class="cont-tel">+7 (<?php echo $phoneCode; ?>) <?php echo $phoneNumber; ?></td>
@@ -105,18 +93,6 @@ include($root."blocks/breadcrumbs.php");?>
       <div class="cont2"><i class="fa fa-clock-o fa-2x"></i> пн-пт: 8:00-18:00, сб.9:00-15:00, вс.-выходной</div>
       <div class="cont2">
         <table>
-            <?php
-            // 7411ca86eb4fbafe8cfda550e6865cfe //
-            require_once(dirname(__FILE__) . '/../refer/functions.php');
-            $phone = getPhone();
-            $phoneSystem = getPhoneSystem($phone);
-            $phoneCode = getPhoneCode($phone);
-            $phoneNumber = getPhoneNumber($phone);
-            //var_dump($phone);
-            //var_dump($phoneSystem);
-            //var_dump($phoneCode);
-            //var_dump($phoneNumber);
-            ?>
           <tr>
             <td><i class="fa fa-phone fa-2x"></i> Телефоны:</td>
             <td class="cont-tel">+7 (499) 350-27-47</td>

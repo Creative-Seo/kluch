@@ -16,7 +16,7 @@ $canonical = '';
 ]',true);*/
 
 $carousel = json_decode('[
-{"url":"/derevyannyie-doma/","text":"Деревянные дома","img":"dom-iz-brevna"}
+{"text":"","img":"1"}
 ]',true);
 
 include('content.php');
